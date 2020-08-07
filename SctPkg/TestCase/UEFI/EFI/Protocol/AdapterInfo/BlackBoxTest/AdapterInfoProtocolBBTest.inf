@@ -1,0 +1,51 @@
+## @file
+#
+#  Copyright 2006 - 2013 Unified EFI, Inc.<BR>
+#  Copyright (c) 2013 - 2018, Intel Corporation. All rights reserved.<BR>
+#
+#  This program and the accompanying materials
+#  are licensed and made available under the terms and conditions of the BSD License
+#  which accompanies this distribution.  The full text of the license may be found at 
+#  http://opensource.org/licenses/bsd-license.php
+# 
+#  THE PROGRAM IS DISTRIBUTED UNDER THE BSD LICENSE ON AN "AS IS" BASIS,
+#  WITHOUT WARRANTIES OR REPRESENTATIONS OF ANY KIND, EITHER EXPRESS OR IMPLIED.
+# 
+##
+#/*++
+#
+# Module Name:
+#
+#   AdapterInfoBBTest.inf
+#
+# Abstract:
+#
+#   Component description file for Adapter Info Protocol Black-Box Test.
+#
+#--*/
+
+[defines]
+  INF_VERSION          = 0x00010005
+  BASE_NAME            = AdapterInfoBBTest
+  FILE_GUID            = 775D6D29-5467-4794-9C5A-50EA6193144B
+  MODULE_TYPE          = UEFI_DRIVER
+  VERSION_STRING       = 1.0
+  ENTRY_POINT          = InitializeAdapterInfoBBTest
+
+[sources.common]
+  AdapterInfoBBTestConformance.c
+  AdapterInfoBBTestFunction.c
+  AdapterInfoBBTestMain.c
+  Guid.c
+
+[Packages]
+  MdePkg/MdePkg.dec
+  SctPkg/SctPkg.dec
+  SctPkg/UEFI/UEFI.dec
+
+[LibraryClasses]
+  UefiDriverEntryPoint
+  SctLib
+  EfiTestLib
+
+[Protocols]

@@ -1,0 +1,53 @@
+## @file
+#
+#  Copyright 2006 - 2012 Unified EFI, Inc.<BR>
+#  Copyright (c) 2010 - 2012, Intel Corporation. All rights reserved.<BR>
+#
+#  This program and the accompanying materials
+#  are licensed and made available under the terms and conditions of the BSD License
+#  which accompanies this distribution.  The full text of the license may be found at 
+#  http://opensource.org/licenses/bsd-license.php
+# 
+#  THE PROGRAM IS DISTRIBUTED UNDER THE BSD LICENSE ON AN "AS IS" BASIS,
+#  WITHOUT WARRANTIES OR REPRESENTATIONS OF ANY KIND, EITHER EXPRESS OR IMPLIED.
+# 
+##
+#/*++
+#
+# Module Name:
+#
+#   UsbIoTest.inf
+#
+# Abstract:
+#
+#   Component description file for UsbIo Test.
+#
+#--*/
+
+[defines]
+  INF_VERSION          = 0x00010005
+  BASE_NAME            = UsbIoTest
+  FILE_GUID            = b0b1b715-64ca-4e0f-884e-e8526e571b38
+  MODULE_TYPE          = UEFI_DRIVER
+  VERSION_STRING       = 1.0
+  ENTRY_POINT          = InitializeBBTestUsbIo
+
+[sources.common]
+  UsbIoTest.h
+  UsbIoTestMain.c
+  UsbIoTestConformance.c
+  Guid.c
+  Guid.h
+
+[Packages]
+  MdePkg/MdePkg.dec
+  SctPkg/SctPkg.dec
+  SctPkg/UEFI/UEFI.dec
+
+[LibraryClasses]
+  UefiDriverEntryPoint
+  SctLib
+  EfiTestLib
+
+[Protocols]
+  gEfiTestLoggingLibraryGuid

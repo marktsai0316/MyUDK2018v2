@@ -1,0 +1,40 @@
+## @file
+#
+#  Copyright 2006 - 2012 Unified EFI, Inc.<BR>
+#  Copyright (c) 2010 - 2012, Intel Corporation. All rights reserved.<BR>
+#  Copyright (c) 2019, ARM Ltd. All rights reserved.<BR>
+#
+#  This program and the accompanying materials
+#  are licensed and made available under the terms and conditions of the BSD License
+#  which accompanies this distribution.  The full text of the license may be found at 
+#  http://opensource.org/licenses/bsd-license.php
+# 
+#  THE PROGRAM IS DISTRIBUTED UNDER THE BSD LICENSE ON AN "AS IS" BASIS,
+#  WITHOUT WARRANTIES OR REPRESENTATIONS OF ANY KIND, EITHER EXPRESS OR IMPLIED.
+# 
+##
+#/*++
+#
+# Module Name:
+#
+#   Config.inf
+#
+# Abstract:
+#
+#   Component description file for creating a configuration file.
+#
+#--*/
+
+[defines]
+BASE_NAME            = PxeBaseCode_PxeBaseCodeBbTest
+FILE_GUID            = C0A87EC1-FEFD-41d0-8A52-5F3B74B60FAF
+MODULE_TYPE          = UEFI_DRIVER
+#BUILD_TYPE           = CUSTOM_MAKEFILE
+CUSTOM_MAKEFILE      = MSFT| makefile
+CUSTOM_MAKEFILE      = GCC | GNUmakefile
+
+[sources.common]
+
+[nmake.common]
+
+[includes.common]

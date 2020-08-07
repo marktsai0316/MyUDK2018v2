@@ -1,0 +1,56 @@
+## @file
+#
+#  Copyright 2006 - 2012 Unified EFI, Inc.<BR>
+#  Copyright (c) 2010 - 2012, Intel Corporation. All rights reserved.<BR>
+#
+#  This program and the accompanying materials
+#  are licensed and made available under the terms and conditions of the BSD License
+#  which accompanies this distribution.  The full text of the license may be found at 
+#  http://opensource.org/licenses/bsd-license.php
+# 
+#  THE PROGRAM IS DISTRIBUTED UNDER THE BSD LICENSE ON AN "AS IS" BASIS,
+#  WITHOUT WARRANTIES OR REPRESENTATIONS OF ANY KIND, EITHER EXPRESS OR IMPLIED.
+# 
+##
+#/*++
+#
+#  Module Name:
+#
+#    BootServiceENTSTest.inf
+#
+#  Abstract:
+#
+#    Component description file for SimpleNetwork module
+#
+#--*/
+
+[Defines]
+  INF_VERSION          = 0x00010005
+  BASE_NAME            = BootService_ENTSTest
+  FILE_GUID            = FC442EBA-E7FB-4e48-BA34-2EC2D84180EE
+  MODULE_TYPE          = UEFI_DRIVER
+  VERSION_STRING       = 1.0
+  ENTRY_POINT          = BootServiceENTSTestMain
+
+[Sources.common]
+  BootServiceENTSTest.c
+  EventTimerAndTaskPriorityService/EventTimerAndTaskPriorityENTSTestCase.h
+  EventTimerAndTaskPriorityService/EventTimerAndTaskPriorityENTSTestCase.c
+  MemoryAllocationService/MemoryAllocationENTSTestCase.h
+  MemoryAllocationService/MemoryAllocationENTSTestCase.c
+  MiscellaneousBootService/MiscellaneousBootENTSTestCase.h
+  MiscellaneousBootService/MiscellaneousBootENTSTestCase.c
+
+[Packages]
+  MdePkg/MdePkg.dec
+  SctPkg/SctPkg.dec
+  SctPkg/UEFI/UEFI.dec
+
+[LibraryClasses]
+  UefiDriverEntryPoint
+  SctLib
+  EfiTestLib
+  EntsLib
+
+[Protocols]
+  gEfiEntsProtocolGuid

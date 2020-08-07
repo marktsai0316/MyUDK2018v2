@@ -1,0 +1,58 @@
+## @file
+#
+#  Copyright 2006 - 2012 Unified EFI, Inc.<BR>
+#  Copyright (c) 2010 - 2012, Intel Corporation. All rights reserved.<BR>
+#
+#  This program and the accompanying materials
+#  are licensed and made available under the terms and conditions of the BSD License
+#  which accompanies this distribution.  The full text of the license may be found at 
+#  http://opensource.org/licenses/bsd-license.php
+# 
+#  THE PROGRAM IS DISTRIBUTED UNDER THE BSD LICENSE ON AN "AS IS" BASIS,
+#  WITHOUT WARRANTIES OR REPRESENTATIONS OF ANY KIND, EITHER EXPRESS OR IMPLIED.
+# 
+##
+#/*++
+#
+# Module Name:
+#
+#   ProtocolHandlerBBTest.inf
+#
+# Abstract:
+#
+#   Component description file for Protocol Handler Services Black-Box Test.
+#
+#--*/
+
+[Defines]
+  INF_VERSION          = 0x00010005
+  BASE_NAME            = ProtocolHandlerServicesBBTest
+  FILE_GUID            = 65D50E3C-2174-4b24-AF95-D18EB249AEED
+  MODULE_TYPE          = UEFI_DRIVER
+  VERSION_STRING       = 1.0
+  ENTRY_POINT          = InitializeBBTestProtocolHandlerBootServices
+
+[Sources.common]
+  ProtocolHandlerBBTestMain.c
+  ProtocolHandlerBBTestConformance.c
+  ProtocolHandlerBBTestFunction.c
+  ProtocolHandlerBBTestFunction_2.c
+  ProtocolHandlerBBTestFunction_3.c
+  ProtocolHandlerBBTestStress.c
+  ProtocolDefinition.c
+  Misc.c
+  Guid.c
+
+[Packages]
+  MdePkg/MdePkg.dec
+  SctPkg/SctPkg.dec
+  SctPkg/UEFI/UEFI.dec
+
+[LibraryClasses]
+  UefiDriverEntryPoint
+  SctLib
+  EfiTestLib
+
+[Protocols]
+  gEfiTestProfileLibraryGuid
+  gEfiPlatformDriverOverrideProtocolGuid

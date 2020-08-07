@@ -1,0 +1,54 @@
+## @file
+#
+#  Copyright 2006 - 2012 Unified EFI, Inc.<BR>
+#  Copyright (c) 2010 - 2012, Intel Corporation. All rights reserved.<BR>
+#  Copyright (c) 2019, ARM Ltd. All rights reserved.<BR>
+#
+#  This program and the accompanying materials
+#  are licensed and made available under the terms and conditions of the BSD License
+#  which accompanies this distribution.  The full text of the license may be found at 
+#  http://opensource.org/licenses/bsd-license.php
+# 
+#  THE PROGRAM IS DISTRIBUTED UNDER THE BSD LICENSE ON AN "AS IS" BASIS,
+#  WITHOUT WARRANTIES OR REPRESENTATIONS OF ANY KIND, EITHER EXPRESS OR IMPLIED.
+# 
+##
+#/*++
+#
+# Module Name:
+#
+#   SimpleTextInputExBBTest.inf
+#
+# Abstract:
+#
+#   Component description file for Simple Text Input Ex Protocol Black-Box Test.
+#
+#--*/
+
+[defines]
+INF_VERSION          = 0x00010005
+BASE_NAME            = SimpleTextInputExBBTest
+FILE_GUID            = 2B09ED2D-8F15-4e56-A4B5-988209FA7DC4
+MODULE_TYPE          = UEFI_DRIVER
+VERSION_STRING       = 1.0
+ENTRY_POINT          = InitializeSimpleTextInputExBBTest
+
+[sources.common]
+  SimpleTextInputExBBTestConformance.c
+  SimpleTextInputExBBTestFunction.c
+  SimpleTextInputExBBTestMain.c
+  Guid.c
+
+[Packages]
+  SctPkg/SctPkg.dec
+  SctPkg/UEFI/UEFI.dec
+  MdePkg/MdePkg.dec
+
+[LibraryClasses]
+  UefiDriverEntryPoint
+  SctLib
+  EfiTestLib
+
+[Protocols]
+  gBlackBoxEfiSimpleTextInputExProtocolGuid
+  gBlackBoxEfiDevicePathProtocolGuid

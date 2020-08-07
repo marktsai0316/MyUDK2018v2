@@ -1,0 +1,55 @@
+## @file
+#
+#  Copyright 2006 - 2012 Unified EFI, Inc.<BR>
+#  Copyright (c) 2010 - 2012, Intel Corporation. All rights reserved.<BR>
+#  Copyright (c) 2019, ARM Ltd. All rights reserved.<BR>
+#
+#  This program and the accompanying materials
+#  are licensed and made available under the terms and conditions of the BSD License
+#  which accompanies this distribution.  The full text of the license may be found at 
+#  http://opensource.org/licenses/bsd-license.php
+# 
+#  THE PROGRAM IS DISTRIBUTED UNDER THE BSD LICENSE ON AN "AS IS" BASIS,
+#  WITHOUT WARRANTIES OR REPRESENTATIONS OF ANY KIND, EITHER EXPRESS OR IMPLIED.
+# 
+##
+#/*++
+#
+#  Module Name:
+#
+#    Tcp6ENTSTest.inf
+#
+#  Abstract:
+#
+#    Component description file for Tcp6 module
+#
+#--*/
+
+[defines]
+INF_VERSION          = 0x00010005
+BASE_NAME            = Tcp6_ENTSTest
+FILE_GUID            = 995565A5-33C0-4f40-8298-F190BE579C29
+MODULE_TYPE          = UEFI_DRIVER
+VERSION_STRING       = 1.0
+ENTRY_POINT          = Tcp6ENTSTestMain
+
+[sources.common]
+  Tcp6ENTSTest.c
+  Tcp6ENTSTestCase.c
+  Tcp6ENTSTestCase.h
+
+[Packages]
+  SctPkg/SctPkg.dec
+  SctPkg/UEFI/UEFI.dec
+  MdePkg/MdePkg.dec
+
+[LibraryClasses]
+  UefiDriverEntryPoint
+  SctLib
+  EfiTestLib
+  EntsLib
+
+[Protocols]
+  gEfiEntsProtocolGuid
+  gBlackBoxEfiLoadedImageProtocolGuid
+  gBlackBoxEfiTcp6ProtocolGuid

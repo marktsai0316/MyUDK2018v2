@@ -1,0 +1,48 @@
+## @file
+#
+#  Copyright 2006 - 2012 Unified EFI, Inc.<BR>
+#  Copyright (c) 2010 - 2012, Intel Corporation. All rights reserved.<BR>
+#  Copyright (c) 2014, ARM Ltd. All rights reserved.<BR>
+#
+#  This program and the accompanying materials
+#  are licensed and made available under the terms and conditions of the BSD License
+#  which accompanies this distribution.  The full text of the license may be found at 
+#  http://opensource.org/licenses/bsd-license.php
+# 
+#  THE PROGRAM IS DISTRIBUTED UNDER THE BSD LICENSE ON AN "AS IS" BASIS,
+#  WITHOUT WARRANTIES OR REPRESENTATIONS OF ANY KIND, EITHER EXPRESS OR IMPLIED.
+# 
+##
+# /*++
+#
+#Module Name:
+#
+#   InstallSct.inf
+#
+# Abstract:
+#
+#   The EFI SCT installation.
+#
+# --*/
+
+[defines]
+  INF_VERSION          = 0x00010005
+  BASE_NAME            = InstallSct
+  FILE_GUID            = 4EB9D07B-EA00-41d7-95D3-CF6A3C7ACDBC
+  MODULE_TYPE          = UEFI_APPLICATION
+  VERSION_STRING       = 1.0
+  ENTRY_POINT          = InstallSct
+
+[sources.common]
+  InstallSct.c
+  InstallSct.h
+  InstallSctSupport.c
+  InstallSctSupport.h
+
+[Packages]
+  MdePkg/MdePkg.dec
+  SctPkg/SctPkg.dec
+
+[LibraryClasses]
+  UefiApplicationEntryPoint
+  SctLib

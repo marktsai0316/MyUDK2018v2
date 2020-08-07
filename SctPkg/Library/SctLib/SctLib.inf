@@ -1,0 +1,124 @@
+## @file
+#
+#  Copyright 2006 - 2016 Unified EFI, Inc.<BR>
+#  Copyright (c) 2013 - 2014, ARM Ltd. All rights reserved.<BR>
+#  Copyright (c) 2014 - 2019, Intel Corporation. All rights reserved.<BR>
+#
+#  This program and the accompanying materials
+#  are licensed and made available under the terms and conditions of the BSD License
+#  which accompanies this distribution.  The full text of the license may be found at 
+#  http://opensource.org/licenses/bsd-license.php
+# 
+#  THE PROGRAM IS DISTRIBUTED UNDER THE BSD LICENSE ON AN "AS IS" BASIS,
+#  WITHOUT WARRANTIES OR REPRESENTATIONS OF ANY KIND, EITHER EXPRESS OR IMPLIED.
+# 
+##
+#/*++
+#
+# Module Name:
+#
+#   SctLib.inf
+#
+# Abstract:
+#
+#--*/
+
+[defines]
+  INF_VERSION                    = 0x00010005
+  BASE_NAME                      = SctLib
+  MODULE_TYPE                    = UEFI_APPLICATION
+  LIBRARY_CLASS                  = SctLib
+
+[sources.common]
+  Alloc.c
+  Console.c
+  Debug.c
+  DevicePath.c
+  DriverModel.c
+  Error.c
+  Event.c
+  File.c
+  Guid.c
+  Handle.c
+  Hob.c
+  Init.c
+  List.c
+  Lock.c
+  Match.c
+  Mem.c
+  Misc.c
+  Print.c
+  Shell.c
+  String.c
+  Unicode.c
+
+[sources.Arm]
+  Arm/SctLibPlat.h
+  Arm/initplat.c
+  Math.c
+
+[sources.Aarch64]
+  Aarch64/SctLibPlat.h
+  Aarch64/initplat.c
+  Math.c
+
+[sources.ia32]
+  ia32/SctLibPlat.h
+  ia32/initplat.c
+  ia32/Math.c | MSFT
+  ia32/RShiftU64.S | GCC
+  ia32/LShiftU64.S | GCC
+  ia32/MultU64x32.S | GCC
+  ia32/DivU64x32.S | GCC
+
+[sources.ebc]
+  ebc/SctLibPlat.h
+  ebc/EfiLibPlat.c
+  Math.c
+
+[sources.x64]
+  X64/SctLibPlat.h
+  X64/EfiLibPlat.c
+  X64/CpuX64.S | GCC
+  Math.c
+
+[Packages]
+  MdePkg/MdePkg.dec
+  SctPkg/SctPkg.dec
+
+[LibraryClasses]
+  DebugLib
+  UefiBootServicesTableLib
+
+[Protocols]
+  gEfiComponentName2ProtocolGuid
+  gEfiDriverConfiguration2ProtocolGuid
+  gEfiDriverDiagnostics2ProtocolGuid
+  gEfiBlockIoProtocolGuid
+  gEfiDeviceIoProtocolGuid
+  gEfiDevicePathProtocolGuid
+  gEfiDiskIoProtocolGuid
+  gEfiLoadFileProtocolGuid
+  gEfiLoadedImageProtocolGuid
+  gEfiNetworkInterfaceIdentifierProtocolGuid
+  gEfiPxeBaseCodeCallbackProtocolGuid
+  gEfiPxeBaseCodeProtocolGuid
+  gEfiSerialIoProtocolGuid
+  gEfiSimpleFileSystemProtocolGuid
+  gEfiSimpleNetworkProtocolGuid
+  gEfiSimpleTextInProtocolGuid
+  gEfiSimpleTextOutProtocolGuid
+  gEfiUnicodeCollation2ProtocolGuid
+  gEfiDriverBindingProtocolGuid
+  gEfiDriverConfigurationProtocolGuid
+  gEfiDriverDiagnosticsProtocolGuid
+  gEfiComponentNameProtocolGuid
+
+[Guids]
+  gEfiFileInfoGuid
+  gEfiFileSystemInfoGuid
+  gEfiGlobalVariableGuid
+  gEfiPartTypeLegacyMbrGuid
+  gEfiPartTypeSystemPartGuid
+  gEfiHobListGuid
+  gEfiHobMemoryAllocModuleGuid

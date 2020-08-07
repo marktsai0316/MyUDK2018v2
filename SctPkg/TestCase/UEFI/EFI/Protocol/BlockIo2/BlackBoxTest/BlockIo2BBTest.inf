@@ -1,0 +1,55 @@
+## @file
+#
+#  Copyright 2006 - 2012 Unified EFI, Inc.<BR>
+#  Copyright (c) 2011 - 2012, Intel Corporation. All rights reserved.<BR>
+#
+#  This program and the accompanying materials
+#  are licensed and made available under the terms and conditions of the BSD License
+#  which accompanies this distribution.  The full text of the license may be found at 
+#  http://opensource.org/licenses/bsd-license.php
+# 
+#  THE PROGRAM IS DISTRIBUTED UNDER THE BSD LICENSE ON AN "AS IS" BASIS,
+#  WITHOUT WARRANTIES OR REPRESENTATIONS OF ANY KIND, EITHER EXPRESS OR IMPLIED.
+# 
+##
+#/*++
+#
+# Module Name:
+#
+#   BlockIo2BBTest.inf
+#
+# Abstract:
+#
+#   Component description file for Block I/O 2 Protocol Black-Box Test.
+#
+#--*/
+
+[defines]
+  INF_VERSION          = 0x00010005
+  BASE_NAME            = BlockIo2BBTest
+  FILE_GUID            = E3410773-4DFD-4d5c-A36A-30AE4CF17C06
+  MODULE_TYPE          = UEFI_DRIVER
+  VERSION_STRING       = 1.0
+  ENTRY_POINT          = InitializeBBTestBlockIo2
+
+[sources.common]
+  BlockIo2BBTestMain.c
+  BlockIo2BBTestMain.h
+  BlockIo2BBTestConformance.c
+  BlockIo2BBTestFunction.c
+  Guid.c
+
+[Packages]
+  MdePkg/MdePkg.dec
+  SctPkg/SctPkg.dec
+  SctPkg/UEFI/UEFI.dec
+
+[LibraryClasses]
+  UefiDriverEntryPoint
+  SctLib
+  EfiTestLib
+
+[Protocols]
+  gEfiDevicePathProtocolGuid
+  gBlackBoxEfiBlockIoProtocolGuid
+  gBlackBoxEfiBlockIo2ProtocolGuid

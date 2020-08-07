@@ -1,0 +1,78 @@
+## @file
+#
+#  Copyright 2006 - 2012 Unified EFI, Inc.<BR>
+#  Copyright (c) 2010 - 2012, Intel Corporation. All rights reserved.<BR>
+#  Copyright (c) 2019, ARM Ltd. All rights reserved.<BR>
+#
+#  This program and the accompanying materials
+#  are licensed and made available under the terms and conditions of the BSD License
+#  which accompanies this distribution.  The full text of the license may be found at 
+#  http://opensource.org/licenses/bsd-license.php
+# 
+#  THE PROGRAM IS DISTRIBUTED UNDER THE BSD LICENSE ON AN "AS IS" BASIS,
+#  WITHOUT WARRANTIES OR REPRESENTATIONS OF ANY KIND, EITHER EXPRESS OR IMPLIED.
+# 
+##
+#/*++
+#
+# Module Name:
+#
+#    EntsLib.inf
+#
+#  Abstract:
+#
+#    Component description file for the EFI utility library.
+#
+#--*/
+
+[defines]
+  INF_VERSION                    = 0x00010005
+  BASE_NAME                      = EntsLib
+  MODULE_TYPE                    = BASE
+  LIBRARY_CLASS                  = EntsLib
+
+[sources.common]
+  EntsLib.c
+  EntsPrint.c
+  EntsStr.c
+  EntsTime.c
+  EntsMisc.c
+  EntsResult.c
+  EntsSupport.c
+  EntsDebug.c
+  EntsEvent.c
+  EntsHandle.c
+  EntsDpath.c
+  EntsGuid.c
+  EntsContext.c
+
+[sources.ia32]
+  Ia32/EntsLibPlat.h
+  Ia32/InitPlat.c
+
+[sources.ebc]
+  Ebc/EntsLibPlat.h
+  Ebc/EfiLibPlat.c
+
+[sources.x64]
+  X64/EntsLibPlat.h
+  X64/EfiLibPlat.c
+  
+[sources.Arm]
+  Arm/EntsLibPlat.h
+  Arm/InitPlat.c
+
+[sources.Aarch64]
+  Aarch64/EntsLibPlat.h
+  Aarch64/InitPlat.c
+
+[Packages]
+  MdePkg/MdePkg.dec
+  SctPkg/SctPkg.dec
+
+[LibraryClasses]
+  DebugLib
+
+[Protocols]
+  gEfiManagedNetworkServiceBindingProtocolGuid
+  gEfiManagedNetworkProtocolGuid

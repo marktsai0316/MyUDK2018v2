@@ -1,0 +1,63 @@
+## @file
+#
+#  Copyright 2016 Unified EFI, Inc.<BR>
+#  Copyright (c) 2016 - 2018, Intel Corporation. All rights reserved.<BR>
+#
+#  This program and the accompanying materials
+#  are licensed and made available under the terms and conditions of the BSD License
+#  which accompanies this distribution.  The full text of the license may be found at
+#  http://opensource.org/licenses/bsd-license.php
+#
+#  THE PROGRAM IS DISTRIBUTED UNDER THE BSD LICENSE ON AN "AS IS" BASIS,
+#  WITHOUT WARRANTIES OR REPRESENTATIONS OF ANY KIND, EITHER EXPRESS OR IMPLIED.
+#
+##
+#/*++
+#
+# Module Name:
+#
+#   Pkcs7BBTest.inf
+#
+# Abstract:
+#
+#   Component description file for Pkcs7 Verify Protocol Black-Box Test.
+#
+#--*/
+
+[defines]
+  INF_VERSION          = 0x0001001B
+  BASE_NAME            = Pkcs7BBTest
+  FILE_GUID            = 00A8E76D-1CD9-465a-AE5B-B9998F887D65
+  MODULE_TYPE          = UEFI_DRIVER
+  VERSION_STRING       = 1.0
+  ENTRY_POINT          = InitializePkcs7VerifyBBTest
+
+[sources.common]
+  Pkcs7BBTestConformance.c
+  Pkcs7BBTestFunction.c
+  Pkcs7BBTestMain.c
+  Pkcs7BBTestData.c
+  Guid.c
+
+[Packages]
+  MdePkg/MdePkg.dec
+  SctPkg/SctPkg.dec
+  SctPkg/UEFI/UEFI.dec
+
+[LibraryClasses]
+  UefiDriverEntryPoint
+  SctLib
+  EfiTestLib
+
+[Protocols]
+  gBlackBoxEfiPkcs7VerifyProtocolGuid
+
+[Guids]
+  gBlackBoxEfiCertSha256Guid
+  gBlackBoxEfiCertRsa2048Guid
+  gBlackBoxEfiCertRsa2048Sha256Guid
+  gBlackBoxEfiCertSha1Guid
+  gBlackBoxEfiCertRsa2048Sha1Guid
+  gBlackBoxEfiCertX509Guid
+  gBlackBoxEfiCertX509Sha256Guid
+

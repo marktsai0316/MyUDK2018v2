@@ -1,0 +1,62 @@
+## @file
+#
+#  Copyright 2016 Unified EFI, Inc.<BR>
+#  Copyright (c) 2016, Intel Corporation. All rights reserved.<BR>
+#
+#  This program and the accompanying materials
+#  are licensed and made available under the terms and conditions of the BSD License
+#  which accompanies this distribution.  The full text of the license may be found at 
+#  http://opensource.org/licenses/bsd-license.php
+# 
+#  THE PROGRAM IS DISTRIBUTED UNDER THE BSD LICENSE ON AN "AS IS" BASIS,
+#  WITHOUT WARRANTIES OR REPRESENTATIONS OF ANY KIND, EITHER EXPRESS OR IMPLIED.
+# 
+##
+#/*++
+#
+# Module Name:
+#
+#   Hash2BBTest.inf
+#
+# Abstract:
+#
+#   Component description file for Hash 2 Protocol Black-Box Test.
+#
+#--*/
+
+[defines]
+  INF_VERSION          = 0x00010005
+  BASE_NAME            = Hash2BBTest
+  FILE_GUID            = C90D0F81-8163-4683-8783-0BF71AE8C6E9
+  MODULE_TYPE          = UEFI_DRIVER
+  VERSION_STRING       = 1.0
+  ENTRY_POINT          = InitializeHash2BBTest
+
+[sources.common]
+  Hash2BBTestConformance.c
+  Hash2BBTestFunction.c
+  Hash2BBTestMain.c
+  Guid.c
+  
+[Packages]
+  MdePkg/MdePkg.dec
+  SctPkg/SctPkg.dec
+  SctPkg/UEFI/UEFI.dec
+
+[LibraryClasses]
+  UefiDriverEntryPoint
+  SctLib
+  EfiTestLib
+
+[Protocols]
+  gBlackBoxEfiHash2ProtocolGuid
+  gBlackBoxEfiHash2ServiceBindingProtocolGuid
+
+[Guids]
+  gBlackBoxEfiHash2AlgorithmSha1Guid
+  gBlackBoxEfiHash2AlgorithmSha224Guid
+  gBlackBoxEfiHash2AlgorithmSha256Guid
+  gBlackBoxEfiHash2AlgorithmSha384Guid
+  gBlackBoxEfiHash2AlgorithmSha512Guid
+  gBlackBoxEfiHash2AlgorithmMD5Guid
+  

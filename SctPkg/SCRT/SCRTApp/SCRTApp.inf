@@ -1,0 +1,78 @@
+## @file
+#
+#  Copyright 2006 - 2016 Unified EFI, Inc.<BR>
+#  Copyright (c) 2010 - 2016, Intel Corporation. All rights reserved.<BR>
+#
+#  This program and the accompanying materials
+#  are licensed and made available under the terms and conditions of the BSD License
+#  which accompanies this distribution.  The full text of the license may be found at 
+#  http://opensource.org/licenses/bsd-license.php
+# 
+#  THE PROGRAM IS DISTRIBUTED UNDER THE BSD LICENSE ON AN "AS IS" BASIS,
+#  WITHOUT WARRANTIES OR REPRESENTATIONS OF ANY KIND, EITHER EXPRESS OR IMPLIED.
+# 
+##
+#/*++
+#
+#Module Name:
+#
+#  SCRTApp.inf
+#
+#--*/
+
+
+[defines]
+  INF_VERSION          = 0x00010005
+  BASE_NAME            = SCRTAPP
+  FILE_GUID            = 3886A4E6-5092-424e-BD71-2389F5C7C1DE
+  MODULE_TYPE          = UEFI_APPLICATION
+  VERSION_STRING       = 1.0
+  ENTRY_POINT          = InitializeSCRT
+
+[sources.ARM]
+  Arm/VirtualMemory.c
+  Arm/GoVirtual.asm | RVCT
+  Arm/GoVirtual.S | GCC
+
+[sources.Aarch64]
+  Aarch64/VirtualMemory.c
+  Aarch64/GoVirtual.asm | RVCT
+  Aarch64/GoVirtual.S | GCC
+
+[sources.ia32]
+  ia32/VirtualMemory.c
+  ia32/GoVirtual.asm | MSFT
+  ia32/GoVirtual.S | GCC
+ 
+[sources.X64]
+  x64/VirtualMemory.c
+  x64/GoVirtual.asm | MSFT
+  x64/GoVirtual.S | GCC
+
+[sources.ipf]
+  ipf/VirtualMemory.c
+  ipf/GoVirtual.s
+  ipf/CpuIva.c
+  ipf/IpfIvaHand.s
+  ipf/IpfCpuCache.s
+  
+[sources.common]
+  SCRTApp.c
+  SCRTApp.h
+  ParseConf.c
+  ParseConf.h
+  Debug.c
+  Debug.h
+  ParseResult.c
+
+[Packages]
+  MdePkg/MdePkg.dec
+  SctPkg/SctPkg.dec
+
+[LibraryClasses]
+  UefiApplicationEntryPoint
+  SctLib
+
+[Guids]
+  gEfiAcpiTableGuid
+  gEfiAcpi20TableGuid

@@ -1,0 +1,58 @@
+## @file
+#
+#  Copyright 2006 - 2015 Unified EFI, Inc.<BR>
+#  Copyright (c) 2013 - 2015, Intel Corporation. All rights reserved.<BR>
+#
+#  This program and the accompanying materials
+#  are licensed and made available under the terms and conditions of the BSD License
+#  which accompanies this distribution.  The full text of the license may be found at 
+#  http://opensource.org/licenses/bsd-license.php
+# 
+#  THE PROGRAM IS DISTRIBUTED UNDER THE BSD LICENSE ON AN "AS IS" BASIS,
+#  WITHOUT WARRANTIES OR REPRESENTATIONS OF ANY KIND, EITHER EXPRESS OR IMPLIED.
+# 
+##
+#/*++
+#
+# Module Name:
+#
+#   IhvDiskIo2BBTest.inf
+#
+# Abstract:
+#
+#   Component description file for Disk I/O2 Protocol Black-Box Test.
+#
+#--*/
+
+[defines]
+  INF_VERSION          = 0x00010005
+  BASE_NAME            = IhvDiskIo2BBTest
+  FILE_GUID            = A4F89C37-4Df7-430E-81FE-814019F69440
+  MODULE_TYPE          = UEFI_DRIVER
+  VERSION_STRING       = 1.0
+  ENTRY_POINT          = InitializeBBTestDiskIo2
+
+[sources.common]
+  DiskIo2BBTestMain.c
+  DiskIo2BBTestMain.h
+  DiskIo2BBTestConformance.c
+  DiskIo2BBTestFunction_Read.c
+  DiskIo2BBTestFunction_Write.c
+  DiskIo2BBTestFunction_Flush.c
+  Guid.c
+
+[Packages]
+  MdePkg/MdePkg.dec
+  SctPkg/SctPkg.dec
+  SctPkg/UEFI/UEFI.dec
+
+[LibraryClasses]
+  UefiDriverEntryPoint
+  SctLib
+  EfiTestLib
+
+[Protocols]
+  gEfiDevicePathProtocolGuid
+  gBlackBoxEfiBlockIo2ProtocolGuid
+  gBlackBoxEfiDiskIoProtocolGuid
+  gBlackBoxEfiDiskIo2ProtocolGuid

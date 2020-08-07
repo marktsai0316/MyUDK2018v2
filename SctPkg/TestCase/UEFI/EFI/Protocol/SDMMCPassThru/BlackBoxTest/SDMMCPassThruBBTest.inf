@@ -1,0 +1,55 @@
+## @file
+#
+#  Copyright 2017 Unified EFI, Inc.<BR>
+#  Copyright (c) 2017, Intel Corporation. All rights reserved.<BR>
+#
+#  This program and the accompanying materials
+#  are licensed and made available under the terms and conditions of the BSD License
+#  which accompanies this distribution.  The full text of the license may be found at 
+#  http://opensource.org/licenses/bsd-license.php
+# 
+#  THE PROGRAM IS DISTRIBUTED UNDER THE BSD LICENSE ON AN "AS IS" BASIS,
+#  WITHOUT WARRANTIES OR REPRESENTATIONS OF ANY KIND, EITHER EXPRESS OR IMPLIED.
+# 
+##
+#/*++
+#
+# Module Name:
+#
+#   SDMMCPassThruBBTest.inf
+#
+# Abstract:
+#
+#   Component description file for SDMMC Pass Thru Protocol Black-Box Test.
+#
+#--*/
+
+[defines]
+  INF_VERSION          = 0x00010005
+  BASE_NAME            = SDMMCPassThruBBTest
+  FILE_GUID            = 2DD945E9-780B-4FD2-9C7C-D24B194AF8BD
+  MODULE_TYPE          = UEFI_DRIVER
+  VERSION_STRING       = 1.0
+  ENTRY_POINT          = InitializeSDMMCPassThruBBTest
+
+[sources.common]
+  SDMMCPassThruBBTestConformance.c
+  SDMMCPassThruBBTestFunction.c
+  SDMMCPassThruBBTestMain.c
+  Guid.c
+  
+[Packages]
+  MdePkg/MdePkg.dec
+  SctPkg/SctPkg.dec
+  SctPkg/UEFI/UEFI.dec
+
+[LibraryClasses]
+  UefiDriverEntryPoint
+  SctLib
+  EfiTestLib
+
+[Protocols]
+  gBlackBoxEfiSDMMCPassThruProtocolGuid
+
+[Guids]
+

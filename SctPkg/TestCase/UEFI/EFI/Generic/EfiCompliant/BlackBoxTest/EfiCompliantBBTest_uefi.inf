@@ -1,0 +1,96 @@
+## @file
+#
+#  Copyright 2006 - 2016 Unified EFI, Inc.<BR>
+#  Copyright (c) 2010 - 2016, Intel Corporation. All rights reserved.<BR>
+#
+#  This program and the accompanying materials
+#  are licensed and made available under the terms and conditions of the BSD License
+#  which accompanies this distribution.  The full text of the license may be found at 
+#  http://opensource.org/licenses/bsd-license.php
+# 
+#  THE PROGRAM IS DISTRIBUTED UNDER THE BSD LICENSE ON AN "AS IS" BASIS,
+#  WITHOUT WARRANTIES OR REPRESENTATIONS OF ANY KIND, EITHER EXPRESS OR IMPLIED.
+# 
+##
+#/*++
+#
+# Module Name:
+#
+#   EfiCompliantBBTest_uefi.inf
+#
+# Abstract:
+#
+#   Component description file for EFI Compliant Black-Box Test.
+#
+#--*/
+
+[Defines]
+  INF_VERSION          = 0x00010005
+  BASE_NAME            = EfiCompliantBBTest
+  FILE_GUID            = B45574E7-3848-4917-853F-931AC4FC0225
+  MODULE_TYPE          = UEFI_DRIVER
+  VERSION_STRING       = 1.0
+  ENTRY_POINT          = InitializeEfiCompliantBbTest
+
+[Sources.common]
+  EfiCompliantBBTestMain_uefi.c
+  EfiCompliantBbTestMain_uefi.h
+  EfiCompliantBBTestRequired_uefi.c
+  EfiCompliantBBTestPlatform_uefi.c
+  EfiCompliantBBTestDriver_uefi.c
+  EfiCompliantBBTestSupport_uefi.c
+  Guid_uefi.c
+  Guid_uefi.h
+
+[Packages]
+  MdePkg/MdePkg.dec
+  SctPkg/SctPkg.dec
+  SctPkg/UEFI/UEFI.dec
+
+[LibraryClasses]
+  UefiDriverEntryPoint
+  SctLib
+  EfiTestLib
+
+[Protocols]
+  gEfiDebugPortProtocolGuid
+  gEfiDecompressProtocolGuid
+  gEfiDevicePathUtilitiesProtocolGuid
+  gEfiHiiDatabaseProtocolGuid
+  gEfiHiiStringProtocolGuid
+  gEfiHiiConfigRoutingProtocolGuid
+  gEfiHiiConfigAccessProtocolGuid
+  gEfiHiiFontProtocolGuid
+  gEfiSimpleTextInputExProtocolGuid
+  gEfiTestProfileLibraryGuid
+  gEfiGraphicsOutputProtocolGuid
+  gEfiEdidDiscoveredProtocolGuid
+  gEfiEdidActiveProtocolGuid
+  gEfiSimplePointerProtocolGuid
+  gEfiManagedNetworkProtocolGuid
+  gEfiBisProtocolGuid
+  gEfiPciRootBridgeIoProtocolGuid
+  gEfiPciIoProtocolGuid
+  gEfiUsb2HcProtocolGuid
+  gEfiUsbIoProtocolGuid
+  gEfiExtScsiPassThruProtocolGuid
+  gEfiDebugSupportProtocolGuid
+  gEfiPlatformDriverOverrideProtocolGuid
+  gEfiManagedNetworkServiceBindingProtocolGuid
+  gEfiArpServiceBindingProtocolGuid
+  gEfiIp4ServiceBindingProtocolGuid
+  gEfiDhcp4ServiceBindingProtocolGuid
+  gEfiTcp4ServiceBindingProtocolGuid
+  gEfiUdp4ServiceBindingProtocolGuid
+  gEfiIp4ConfigProtocolGuid
+  gEfiManagedNetworkProtocolGuid
+  gEfiArpProtocolGuid
+  gEfiIp4ProtocolGuid
+  gEfiDhcp4ProtocolGuid
+  gEfiTcp4ProtocolGuid
+  gEfiUdp4ProtocolGuid
+  gEfiExtScsiPassThruProtocolGuid
+  gEfiScsiIoProtocolGuid
+  gEfiIScsiInitiatorNameProtocolGuid
+  gEfiAuthenticationInfoProtocolGuid
+  gEfiEbcProtocolGuid

@@ -1,0 +1,55 @@
+## @file
+#
+#  Copyright 2017 Unified EFI, Inc.<BR>
+#  (C) Copyright 2017 Hewlett Packard Enterprise Development LP<BR>
+#  Copyright (c) 2019, ARM Ltd. All rights reserved.<BR>
+#
+#  This program and the accompanying materials
+#  are licensed and made available under the terms and conditions of the BSD License
+#  which accompanies this distribution.  The full text of the license may be found at 
+#  http://opensource.org/licenses/bsd-license.php
+# 
+#  THE PROGRAM IS DISTRIBUTED UNDER THE BSD LICENSE ON AN "AS IS" BASIS,
+#  WITHOUT WARRANTIES OR REPRESENTATIONS OF ANY KIND, EITHER EXPRESS OR IMPLIED.
+# 
+##
+#/*++
+#
+# Module Name:
+#
+#   HIIImageExBBTest.inf
+#
+# Abstract:
+#
+#   Component description file for HII ImageEx Protocol Black-Box Test.
+#
+#--*/
+
+[defines]
+INF_VERSION          = 0x00010005
+BASE_NAME            = HIIImageExBBTest
+FILE_GUID            = 411A4B06-B913-4C50-AD8D-6A08B5B2F435
+MODULE_TYPE          = UEFI_DRIVER
+VERSION_STRING       = 1.0
+ENTRY_POINT          = InitializeHIIImageExBBTest
+
+[sources.common]
+  HIIImageExBBTestConformance.c
+  HIIImageExBBTestFunction.c
+  HIIImageExBBTestMain.c
+  HIIPackageListImage.c
+  Guid.c
+
+[Packages]
+  SctPkg/SctPkg.dec
+  SctPkg/UEFI/UEFI.dec
+  MdePkg/MdePkg.dec
+
+[LibraryClasses]
+  UefiDriverEntryPoint
+  SctLib
+  EfiTestLib
+
+[Protocols]
+  gBlackBoxEfiGraphicsOutputProtocolGuid
+  gBlackBoxEfiHIIDatabaseProtocolGuid

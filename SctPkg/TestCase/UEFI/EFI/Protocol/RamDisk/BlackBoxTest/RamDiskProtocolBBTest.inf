@@ -1,0 +1,57 @@
+## @file
+#
+#  Copyright 2016 Unified EFI, Inc.<BR>
+#  Copyright (c) 2016, Intel Corporation. All rights reserved.<BR>
+#
+#  This program and the accompanying materials
+#  are licensed and made available under the terms and conditions of the BSD License
+#  which accompanies this distribution.  The full text of the license may be found at 
+#  http://opensource.org/licenses/bsd-license.php
+# 
+#  THE PROGRAM IS DISTRIBUTED UNDER THE BSD LICENSE ON AN "AS IS" BASIS,
+#  WITHOUT WARRANTIES OR REPRESENTATIONS OF ANY KIND, EITHER EXPRESS OR IMPLIED.
+# 
+##
+#/*++
+#
+# Module Name:
+#
+#   RamDiskProtocolBBTest.inf
+#
+# Abstract:
+#
+#   Component description file for RamDisk Protocol Black-Box Test.
+#
+#--*/
+
+[defines]
+  INF_VERSION          = 0x00010005
+  BASE_NAME            = RamDiskProtocolBBTest
+  FILE_GUID            = 6982346B-7E74-4040-83CD-6C496B7251CA
+  MODULE_TYPE          = UEFI_DRIVER
+  VERSION_STRING       = 1.0
+  ENTRY_POINT          = InitializeBBTestRamDiskProtocol  
+
+[sources.common]
+  RamDiskProtocolBBTestConformance.c
+  RamDiskProtocolBBTestFunction.c
+  RamDiskProtocolBBTestMain.c
+  Guid.c
+
+[Packages]
+  MdePkg/MdePkg.dec
+  SctPkg/SctPkg.dec
+  SctPkg/UEFI/UEFI.dec
+
+[LibraryClasses]
+  UefiDriverEntryPoint
+  SctLib
+  EfiTestLib
+
+[Guids]
+  gBlackBoxEfiVirtualDiskGuid                ## SOMETIMES_CONSUMES ## GUID
+  gBlackBoxEfiVirtualCdGuid                  ## SOMETIMES_CONSUMES ## GUID
+  gBlackBoxEfiPersistentVirtualDiskGuid      ## SOMETIMES_CONSUMES ## GUID
+  gBlackBoxEfiPersistentVirtualCdGuid        ## SOMETIMES_CONSUMES ## GUID
+
+[Protocols]

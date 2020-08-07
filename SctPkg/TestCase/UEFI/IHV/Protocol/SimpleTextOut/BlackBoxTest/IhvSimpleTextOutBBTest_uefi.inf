@@ -1,0 +1,56 @@
+## @file
+#
+#  Copyright 2006 - 2014 Unified EFI, Inc.<BR>
+#  Copyright (c) 2010 - 2014, Intel Corporation. All rights reserved.<BR>
+#  Copyright (c) 2019, ARM Ltd. All rights reserved.<BR>
+#
+#  This program and the accompanying materials
+#  are licensed and made available under the terms and conditions of the BSD License
+#  which accompanies this distribution.  The full text of the license may be found at 
+#  http://opensource.org/licenses/bsd-license.php
+# 
+#  THE PROGRAM IS DISTRIBUTED UNDER THE BSD LICENSE ON AN "AS IS" BASIS,
+#  WITHOUT WARRANTIES OR REPRESENTATIONS OF ANY KIND, EITHER EXPRESS OR IMPLIED.
+# 
+##
+#/*++
+#
+# Module Name:
+#
+#  IhvSimpleTextOutBBTest_uefi.inf
+#
+# Abstract:
+#
+#   Component description file for IHV Simple Text Out Protocol Black-Box Test.
+#
+#--*/
+
+
+[defines]
+INF_VERSION          = 0x00010005
+BASE_NAME            = IhvSimpleTextOutBBTest
+FILE_GUID            = 5A4F05F1-880B-43e2-872F-49AF48E8BCAD
+MODULE_TYPE          = UEFI_DRIVER
+VERSION_STRING       = 1.0
+ENTRY_POINT          = InitializeBBTestSimpleTextOutput
+
+[sources.common]
+ SimpleTextOutBBTestMain_uefi.c
+ SimpleTextOutBBTestFunction_uefi.c
+ SimpleTextOutBBTestConformance_uefi.c
+ Guid_uefi.c
+
+[Packages]
+  SctPkg/SctPkg.dec
+  SctPkg/UEFI/UEFI.dec
+  MdePkg/MdePkg.dec
+
+[LibraryClasses]
+  UefiDriverEntryPoint
+  SctLib
+  EfiTestLib
+
+[Protocols]
+  gBlackBoxEfiSimpleTextOutProtocolGuid
+  gBlackBoxEfiDevicePathProtocolGuid
+  gBlackBoxEfiGraphicsOutputProtocolGuid

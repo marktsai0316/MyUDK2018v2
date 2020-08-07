@@ -1,0 +1,64 @@
+## @file
+#
+#  Copyright 2006 - 2012 Unified EFI, Inc.<BR>
+#  Copyright (c) 2010 - 2012, Intel Corporation. All rights reserved.<BR>
+#
+#  This program and the accompanying materials
+#  are licensed and made available under the terms and conditions of the BSD License
+#  which accompanies this distribution.  The full text of the license may be found at 
+#  http://opensource.org/licenses/bsd-license.php
+# 
+#  THE PROGRAM IS DISTRIBUTED UNDER THE BSD LICENSE ON AN "AS IS" BASIS,
+#  WITHOUT WARRANTIES OR REPRESENTATIONS OF ANY KIND, EITHER EXPRESS OR IMPLIED.
+# 
+##
+#/*++
+#
+# Module Name:
+#
+#   IhvUsbHcTest.inf
+#
+# Abstract:
+#
+#   Component description file for IHV UsbHc Test.
+#
+#--*/
+
+[defines]
+  INF_VERSION          = 0x00010005
+  BASE_NAME            = IhvUsbHcTest
+  FILE_GUID            = 25F9CA0B-26C7-4f57-9100-C40EF3D19DFF
+  MODULE_TYPE          = UEFI_DRIVER
+  VERSION_STRING       = 1.0
+  ENTRY_POINT          = InitializeBBTestUsbHc
+
+[sources.common]
+  UsbHcTest.h
+  UsbHcTestMain.c
+  UsbHcTestConformance.c
+  UsbHcTestBasic.c
+  Guid.h
+  Guid.c
+
+[sources.ia32]
+  ia32/TimerInterrupt.c
+
+[sources.x64]
+  x64/TimerInterrupt.c
+
+[sources.ipf]
+  ipf/TimerInterrupt.c
+
+[Packages]
+  MdePkg/MdePkg.dec
+  SctPkg/SctPkg.dec
+  SctPkg/UEFI/UEFI.dec
+
+[LibraryClasses]
+  UefiDriverEntryPoint
+  SctLib
+  EfiTestLib
+
+[Protocols]
+  gEfiTestLoggingLibraryGuid
+  gBlackBoxEfiUsbHcProtocolGuid

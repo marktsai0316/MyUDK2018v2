@@ -1,0 +1,54 @@
+## @file
+#
+#  Copyright 2006 - 2017 Unified EFI, Inc.<BR>
+#  Copyright (c) 2010 - 2017, Intel Corporation. All rights reserved.<BR>
+#
+#  This program and the accompanying materials
+#  are licensed and made available under the terms and conditions of the BSD License
+#  which accompanies this distribution.  The full text of the license may be found at 
+#  http://opensource.org/licenses/bsd-license.php
+# 
+#  THE PROGRAM IS DISTRIBUTED UNDER THE BSD LICENSE ON AN "AS IS" BASIS,
+#  WITHOUT WARRANTIES OR REPRESENTATIONS OF ANY KIND, EITHER EXPRESS OR IMPLIED.
+# 
+##
+#/*++
+#
+# Module Name:
+#
+#   DriverDiagnostics2BBTest.inf
+#
+# Abstract:
+#
+#   Component description file for Driver Diagnostics Protocol Black-Box
+#   Test.
+#
+#--*/
+
+[defines]
+  INF_VERSION          = 0x00010005
+  BASE_NAME            = DriverDiagnostics2BBTest
+  FILE_GUID            = 7F3CD762-5A89-4392-9D8D-12552CBE818A
+  MODULE_TYPE          = UEFI_DRIVER
+  VERSION_STRING       = 1.0
+  ENTRY_POINT          = InitializeBBTestDriverDiagnostics2
+
+[sources.common]
+  Guid.c
+  DriverDiagnostics2BBTestMain.c
+  DriverDiagnostics2BBTestConformance.c
+  DriverDiagnostics2BBTestFunction.c
+
+[Packages]
+  MdePkg/MdePkg.dec
+  SctPkg/SctPkg.dec
+  SctPkg/UEFI/UEFI.dec
+
+[LibraryClasses]
+  UefiDriverEntryPoint
+  SctLib
+  EfiTestLib
+
+[Protocols]
+  gBlackBoxEfiDriverDiagnostics2ProtocolGuid
+  gBlackBoxEfiLoadedImageDevicePathProtocolGuid

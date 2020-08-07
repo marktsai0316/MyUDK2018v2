@@ -1,0 +1,123 @@
+## @file
+#
+#  Copyright 2006 - 2012 Unified EFI, Inc.<BR>
+#  Copyright (c) 2010 - 2012, Intel Corporation. All rights reserved.<BR>
+#
+#  This program and the accompanying materials
+#  are licensed and made available under the terms and conditions of the BSD License
+#  which accompanies this distribution.  The full text of the license may be found at 
+#  http://opensource.org/licenses/bsd-license.php
+# 
+#  THE PROGRAM IS DISTRIBUTED UNDER THE BSD LICENSE ON AN "AS IS" BASIS,
+#  WITHOUT WARRANTIES OR REPRESENTATIONS OF ANY KIND, EITHER EXPRESS OR IMPLIED.
+# 
+##
+#/*++
+#
+#Module Name:
+#
+#   Sct.inf
+#
+# Abstract:
+#
+#   Component description file for the EFI SCT Framework.
+#
+#--*/
+
+[Defines]
+  INF_VERSION          = 0x00010005
+  BASE_NAME            = SCT
+  FILE_GUID            = BFE5DD88-12D4-4ca7-B8FC-BD5D8A34DD6E
+  MODULE_TYPE          = UEFI_APPLICATION
+  VERSION_STRING       = 1.0
+  ENTRY_POINT          = InitializeSct
+
+[sources.common]
+  Core/Sct.c
+  Core/SctInit.c
+  Data/ApTest.c
+  Data/Category.c
+  Data/Config.c
+  Data/TestCase.c
+  Data/TestCaseEx.c
+  Data/TestNode.c
+  Data/SkippedCase.c
+  DeviceConfig/DeviceConfig.c
+  Execute/Execute.c
+  Execute/ExecuteSupport.c
+  Execute/ExecuteSupport.h
+  Execute/Reset.c
+  Include/ApTest.h
+  Include/Sct.h
+  Include/SctCore.h
+  Include/SctData.h
+  Include/SctDataEx.h
+  Include/SctDebug.h
+  Include/SctDef.h
+  Include/SctExecute.h
+  Include/SctLoad.h
+  Include/SctMisc.h
+  Include/SctOperation.h
+  Include/SctOutput.h
+  Include/SctReport.h
+  Include/SctTypes.h
+  Include/SctUi.h
+  Load/SupportFile.c
+  Load/TestFile.c
+  Misc/SctDebug.c
+  Misc/SctMisc.c
+  Operation/Operation.c
+  Output/Output.c
+  Report/Report.c
+  Report/ReportConfig.c
+  Report/ReportDatabase.c
+  Report/ReportSupport.c
+  Report/ReportSupport.h
+  UI/BuildMenu.c
+  UI/BuildMenu.h
+  UI/ConfigMenu.c
+  UI/Dialog.c
+  UI/Dialog.h
+  UI/DisplayUi.c
+  UI/FileDialog.c
+  UI/FileDialog.h
+  UI/KeyFunction.c
+  UI/MainMenu.c
+  UI/TestNodeMenu.c
+  UI/TestNodeMenu.h
+  UI/UI.h
+  UI/LogFileDialog.c
+  UI/LogFileDialog.h
+
+[Packages]
+  MdePkg/MdePkg.dec
+  SctPkg/SctPkg.dec
+
+[LibraryClasses]
+  UefiApplicationEntryPoint
+  SctLib
+  EntsLib
+  EasLib
+
+[Guids]
+  gEfiNullGuid
+  gTestGenericFailureGuid
+  gEfiGenericCategoryGuid
+  gEfiBootServicesCategoryGuid
+  gEfiRuntimeServicesCategoryGuid
+
+[Protocols]
+  gEfiComponentNameProtocolGuid
+  gEfiPciIoProtocolGuid
+  gEfiManagedNetworkServiceBindingProtocolGuid
+  gEfiManagedNetworkProtocolGuid
+  gEfiStandardTestLibraryGuid
+  gEfiTslInitInterfaceGuid
+  gEfiTestProfileLibraryGuid
+  gEfiTestRecoveryLibraryGuid
+  gEfiTestLoggingLibraryGuid
+  gEfiEftpServiceBindingProtocolGuid
+  gEfiEftpProtocolGuid
+  gEfiBbTestGuid
+  gEfiWbTestGuid
+  gEfiIHVBbTestGuid

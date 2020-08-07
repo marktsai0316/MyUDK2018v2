@@ -1,0 +1,54 @@
+## @file
+#
+#  Copyright 2006 - 2012 Unified EFI, Inc.<BR>
+#  Copyright (c) 2010 - 2012, Intel Corporation. All rights reserved.<BR>
+#  Copyright (c) 2019, ARM Ltd. All rights reserved.<BR>
+#
+#  This program and the accompanying materials
+#  are licensed and made available under the terms and conditions of the BSD License
+#  which accompanies this distribution.  The full text of the license may be found at 
+#  http://opensource.org/licenses/bsd-license.php
+# 
+#  THE PROGRAM IS DISTRIBUTED UNDER THE BSD LICENSE ON AN "AS IS" BASIS,
+#  WITHOUT WARRANTIES OR REPRESENTATIONS OF ANY KIND, EITHER EXPRESS OR IMPLIED.
+# 
+##
+#/*++
+#
+#  Module Name:
+#
+#    Dhcp4ENTSTest.inf
+#
+#  Abstract:
+#
+#    Component description file for ManagedNetwork module
+#
+#--*/
+
+[defines]
+INF_VERSION          = 0x00010005
+BASE_NAME            = Dhcp4_ENTSTest
+FILE_GUID            = 5F442A3D-AA4A-4d10-A30C-7BC57283D730
+MODULE_TYPE          = UEFI_DRIVER
+VERSION_STRING       = 1.0
+ENTRY_POINT          = Dhcp4ENTSTestMain
+
+[sources.common]
+  Dhcp4ENTSTest.c
+  Dhcp4ENTSTestCase.c
+
+[Packages]
+  SctPkg/SctPkg.dec
+  SctPkg/UEFI/UEFI.dec
+  MdePkg/MdePkg.dec
+
+[LibraryClasses]
+  UefiDriverEntryPoint
+  SctLib
+  EfiTestLib
+  EntsLib
+
+[Protocols]
+  gEfiEntsProtocolGuid
+  gBlackBoxEfiLoadedImageProtocolGuid
+  gBlackBoxEfiDhcp4ProtocolGuid

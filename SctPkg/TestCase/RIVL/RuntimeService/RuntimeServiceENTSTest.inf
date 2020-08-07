@@ -1,0 +1,55 @@
+## @file
+#
+#  Copyright 2006 - 2014 Unified EFI, Inc.<BR>
+#  Copyright (c) 2010 - 2014, Intel Corporation. All rights reserved.<BR>
+#
+#  This program and the accompanying materials
+#  are licensed and made available under the terms and conditions of the BSD License
+#  which accompanies this distribution.  The full text of the license may be found at 
+#  http://opensource.org/licenses/bsd-license.php
+# 
+#  THE PROGRAM IS DISTRIBUTED UNDER THE BSD LICENSE ON AN "AS IS" BASIS,
+#  WITHOUT WARRANTIES OR REPRESENTATIONS OF ANY KIND, EITHER EXPRESS OR IMPLIED.
+# 
+##
+#/*++
+#
+#  Module Name:
+#
+#    RuntimeServiceENTSTest.inf
+#
+#  Abstract:
+#
+#    Component description file for SimpleNetwork module
+#
+#--*/
+
+[Defines]
+  INF_VERSION          = 0x00010005
+  BASE_NAME            = RuntimeService_ENTSTest
+  FILE_GUID            = 3896A379-77BE-4c5f-A7D2-CE171E8ED2E4
+  MODULE_TYPE          = UEFI_DRIVER
+  VERSION_STRING       = 1.0
+  ENTRY_POINT          = RuntimeServiceENTSTestMain
+
+[Sources.common]
+  RuntimeServiceENTSTest.c
+  VariableService/VariableENTSTestCase.h
+  VariableService/VariableENTSTestCase.c
+  TimeService/TimeENTSTestCase.h
+  TimeService/TimeENTSTestCase.c
+  MiscellaneousRuntimeService/MiscellaneousRuntimeENTSTestCase.h
+  MiscellaneousRuntimeService/MiscellaneousRuntimeENTSTestCase.c
+
+[Packages]
+  MdePkg/MdePkg.dec
+  SctPkg/SctPkg.dec
+
+[LibraryClasses]
+  UefiDriverEntryPoint
+  SctLib
+  EfiTestLib
+  EntsLib
+
+[Protocols]
+  gEfiEntsProtocolGuid

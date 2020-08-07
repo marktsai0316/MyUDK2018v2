@@ -1,0 +1,89 @@
+## @file
+#
+#  Copyright 2006 - 2016 Unified EFI, Inc.<BR>
+#  Copyright (c) 2010 - 2016, Intel Corporation. All rights reserved.<BR>
+#
+#  This program and the accompanying materials
+#  are licensed and made available under the terms and conditions of the BSD License
+#  which accompanies this distribution.  The full text of the license may be found at 
+#  http://opensource.org/licenses/bsd-license.php
+# 
+#  THE PROGRAM IS DISTRIBUTED UNDER THE BSD LICENSE ON AN "AS IS" BASIS,
+#  WITHOUT WARRANTIES OR REPRESENTATIONS OF ANY KIND, EITHER EXPRESS OR IMPLIED.
+# 
+##     
+#/*++
+#
+#Module Name:
+#
+#  SCRTDRIVER.inf
+#
+#--*/
+
+
+
+[defines]
+  INF_VERSION          = 0x00010005
+  BASE_NAME            = SCRTDRIVER
+  FILE_GUID            = 3B6CAA77-A47F-4e51-9BFE-F5799AE428BF
+  MODULE_TYPE          = DXE_RUNTIME_DRIVER
+  VERSION_STRING       = 1.0
+  ENTRY_POINT          = InitializeSCRTDriver
+
+[sources.ia32]
+  ia32/Io.c
+  ia32/Io.h
+  ia32/IoAccess.asm
+  ia32/IoAccess.S | GCC
+  ia32/Port80.asm
+  ia32/Port80.S | GCC
+  ia32/Dump.c
+  ia32/Debug.c
+    
+[sources.x64]
+  x64/Io.c
+  x64/Io.h
+  x64/IoAccess.asm
+  x64/IoAccess.S | GCC
+  x64/Port80.asm
+  x64/Port80.S | GCC
+  x64/Dump.c
+  x64/Debug.c
+
+[sources.ipf]
+  ipf/Io.h
+  ipf/Io.c
+  ipf/Port80.c
+  ipf/Dump.c
+  ipf/Debug.c
+
+[sources.Arm]
+  Arm/Io.c
+  Arm/Io.h
+  Arm/Dump.c
+  Arm/Debug.c
+
+[sources.Aarch64]
+  Aarch64/Io.c
+  Aarch64/Io.h
+  Aarch64/Dump.c
+  Aarch64/Debug.c
+
+[sources.common]
+  Guid.h
+  Guid.c
+  Print.c
+  TestCase.c
+  SCRTDriver.c
+  SCRTDriver.h
+
+[Packages]
+  MdePkg/MdePkg.dec
+  SctPkg/SctPkg.dec
+
+[LibraryClasses]
+  UefiDriverEntryPoint
+  SctLib
+
+[Depex]
+  TRUE

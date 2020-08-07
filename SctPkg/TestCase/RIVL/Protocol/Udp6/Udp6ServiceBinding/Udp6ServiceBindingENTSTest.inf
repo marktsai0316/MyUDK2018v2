@@ -1,0 +1,55 @@
+## @file
+#
+#  Copyright 2006 - 2012 Unified EFI, Inc.<BR>
+#  Copyright (c) 2010 - 2012, Intel Corporation. All rights reserved.<BR>
+#  Copyright (c) 2019, ARM Ltd. All rights reserved.<BR>
+#
+#  This program and the accompanying materials
+#  are licensed and made available under the terms and conditions of the BSD License
+#  which accompanies this distribution.  The full text of the license may be found at 
+#  http://opensource.org/licenses/bsd-license.php
+# 
+#  THE PROGRAM IS DISTRIBUTED UNDER THE BSD LICENSE ON AN "AS IS" BASIS,
+#  WITHOUT WARRANTIES OR REPRESENTATIONS OF ANY KIND, EITHER EXPRESS OR IMPLIED.
+# 
+##
+#/*++
+#
+#  Module Name:
+#
+#    Udp6ServiceBindingENTSTest.inf
+#
+#  Abstract:
+#
+#    Component description file for Udp6ServiceBinding module
+#
+#--*/
+
+[Defines]
+INF_VERSION          = 0x00010005
+BASE_NAME            = Udp6ServiceBinding_ENTSTest
+FILE_GUID            = D19405F6-7886-4cb2-9334-EF1188CDC401
+MODULE_TYPE          = UEFI_DRIVER
+VERSION_STRING       = 1.0
+ENTRY_POINT          = Udp6ServiceBindingENTSTestMain
+
+[Sources.common]
+  Udp6ServiceBindingENTSTest.c
+  Udp6ServiceBindingENTSTestCase.h
+  Udp6ServiceBindingENTSTestCase.c
+
+[Packages]
+  SctPkg/SctPkg.dec
+  SctPkg/UEFI/UEFI.dec
+  MdePkg/MdePkg.dec
+
+[LibraryClasses]
+  UefiDriverEntryPoint
+  SctLib
+  EfiTestLib
+  EntsLib
+
+[Protocols]
+  gEfiEntsProtocolGuid
+  gBlackBoxEfiLoadedImageProtocolGuid
+  gBlackBoxEfiUdp6ServiceBindingProtocolGuid

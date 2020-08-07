@@ -1,0 +1,51 @@
+## @file
+#
+#  Copyright 2006 - 2015 Unified EFI, Inc.<BR>
+#  Copyright (c) 2013 - 2015, Intel Corporation. All rights reserved.<BR>
+#
+#  This program and the accompanying materials
+#  are licensed and made available under the terms and conditions of the BSD License
+#  which accompanies this distribution.  The full text of the license may be found at 
+#  http://opensource.org/licenses/bsd-license.php
+# 
+#  THE PROGRAM IS DISTRIBUTED UNDER THE BSD LICENSE ON AN "AS IS" BASIS,
+#  WITHOUT WARRANTIES OR REPRESENTATIONS OF ANY KIND, EITHER EXPRESS OR IMPLIED.
+# 
+##
+#/*++
+#
+# Module Name:
+#
+#   RandomNumberBBTest.inf
+#
+# Abstract:
+#
+#   Component description file for Random Number Protocol Black-Box Test.
+#
+#--*/
+
+[defines]
+  INF_VERSION          = 0x00010005
+  BASE_NAME            = RandomNumberBBTest
+  FILE_GUID            = C8E119C1-5058-4B0D-AB23-07D5AFE8FD65
+  MODULE_TYPE          = UEFI_DRIVER
+  VERSION_STRING       = 1.0
+  ENTRY_POINT          = InitializeBBTestRandomNumber
+
+[sources.common]
+  Guid.c
+  RandomNumberBBTestMain.c
+  RandomNumberBBTestFunction.c
+  RandomNumberBBTestConformance.c
+
+[Packages]
+  MdePkg/MdePkg.dec
+  SctPkg/SctPkg.dec
+  SctPkg/UEFI/UEFI.dec
+
+[LibraryClasses]
+  UefiDriverEntryPoint
+  SctLib
+  EfiTestLib
+
+[Protocols]

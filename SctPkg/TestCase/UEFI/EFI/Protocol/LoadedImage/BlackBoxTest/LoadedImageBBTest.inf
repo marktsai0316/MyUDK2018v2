@@ -1,0 +1,53 @@
+## @file
+#
+#  Copyright 2006 - 2012 Unified EFI, Inc.<BR>
+#  Copyright (c) 2010 - 2012, Intel Corporation. All rights reserved.<BR>
+#  Copyright (c) 2019, ARM Ltd. All rights reserved.<BR>
+#
+#  This program and the accompanying materials
+#  are licensed and made available under the terms and conditions of the BSD License
+#  which accompanies this distribution.  The full text of the license may be found at 
+#  http://opensource.org/licenses/bsd-license.php
+# 
+#  THE PROGRAM IS DISTRIBUTED UNDER THE BSD LICENSE ON AN "AS IS" BASIS,
+#  WITHOUT WARRANTIES OR REPRESENTATIONS OF ANY KIND, EITHER EXPRESS OR IMPLIED.
+# 
+##
+#/*++
+#
+# Module Name:
+#
+#   LoadedImageBBTest.inf
+#
+# Abstract:
+#
+#   Component description file for Loaded Image Protocol Black-Box Test.
+#
+#--*/
+
+[defines]
+INF_VERSION          = 0x00010005
+BASE_NAME            = LoadedImageBBTest
+FILE_GUID            = 23714078-BF1D-404e-A965-DED3D4952FE4
+MODULE_TYPE          = UEFI_DRIVER
+VERSION_STRING       = 1.0
+ENTRY_POINT          = InitializeBBTestLoadedImageProtocol
+
+[sources.common]
+  Guid.c
+  LoadedImageBBTestMain.c
+  LoadedImageBBTestProtocolDefinition.c
+
+[Packages]
+  SctPkg/SctPkg.dec
+  SctPkg/UEFI/UEFI.dec
+  MdePkg/MdePkg.dec
+
+[LibraryClasses]
+  UefiDriverEntryPoint
+  SctLib
+  EfiTestLib
+
+[Protocols]
+  gEfiTestProfileLibraryGuid
+  gBlackBoxEfiLoadedImageProtocolGuid
