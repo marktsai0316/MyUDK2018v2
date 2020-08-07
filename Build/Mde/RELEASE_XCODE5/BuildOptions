@@ -1,3 +1,0 @@
-gCommandLineDefines: {'ARCH': 'X64'}
-BuildOptionPcd: []
-Active Platform: /Users/g5/Dev/SctWorkspace/MdePkg/MdePkg.dsc
