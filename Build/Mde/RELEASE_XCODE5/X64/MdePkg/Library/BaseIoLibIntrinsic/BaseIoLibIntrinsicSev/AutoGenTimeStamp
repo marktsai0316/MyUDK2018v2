@@ -1,0 +1,15 @@
+/Users/g5/Dev/SctWorkspace/MdePkg/Include/X64/ProcessorBind.h
+/Users/g5/Dev/SctWorkspace/MdePkg/Library/BaseIoLibIntrinsic/BaseIoLibIntrinsicInternal.h
+/Users/g5/Dev/SctWorkspace/MdePkg/Library/BaseIoLibIntrinsic/BaseIoLibIntrinsicSev.inf
+/Users/g5/Dev/SctWorkspace/MdePkg/Include/Library/IoLib.h
+/Users/g5/Dev/SctWorkspace/MdePkg/Library/BaseIoLibIntrinsic/IoLibMmioBuffer.c
+/Users/g5/Dev/SctWorkspace/MdePkg/Include/Base.h
+/Users/g5/Dev/SctWorkspace/MdePkg/Include/Library/DebugLib.h
+/Users/g5/Dev/SctWorkspace/Build/Mde/RELEASE_XCODE5/X64/MdePkg/Library/BaseIoLibIntrinsic/BaseIoLibIntrinsicSev/DEBUG/AutoGen.h
+/Users/g5/Dev/SctWorkspace/MdePkg/Library/BaseIoLibIntrinsic/IoLib.c
+/Users/g5/Dev/SctWorkspace/MdePkg/Library/BaseIoLibIntrinsic/IoHighLevel.c
+/Users/g5/Dev/SctWorkspace/MdePkg/Library/BaseIoLibIntrinsic/IoLibIcc.c
+/Users/g5/Dev/SctWorkspace/MdePkg/Library/BaseIoLibIntrinsic/IoLibGcc.c
+/Users/g5/Dev/SctWorkspace/MdePkg/Library/BaseIoLibIntrinsic/IoLibMsc.c
+/Users/g5/Dev/SctWorkspace/MdePkg/Library/BaseIoLibIntrinsic/X64/IoFifoSev.nasm
+/Users/g5/Dev/SctWorkspace/MdePkg/Include/Library/BaseLib.h

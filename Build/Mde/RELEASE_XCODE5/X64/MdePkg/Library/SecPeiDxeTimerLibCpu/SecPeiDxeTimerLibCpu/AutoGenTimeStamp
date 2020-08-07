@@ -1,0 +1,10 @@
+/Users/g5/Dev/SctWorkspace/MdePkg/Include/X64/ProcessorBind.h
+/Users/g5/Dev/SctWorkspace/MdePkg/Library/SecPeiDxeTimerLibCpu/SecPeiDxeTimerLibCpu.inf
+/Users/g5/Dev/SctWorkspace/MdePkg/Include/Library/DebugLib.h
+/Users/g5/Dev/SctWorkspace/MdePkg/Include/Library/IoLib.h
+/Users/g5/Dev/SctWorkspace/MdePkg/Include/Library/TimerLib.h
+/Users/g5/Dev/SctWorkspace/MdePkg/Include/Base.h
+/Users/g5/Dev/SctWorkspace/MdePkg/Include/Library/BaseLib.h
+/Users/g5/Dev/SctWorkspace/MdePkg/Include/Library/PcdLib.h
+/Users/g5/Dev/SctWorkspace/Build/Mde/RELEASE_XCODE5/X64/MdePkg/Library/SecPeiDxeTimerLibCpu/SecPeiDxeTimerLibCpu/DEBUG/AutoGen.h
+/Users/g5/Dev/SctWorkspace/MdePkg/Library/SecPeiDxeTimerLibCpu/X86TimerLib.c

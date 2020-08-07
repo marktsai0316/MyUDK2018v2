@@ -1,0 +1,267 @@
+# Path: /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdeModulePkg/Bus/Usb/UsbBusPei/UsbBusPei/DEBUG/UsbBusPei.dll
+# Arch: x86_64
+# Object files:
+[  0] linker synthesized
+[  1] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CheckSum.obj)
+[  2] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwitchStack.obj)
+[  3] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwapBytes64.obj)
+[  4] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwapBytes32.obj)
+[  5] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwapBytes16.obj)
+[  6] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(LongJump.obj)
+[  7] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SetJump.obj)
+[  8] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(RShiftU64.obj)
+[  9] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(RRotU64.obj)
+[ 10] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(RRotU32.obj)
+[ 11] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(MultU64x64.obj)
+[ 12] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(MultU64x32.obj)
+[ 13] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(MultS64x64.obj)
+[ 14] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(ModU64x32.obj)
+[ 15] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(LShiftU64.obj)
+[ 16] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(LRotU64.obj)
+[ 17] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(LRotU32.obj)
+[ 18] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(LowBitSet64.obj)
+[ 19] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(LowBitSet32.obj)
+[ 20] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(HighBitSet64.obj)
+[ 21] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(HighBitSet32.obj)
+[ 22] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(GetPowerOfTwo64.obj)
+[ 23] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(GetPowerOfTwo32.obj)
+[ 24] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(DivU64x64Remainder.obj)
+[ 25] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(DivU64x32Remainder.obj)
+[ 26] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(DivU64x32.obj)
+[ 27] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(DivS64x64Remainder.obj)
+[ 28] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(ARShiftU64.obj)
+[ 29] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(BitField.obj)
+[ 30] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuDeadLoop.obj)
+[ 31] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Cpu.obj)
+[ 32] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(LinkedList.obj)
+[ 33] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SafeString.obj)
+[ 34] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(String.obj)
+[ 35] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(FilePaths.obj)
+[ 36] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Thunk16.obj)
+[ 37] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(WriteTr.obj)
+[ 38] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Non-existing.obj)
+[ 39] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Math64.obj)
+[ 40] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Unaligned.obj)
+[ 41] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(X86WriteIdtr.obj)
+[ 42] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(X86WriteGdtr.obj)
+[ 43] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(X86Thunk.obj)
+[ 44] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(X86ReadIdtr.obj)
+[ 45] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(X86ReadGdtr.obj)
+[ 46] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(X86Msr.obj)
+[ 47] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(X86GetInterruptState.obj)
+[ 48] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(X86FxSave.obj)
+[ 49] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(X86FxRestore.obj)
+[ 50] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(X86EnablePaging64.obj)
+[ 51] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(X86EnablePaging32.obj)
+[ 52] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(X86DisablePaging64.obj)
+[ 53] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(X86DisablePaging32.obj)
+[ 54] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(X86RdRand.obj)
+[ 55] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(GccInline.obj)
+[ 56] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwitchStack.obj)
+[ 57] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SetJump.obj)
+[ 58] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(LongJump.obj)
+[ 59] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(EnableDisableInterrupts.obj)
+[ 60] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(DisablePaging64.obj)
+[ 61] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuId.obj)
+[ 62] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuIdEx.obj)
+[ 63] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(EnableCache.obj)
+[ 64] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(DisableCache.obj)
+[ 65] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(RdRand.obj)
+[ 66] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(ChkStkGcc.obj)
+[ 67] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/PeiHobLib/PeiHobLib/OUTPUT/PeiHobLib.lib(HobLib.obj)
+[ 68] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/PeiMemoryAllocationLib/PeiMemoryAllocationLib/OUTPUT/PeiMemoryAllocationLib.lib(MemoryAllocationLib.obj)
+[ 69] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BasePcdLibNull/BasePcdLibNull/OUTPUT/BasePcdLibNull.lib(PcdLib.obj)
+[ 70] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseDebugLibNull/BaseDebugLibNull/OUTPUT/BaseDebugLibNull.lib(DebugLib.obj)
+[ 71] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/PeiServicesLib/PeiServicesLib/OUTPUT/PeiServicesLib.lib(PeiServicesLib.obj)
+[ 72] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(SetMem.obj)
+[ 73] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(ScanMem64Wrapper.obj)
+[ 74] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(ScanMem32Wrapper.obj)
+[ 75] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(ScanMem16Wrapper.obj)
+[ 76] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(ScanMem8Wrapper.obj)
+[ 77] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(ZeroMemWrapper.obj)
+[ 78] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(CompareMemWrapper.obj)
+[ 79] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(SetMem64Wrapper.obj)
+[ 80] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(SetMem32Wrapper.obj)
+[ 81] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(SetMem16Wrapper.obj)
+[ 82] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(SetMemWrapper.obj)
+[ 83] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(CopyMemWrapper.obj)
+[ 84] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(IsZeroBufferWrapper.obj)
+[ 85] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(MemLibGeneric.obj)
+[ 86] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(MemLibGuid.obj)
+[ 87] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(CopyMem.obj)
+[ 88] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/PeiServicesTablePointerLib/PeiServicesTablePointerLib/OUTPUT/PeiServicesTablePointerLib.lib(PeiServicesTablePointer.obj)
+[ 89] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseTimerLibNullTemplate/BaseTimerLibNullTemplate/OUTPUT/BaseTimerLibNullTemplate.lib(TimerLibNull.obj)
+[ 90] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/PeimEntryPoint/PeimEntryPoint/OUTPUT/PeimEntryPoint.lib(PeimEntryPoint.obj)
+[ 91] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdeModulePkg/Bus/Usb/UsbBusPei/UsbBusPei/OUTPUT/UsbBusPei.lib(PeiUsbLib.obj)
+[ 92] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdeModulePkg/Bus/Usb/UsbBusPei/UsbBusPei/OUTPUT/UsbBusPei.lib(HubPeim.obj)
+[ 93] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdeModulePkg/Bus/Usb/UsbBusPei/UsbBusPei/OUTPUT/UsbBusPei.lib(UsbIoPeim.obj)
+[ 94] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdeModulePkg/Bus/Usb/UsbBusPei/UsbBusPei/OUTPUT/UsbBusPei.lib(UsbPeim.obj)
+[ 95] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdeModulePkg/Bus/Usb/UsbBusPei/UsbBusPei/OUTPUT/UsbBusPei.lib(AutoGen.obj)
+# Sections:
+# Address	Size    	Segment	Section
+0x00000240	0x000029B0	__TEXT	__text
+0x00002BF0	0x000008FA	__TEXT	__cstring
+0x000034EC	0x00000008	__TEXT	__const
+0x00003500	0x00000080	__DATA	__data
+0x00003580	0x00000008	__DATA	__common
+# Symbols:
+# Address	Size    	File  Name
+0x00000240	0x00000000	[  0] ___dso_handle
+0x00000240	0x00000066	[  7] _InternalAssertJumpBuffer
+0x000002A6	0x00000049	[ 15] _LShiftU64
+0x000002F0	0x00000000	[ 36] SavedGdt
+0x000002F0	0x0000000A	[ 36] _m16Start
+0x000002FA	0x00000008	[ 36] _BackFromUserCode
+0x00000302	0x00000014	[ 36] _BackFromUserCode.Base
+0x00000316	0x0000000D	[ 36] _BackFromUserCode.ThunkAttrEnd
+0x00000323	0x0000000B	[ 36] _BackFromUserCode.1
+0x0000032E	0x00000036	[ 36] _BackFromUserCode.2
+0x00000364	0x0000001C	[ 36] _BackFromUserCode.SavedCr4End
+0x00000380	0x0000000B	[ 36] _BackFromUserCode.SavedCr0End
+0x0000038B	0x0000000B	[ 36] _BackFromUserCode.X64JmpEnd
+0x00000396	0x00000002	[ 36] _BackFromUserCode.SavedSpEnd
+0x00000398	0x00000006	[ 36] _EntryPoint
+0x0000039E	0x00000002	[ 36] _16Gdtr
+0x000003A0	0x00000008	[ 36] _16GdtrBase
+0x000003A8	0x00000006	[ 36] _16Idtr
+0x000003AE	0x00000028	[ 36] _ToUserCode
+0x000003D6	0x0000000F	[ 36] _ToUserCode.Base
+0x000003E5	0x0000001B	[ 36] _ToUserCode.RealMode
+0x00000400	0x00000008	[ 36] _NullSeg
+0x00000408	0x00000008	[ 36] _16Code
+0x00000410	0x00000008	[ 36] _16Data
+0x00000418	0x00000008	[ 36] _32Data
+0x00000420	0x000000B4	[ 36] _InternalAsmThunk16
+0x000004D4	0x00000020	[ 36] _InternalAsmThunk16.RetFromRealMode
+0x000004F4	0x00000006	[ 37] _AsmWriteTr
+0x000004FA	0x0000000E	[ 39] _InternalMathLShiftU64
+0x00000508	0x0000000F	[ 56] _InternalSwitchStack
+0x00000517	0x0000008F	[ 57] _SetJump
+0x000005A6	0x0000007C	[ 58] _InternalLongJump
+0x00000622	0x00000003	[ 59] _EnableDisableInterrupts
+0x00000625	0x0000003A	[ 60] _InternalX86DisablePaging64
+0x0000065F	0x00000027	[ 60] _InternalX86DisablePaging64.0
+0x00000686	0x00000000	[ 60] mTransitionEnd
+0x00000686	0x0000000F	[ 61] _AsmCpuid
+0x00000695	0x00000005	[ 61] _AsmCpuid.0
+0x0000069A	0x00000007	[ 61] _AsmCpuid.1
+0x000006A1	0x00000009	[ 61] _AsmCpuid.2
+0x000006AA	0x00000003	[ 61] _AsmCpuid.3
+0x000006AD	0x00000015	[ 62] _AsmCpuidEx
+0x000006C2	0x00000007	[ 62] _AsmCpuidEx.0
+0x000006C9	0x00000007	[ 62] _AsmCpuidEx.1
+0x000006D0	0x00000009	[ 62] _AsmCpuidEx.2
+0x000006D9	0x00000003	[ 62] _AsmCpuidEx.3
+0x000006DC	0x00000013	[ 63] _AsmEnableCache
+0x000006EF	0x00000013	[ 64] _AsmDisableCache
+0x00000702	0x00000009	[ 65] _InternalX86RdRand16
+0x0000070B	0x00000009	[ 65] rn16_ok
+0x00000714	0x00000009	[ 65] _InternalX86RdRand32
+0x0000071D	0x00000008	[ 65] rn32_ok
+0x00000725	0x0000000A	[ 65] _InternalX86RdRand64
+0x0000072F	0x00000009	[ 65] rn64_ok
+0x00000738	0x00000006	[ 70] _DebugPrint
+0x0000073E	0x00000006	[ 70] _DebugAssert
+0x00000744	0x00000008	[ 70] _DebugAssertEnabled
+0x0000074C	0x00000008	[ 70] _DebugPrintEnabled
+0x00000754	0x00000008	[ 70] _DebugPrintLevelEnabled
+0x0000075C	0x00000027	[ 71] _PeiServicesInstallPpi
+0x00000783	0x00000044	[ 71] _PeiServicesLocatePpi
+0x000007C7	0x00000035	[ 71] _PeiServicesAllocatePages
+0x000007FC	0x00000024	[ 71] _PeiServicesRegisterForShadow
+0x00000820	0x000000EE	[ 72] _InternalMemSetMem
+0x0000090E	0x00000084	[ 77] _ZeroMem
+0x00000992	0x000000A4	[ 83] _CopyMem
+0x00000A36	0x0000000D	[ 85] _InternalMemZeroMem
+0x00000A43	0x000001E2	[ 87] _InternalMemCopyMem
+0x00000C25	0x00000044	[ 88] _GetPeiServicesTablePointer
+0x00000C69	0x0000000F	[ 88] _PeiServicesTablePointerLibConstructor
+0x00000C78	0x00000037	[ 89] _MicroSecondDelay
+0x00000CAF	0x00000062	[ 90] __ModuleEntryPoint
+0x00000D11	0x00000097	[ 91] _PeiUsbGetDescriptor
+0x00000DA8	0x0000007E	[ 91] _PeiUsbSetDeviceAddress
+0x00000E26	0x00000058	[ 91] _PeiUsbSetConfiguration
+0x00000E7E	0x0000000B	[ 91] _IsPortConnect
+0x00000E89	0x0000002D	[ 91] _PeiUsbGetDeviceSpeed
+0x00000EB6	0x00000072	[ 92] _PeiHubGetPortStatus
+0x00000F28	0x00000074	[ 92] _PeiHubClearPortFeature
+0x00000F9C	0x00000101	[ 92] _PeiUsbHubReadDesc
+0x0000109D	0x0000006F	[ 92] _PeiUsbHubCtrlSetHubDepth
+0x0000110C	0x0000027B	[ 92] _PeiDoHubConfig
+0x00001387	0x0000024B	[ 92] _PeiResetHubPort
+0x000015D2	0x000001C9	[ 93] _PeiUsbControlTransfer
+0x0000179B	0x000000C6	[ 93] _PeiUsbGetEndpointDescriptor
+0x00001861	0x000001B6	[ 93] _PeiUsbBulkTransfer
+0x00001A17	0x00000055	[ 93] _PeiUsbGetInterfaceDescriptor
+0x00001A6C	0x000000A5	[ 93] _PeiUsbPortReset
+0x00001B11	0x000000E9	[ 94] _PeimInitializeUsb
+0x00001BFA	0x00000437	[ 94] _PeiUsbEnumeration
+0x00002031	0x000003FB	[ 94] _PeiHubEnumeration
+0x0000242C	0x000001E6	[ 94] _PeiConfigureUsbDevice
+0x00002612	0x000002A7	[ 94] _ResetRootPort
+0x000028B9	0x00000225	[ 94] _PeiUsbGetAllConfiguration
+0x00002ADE	0x00000099	[ 94] _GetExpectedDescriptor
+0x00002B77	0x0000006F	[ 95] _ProcessLibraryConstructorList
+0x00002BE6	0x0000000A	[ 95] _ProcessModuleEntryPointList
+0x00002BF0	0x00000017	[  1] literal string: Buffer != ((void *) 0)
+0x00002C07	0x00000012	[  2] literal string: ((BOOLEAN)(0==1))
+0x00002C19	0x0000003C	[  7] literal string: /Users/g5/Dev/SctWorkspace/MdePkg/Library/BaseLib/SetJump.c
+0x00002C55	0x0000001B	[  7] literal string: JumpBuffer != ((void *) 0)
+0x00002C70	0x00000023	[  7] literal string: ((UINTN)JumpBuffer & (8 - 1)) == 0
+0x00002C93	0x0000000B	[  8] literal string: Count < 64
+0x00002C9E	0x0000003E	[ 15] literal string: /Users/g5/Dev/SctWorkspace/MdePkg/Library/BaseLib/LShiftU64.c
+0x00002CDC	0x00000021	[ 67] literal string: \nASSERT_EFI_ERROR (Status = %r)\n
+0x00002CFD	0x00000014	[ 67] literal string: !EFI_ERROR (Status)
+0x00002D11	0x00000049	[ 77] literal string: /Users/g5/Dev/SctWorkspace/MdePkg/Library/BaseMemoryLib/ZeroMemWrapper.c
+0x00002D5A	0x00000036	[ 77] literal string: Length <= (0xFFFFFFFFFFFFFFFFULL - (UINTN)Buffer + 1)
+0x00002D90	0x00000043	[ 78] literal string: (Length - 1) <= (0xFFFFFFFFFFFFFFFFULL - (UINTN)DestinationBuffer)
+0x00002DD3	0x0000003E	[ 78] literal string: (Length - 1) <= (0xFFFFFFFFFFFFFFFFULL - (UINTN)SourceBuffer)
+0x00002E11	0x00000049	[ 83] literal string: /Users/g5/Dev/SctWorkspace/MdePkg/Library/BaseMemoryLib/CopyMemWrapper.c
+0x00002E5A	0x0000005F	[ 88] literal string: /Users/g5/Dev/SctWorkspace/MdePkg/Library/PeiServicesTablePointerLib/PeiServicesTablePointer.c
+0x00002EB9	0x0000001D	[ 88] literal string: gPeiServices != ((void *) 0)
+0x00002ED6	0x00000052	[ 89] literal string: /Users/g5/Dev/SctWorkspace/MdePkg/Library/BaseTimerLibNullTemplate/TimerLibNull.c
+0x00002F28	0x0000004A	[ 90] literal string: /Users/g5/Dev/SctWorkspace/MdePkg/Library/PeimEntryPoint/PeimEntryPoint.c
+0x00002F72	0x0000002F	[ 90] literal string: (*PeiServices)->Hdr.Revision >= _gPeimRevision
+0x00002FA1	0x00000046	[ 91] literal string: /Users/g5/Dev/SctWorkspace/MdeModulePkg/Bus/Usb/UsbBusPei/PeiUsbLib.c
+0x00002FE7	0x00000019	[ 91] literal string: UsbIoPpi != ((void *) 0)
+0x00003000	0x00000027	[ 92] literal string: PeiDoHubConfig: Set Hub Depth as 0x%x\n
+0x00003027	0x00000040	[ 92] literal string: PeiDoHubConfig: PeiHubSetPortFeature EfiUsbPortPower failed %x\n
+0x00003067	0x00000033	[ 92] literal string: PeiDoHubConfig: HubDescriptor.PwrOn2PwrGood: 0x%x\n
+0x0000309A	0x00000038	[ 92] literal string: PeiResetHubPort: reset not finished in time on port %d\n
+0x000030D2	0x00000046	[ 93] literal string: /Users/g5/Dev/SctWorkspace/MdeModulePkg/Bus/Usb/UsbBusPei/UsbIoPeim.c
+0x00003118	0x00000015	[ 93] literal string: CR has Bad Signature
+0x0000312D	0x0000001B	[ 93] literal string: PeiUsbControlTransfer: %r\n
+0x00003148	0x00000018	[ 93] literal string: PeiUsbBulkTransfer: %r\n
+0x00003160	0x00000023	[ 93] literal string: EndpointDescriptor != ((void *) 0)
+0x00003183	0x00000014	[ 93] literal string: EndpointIndex <= 15
+0x00003197	0x00000029	[ 94] literal string: PeiHubEnumeration: DownStreamPortNo: %x\n
+0x000031C0	0x0000003A	[ 94] literal string: USB Status --- Port: %x ConnectChange[%04x] Status[%04x]\n
+0x000031FA	0x00000012	[ 94] literal string: Device Speed =%d\n
+0x0000320C	0x00000032	[ 94] literal string: PeiHubEnumeration: PeiConfigureUsbDevice Success\n
+0x0000323E	0x00000044	[ 94] literal string: /Users/g5/Dev/SctWorkspace/MdeModulePkg/Bus/Usb/UsbBusPei/UsbPeim.c
+0x00003282	0x00000026	[ 94] literal string: PeiUsbEnumeration: NumOfRootPort: %x\n
+0x000032A8	0x00000032	[ 94] literal string: PeiUsbEnumeration: PeiConfigureUsbDevice Success\n
+0x000032DA	0x00000031	[ 94] literal string: PeiUsbGet Device Descriptor the %d time Success\n
+0x0000330B	0x00000029	[ 94] literal string: PeiUsbGet Device Descriptor fail: %x %r\n
+0x00003334	0x00000023	[ 94] literal string: PeiUsbSetDeviceAddress Failed: %r\n
+0x00003357	0x00000022	[ 94] literal string: PeiUsbGetDescriptor First Failed\n
+0x00003379	0x0000002A	[ 94] literal string: PeiUsbGet Config Descriptor First Failed\n
+0x000033A3	0x00000028	[ 94] literal string: PeiUsbGet Config Descriptor all Failed\n
+0x000033CB	0x00000014	[ 94] literal string: NumOfEndpoint <= 16
+0x000033DF	0x0000002E	[ 94] literal string: SetRootHubPortFeature EfiUsbPortReset Failed\n
+0x0000340D	0x00000030	[ 94] literal string: ClearRootHubPortFeature EfiUsbPortReset Failed\n
+0x0000343D	0x00000036	[ 94] literal string: ResetRootPort: reset not finished in time on port %d\n
+0x00003473	0x00000077	[ 95] literal string: /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdeModulePkg/Bus/Usb/UsbBusPei/UsbBusPei/DEBUG/AutoGen.c
+0x000034EC	0x00000004	[ 95] __gPcd_FixedAtBuild_PcdUsbTransferTimeoutValue
+0x000034F0	0x00000004	[ 95] __gPeimRevision
+0x00003500	0x00000002	[ 36] _m16Size
+0x00003502	0x00000002	[ 36] _mThunk16Attr
+0x00003504	0x00000002	[ 36] _m16Gdt
+0x00003506	0x00000002	[ 36] _m16GdtrBase
+0x00003508	0x00000002	[ 36] _mTransition
+0x00003510	0x00000028	[ 94] _mUsbIoPpi
+0x00003538	0x00000018	[ 94] _mUsbIoPpiList
+0x00003550	0x00000010	[ 95] _gPeiUsbIoPpiGuid
+0x00003560	0x00000010	[ 95] _gPeiUsbHostControllerPpiGuid
+0x00003570	0x00000010	[ 95] _gPeiUsb2HostControllerPpiGuid
+0x00003580	0x00000008	[ 88] _gPeiServices

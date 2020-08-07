@@ -1,0 +1,7 @@
+-I/Users/g5/Dev/SctWorkspace/MdeModulePkg/Universal/Disk/RamDiskDxe
+-I/Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdeModulePkg/Universal/Disk/RamDiskDxe/RamDiskDxe/DEBUG
+-I/Users/g5/Dev/SctWorkspace/MdePkg
+-I/Users/g5/Dev/SctWorkspace/MdePkg/Include
+-I/Users/g5/Dev/SctWorkspace/MdePkg/Include/X64
+-I/Users/g5/Dev/SctWorkspace/MdeModulePkg
+-I/Users/g5/Dev/SctWorkspace/MdeModulePkg/Include

@@ -1,0 +1,1361 @@
+# Path: /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdeModulePkg/Core/Dxe/DxeMain/DEBUG/DxeCore.dll
+# Arch: x86_64
+# Object files:
+[  0] linker synthesized
+[  1] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BasePcdLibNull/BasePcdLibNull/OUTPUT/BasePcdLibNull.lib(PcdLib.obj)
+[  2] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseDebugLibNull/BaseDebugLibNull/OUTPUT/BaseDebugLibNull.lib(DebugLib.obj)
+[  3] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CheckSum.obj)
+[  4] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwitchStack.obj)
+[  5] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwapBytes64.obj)
+[  6] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwapBytes32.obj)
+[  7] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwapBytes16.obj)
+[  8] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(LongJump.obj)
+[  9] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SetJump.obj)
+[ 10] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(RShiftU64.obj)
+[ 11] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(RRotU64.obj)
+[ 12] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(RRotU32.obj)
+[ 13] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(MultU64x64.obj)
+[ 14] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(MultU64x32.obj)
+[ 15] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(MultS64x64.obj)
+[ 16] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(ModU64x32.obj)
+[ 17] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(LShiftU64.obj)
+[ 18] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(LRotU64.obj)
+[ 19] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(LRotU32.obj)
+[ 20] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(LowBitSet64.obj)
+[ 21] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(LowBitSet32.obj)
+[ 22] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(HighBitSet64.obj)
+[ 23] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(HighBitSet32.obj)
+[ 24] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(GetPowerOfTwo64.obj)
+[ 25] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(GetPowerOfTwo32.obj)
+[ 26] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(DivU64x64Remainder.obj)
+[ 27] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(DivU64x32Remainder.obj)
+[ 28] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(DivU64x32.obj)
+[ 29] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(DivS64x64Remainder.obj)
+[ 30] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(ARShiftU64.obj)
+[ 31] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(BitField.obj)
+[ 32] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuDeadLoop.obj)
+[ 33] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Cpu.obj)
+[ 34] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(LinkedList.obj)
+[ 35] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SafeString.obj)
+[ 36] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(String.obj)
+[ 37] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(FilePaths.obj)
+[ 38] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Thunk16.obj)
+[ 39] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(WriteTr.obj)
+[ 40] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Non-existing.obj)
+[ 41] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Math64.obj)
+[ 42] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Unaligned.obj)
+[ 43] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(X86WriteIdtr.obj)
+[ 44] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(X86WriteGdtr.obj)
+[ 45] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(X86Thunk.obj)
+[ 46] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(X86ReadIdtr.obj)
+[ 47] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(X86ReadGdtr.obj)
+[ 48] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(X86Msr.obj)
+[ 49] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(X86GetInterruptState.obj)
+[ 50] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(X86FxSave.obj)
+[ 51] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(X86FxRestore.obj)
+[ 52] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(X86EnablePaging64.obj)
+[ 53] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(X86EnablePaging32.obj)
+[ 54] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(X86DisablePaging64.obj)
+[ 55] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(X86DisablePaging32.obj)
+[ 56] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(X86RdRand.obj)
+[ 57] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(GccInline.obj)
+[ 58] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwitchStack.obj)
+[ 59] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SetJump.obj)
+[ 60] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(LongJump.obj)
+[ 61] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(EnableDisableInterrupts.obj)
+[ 62] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(DisablePaging64.obj)
+[ 63] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuId.obj)
+[ 64] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuIdEx.obj)
+[ 65] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(EnableCache.obj)
+[ 66] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(DisableCache.obj)
+[ 67] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(RdRand.obj)
+[ 68] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(ChkStkGcc.obj)
+[ 69] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(SetMem.obj)
+[ 70] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(ScanMem64Wrapper.obj)
+[ 71] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(ScanMem32Wrapper.obj)
+[ 72] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(ScanMem16Wrapper.obj)
+[ 73] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(ScanMem8Wrapper.obj)
+[ 74] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(ZeroMemWrapper.obj)
+[ 75] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(CompareMemWrapper.obj)
+[ 76] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(SetMem64Wrapper.obj)
+[ 77] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(SetMem32Wrapper.obj)
+[ 78] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(SetMem16Wrapper.obj)
+[ 79] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(SetMemWrapper.obj)
+[ 80] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(CopyMemWrapper.obj)
+[ 81] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(IsZeroBufferWrapper.obj)
+[ 82] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(MemLibGeneric.obj)
+[ 83] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(MemLibGuid.obj)
+[ 84] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(CopyMem.obj)
+[ 85] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BasePrintLib/BasePrintLib/OUTPUT/BasePrintLib.lib(PrintLibInternal.obj)
+[ 86] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BasePrintLib/BasePrintLib/OUTPUT/BasePrintLib.lib(PrintLib.obj)
+[ 87] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdeModulePkg/Library/DxeCoreMemoryAllocationLib/DxeCoreMemoryAllocationLib/OUTPUT/DxeCoreMemoryAllocationLib.lib(MemoryAllocationLib.obj)
+[ 88] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdeModulePkg/Library/DxeCoreMemoryAllocationLib/DxeCoreMemoryAllocationLib/OUTPUT/DxeCoreMemoryAllocationLib.lib(DxeCoreMemoryProfileLibNull.obj)
+[ 89] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/UefiRuntimeServicesTableLib/UefiRuntimeServicesTableLib/OUTPUT/UefiRuntimeServicesTableLib.lib(UefiRuntimeServicesTableLib.obj)
+[ 90] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/UefiDevicePathLib/UefiDevicePathLib/OUTPUT/UefiDevicePathLib.lib(DevicePathUtilities.obj)
+[ 91] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/UefiDevicePathLib/UefiDevicePathLib/OUTPUT/UefiDevicePathLib.lib(DevicePathToText.obj)
+[ 92] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/UefiDevicePathLib/UefiDevicePathLib/OUTPUT/UefiDevicePathLib.lib(DevicePathFromText.obj)
+[ 93] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/UefiDevicePathLib/UefiDevicePathLib/OUTPUT/UefiDevicePathLib.lib(UefiDevicePathLib.obj)
+[ 94] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/UefiBootServicesTableLib/UefiBootServicesTableLib/OUTPUT/UefiBootServicesTableLib.lib(UefiBootServicesTableLib.obj)
+[ 95] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/DxeCoreEntryPoint/DxeCoreEntryPoint/OUTPUT/DxeCoreEntryPoint.lib(DxeCoreEntryPoint.obj)
+[ 96] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BasePeCoffExtraActionLibNull/BasePeCoffExtraActionLibNull/OUTPUT/PeCoffExtraActionLibNull.lib(PeCoffExtraActionLib.obj)
+[ 97] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/UefiLib/UefiLib/OUTPUT/UefiLib.lib(UefiLibPrint.obj)
+[ 98] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/UefiLib/UefiLib/OUTPUT/UefiLib.lib(UefiNotTiano.obj)
+[ 99] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/UefiLib/UefiLib/OUTPUT/UefiLib.lib(UefiDriverModel.obj)
+[100] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/UefiLib/UefiLib/OUTPUT/UefiLib.lib(Console.obj)
+[101] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/UefiLib/UefiLib/OUTPUT/UefiLib.lib(UefiLib.obj)
+[102] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/DxeExtractGuidedSectionLib/DxeExtractGuidedSectionLib/OUTPUT/DxeExtractGuidedSectionLib.lib(DxeExtractGuidedSectionLib.obj)
+[103] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseCacheMaintenanceLib/BaseCacheMaintenanceLib/OUTPUT/BaseCacheMaintenanceLib.lib(X86Cache.obj)
+[104] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseUefiDecompressLib/BaseUefiDecompressLib/OUTPUT/BaseUefiDecompressLib.lib(BaseUefiDecompressLib.obj)
+[105] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BasePerformanceLibNull/BasePerformanceLibNull/OUTPUT/BasePerformanceLibNull.lib(PerformanceLib.obj)
+[106] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/DxeCoreHobLib/DxeCoreHobLib/OUTPUT/DxeCoreHobLib.lib(HobLib.obj)
+[107] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BasePeCoffLib/BasePeCoffLib/OUTPUT/BasePeCoffLib.lib(BasePeCoff.obj)
+[108] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BasePeCoffLib/BasePeCoffLib/OUTPUT/BasePeCoffLib.lib(PeCoffLoaderEx.obj)
+[109] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BasePeCoffGetEntryPointLib/BasePeCoffGetEntryPointLib/OUTPUT/BasePeCoffGetEntryPointLib.lib(PeCoffGetEntryPoint.obj)
+[110] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseReportStatusCodeLibNull/BaseReportStatusCodeLibNull/OUTPUT/BaseReportStatusCodeLibNull.lib(BaseReportStatusCodeLib.obj)
+[111] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseTimerLibNullTemplate/BaseTimerLibNullTemplate/OUTPUT/BaseTimerLibNullTemplate.lib(TimerLibNull.obj)
+[112] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/DxeServicesLib/DxeServicesLib/OUTPUT/DxeServicesLib.lib(DxeServicesLib.obj)
+[113] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdeModulePkg/Library/DebugAgentLibNull/DebugAgentLibNull/OUTPUT/DebugAgentLibNull.lib(DebugAgentLibNull.obj)
+[114] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdeModulePkg/Library/CpuExceptionHandlerLibNull/CpuExceptionHandlerLibNull/OUTPUT/CpuExceptionHandlerLibNull.lib(CpuExceptionHandlerLibNull.obj)
+[115] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdeModulePkg/Library/DxeCrc32GuidedSectionExtractLib/DxeCrc32GuidedSectionExtractLib/OUTPUT/DxeCrc32GuidedSectionExtractLib.lib(DxeCrc32GuidedSectionExtractLib.obj)
+[116] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdeModulePkg/Core/Dxe/DxeMain/OUTPUT/DxeCore.lib(CoreSectionExtraction.obj)
+[117] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdeModulePkg/Core/Dxe/DxeMain/OUTPUT/DxeCore.lib(Image.obj)
+[118] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdeModulePkg/Core/Dxe/DxeMain/OUTPUT/DxeCore.lib(DebugImageInfo.obj)
+[119] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdeModulePkg/Core/Dxe/DxeMain/OUTPUT/DxeCore.lib(Stall.obj)
+[120] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdeModulePkg/Core/Dxe/DxeMain/OUTPUT/DxeCore.lib(SetWatchdogTimer.obj)
+[121] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdeModulePkg/Core/Dxe/DxeMain/OUTPUT/DxeCore.lib(InstallConfigurationTable.obj)
+[122] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdeModulePkg/Core/Dxe/DxeMain/OUTPUT/DxeCore.lib(PropertiesTable.obj)
+[123] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdeModulePkg/Core/Dxe/DxeMain/OUTPUT/DxeCore.lib(MemoryAttributesTable.obj)
+[124] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdeModulePkg/Core/Dxe/DxeMain/OUTPUT/DxeCore.lib(MemoryProtection.obj)
+[125] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdeModulePkg/Core/Dxe/DxeMain/OUTPUT/DxeCore.lib(Library.obj)
+[126] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdeModulePkg/Core/Dxe/DxeMain/OUTPUT/DxeCore.lib(DriverSupport.obj)
+[127] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdeModulePkg/Core/Dxe/DxeMain/OUTPUT/DxeCore.lib(Notify.obj)
+[128] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdeModulePkg/Core/Dxe/DxeMain/OUTPUT/DxeCore.lib(Locate.obj)
+[129] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdeModulePkg/Core/Dxe/DxeMain/OUTPUT/DxeCore.lib(Handle.obj)
+[130] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdeModulePkg/Core/Dxe/DxeMain/OUTPUT/DxeCore.lib(Gcd.obj)
+[131] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdeModulePkg/Core/Dxe/DxeMain/OUTPUT/DxeCore.lib(Pool.obj)
+[132] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdeModulePkg/Core/Dxe/DxeMain/OUTPUT/DxeCore.lib(Page.obj)
+[133] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdeModulePkg/Core/Dxe/DxeMain/OUTPUT/DxeCore.lib(MemData.obj)
+[134] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdeModulePkg/Core/Dxe/DxeMain/OUTPUT/DxeCore.lib(MemoryProfileRecord.obj)
+[135] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdeModulePkg/Core/Dxe/DxeMain/OUTPUT/DxeCore.lib(HeapGuard.obj)
+[136] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdeModulePkg/Core/Dxe/DxeMain/OUTPUT/DxeCore.lib(FwVolBlock.obj)
+[137] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdeModulePkg/Core/Dxe/DxeMain/OUTPUT/DxeCore.lib(FwVolWrite.obj)
+[138] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdeModulePkg/Core/Dxe/DxeMain/OUTPUT/DxeCore.lib(FwVolRead.obj)
+[139] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdeModulePkg/Core/Dxe/DxeMain/OUTPUT/DxeCore.lib(FwVolAttrib.obj)
+[140] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdeModulePkg/Core/Dxe/DxeMain/OUTPUT/DxeCore.lib(Ffs.obj)
+[141] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdeModulePkg/Core/Dxe/DxeMain/OUTPUT/DxeCore.lib(FwVol.obj)
+[142] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdeModulePkg/Core/Dxe/DxeMain/OUTPUT/DxeCore.lib(Tpl.obj)
+[143] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdeModulePkg/Core/Dxe/DxeMain/OUTPUT/DxeCore.lib(Timer.obj)
+[144] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdeModulePkg/Core/Dxe/DxeMain/OUTPUT/DxeCore.lib(Event.obj)
+[145] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdeModulePkg/Core/Dxe/DxeMain/OUTPUT/DxeCore.lib(Dependency.obj)
+[146] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdeModulePkg/Core/Dxe/DxeMain/OUTPUT/DxeCore.lib(Dispatcher.obj)
+[147] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdeModulePkg/Core/Dxe/DxeMain/OUTPUT/DxeCore.lib(DxeProtocolNotify.obj)
+[148] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdeModulePkg/Core/Dxe/DxeMain/OUTPUT/DxeCore.lib(DxeMain.obj)
+[149] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdeModulePkg/Core/Dxe/DxeMain/OUTPUT/DxeCore.lib(AutoGen.obj)
+# Sections:
+# Address	Size    	Segment	Section
+0x00000240	0x0001CD3B	__TEXT	__text
+0x0001CF7B	0x00004937	__TEXT	__cstring
+0x000218C0	0x000000A5	__TEXT	__const
+0x00021966	0x00000048	__TEXT	__ustring
+0x000219C0	0x000000E0	__DATA	__const
+0x00021AA0	0x000017D0	__DATA	__data
+0x00023270	0x00001328	__DATA	__common
+0x00024598	0x00000010	__DATA	__bss
+# Symbols:
+# Address	Size    	File  Name
+0x00000240	0x00000000	[  0] ___dso_handle
+0x00000240	0x00000006	[  2] _DebugPrint
+0x00000246	0x00000006	[  2] _DebugAssert
+0x0000024C	0x00000009	[  2] _DebugClearMemory
+0x00000255	0x00000008	[  2] _DebugAssertEnabled
+0x0000025D	0x00000008	[  2] _DebugPrintEnabled
+0x00000265	0x00000008	[  2] _DebugCodeEnabled
+0x0000026D	0x00000008	[  2] _DebugClearMemoryEnabled
+0x00000275	0x00000008	[  2] _DebugPrintLevelEnabled
+0x0000027D	0x00000084	[  3] _CalculateSum8
+0x00000301	0x00000015	[  3] _CalculateCheckSum8
+0x00000316	0x000000CD	[  3] _CalculateSum16
+0x000003E3	0x0000004D	[  8] _LongJump
+0x00000430	0x00000066	[  9] _InternalAssertJumpBuffer
+0x00000496	0x00000049	[ 10] _RShiftU64
+0x000004DF	0x0000000A	[ 14] _MultU64x32
+0x000004E9	0x00000049	[ 17] _LShiftU64
+0x00000532	0x00000031	[ 22] _HighBitSet64
+0x00000563	0x00000023	[ 23] _HighBitSet32
+0x00000586	0x0000004D	[ 27] _DivU64x32Remainder
+0x000005D3	0x0000001A	[ 32] _CpuDeadLoop
+0x000005ED	0x000000BB	[ 34] _InternalBaseLibIsListValid
+0x000006A8	0x0000009D	[ 34] _IsNodeInList
+0x00000745	0x00000043	[ 34] _InitializeListHead
+0x00000788	0x00000085	[ 34] _InsertHeadList
+0x0000080D	0x00000086	[ 34] _InsertTailList
+0x00000893	0x00000043	[ 34] _GetFirstNode
+0x000008D6	0x00000074	[ 34] _GetNextNode
+0x0000094A	0x00000046	[ 34] _IsListEmpty
+0x00000990	0x00000077	[ 34] _IsNull
+0x00000A07	0x0000008B	[ 34] _IsNodeAtEnd
+0x00000A92	0x000000CC	[ 34] _SwapListEntries
+0x00000B5E	0x00000055	[ 34] _RemoveEntryList
+0x00000BB3	0x00000094	[ 36] _AsciiStrLen
+0x00000C47	0x00000016	[ 36] _AsciiStrSize
+0x00000C60	0x00000000	[ 38] SavedGdt
+0x00000C60	0x0000000A	[ 38] _m16Start
+0x00000C6A	0x00000008	[ 38] _BackFromUserCode
+0x00000C72	0x00000014	[ 38] _BackFromUserCode.Base
+0x00000C86	0x0000000D	[ 38] _BackFromUserCode.ThunkAttrEnd
+0x00000C93	0x0000000B	[ 38] _BackFromUserCode.1
+0x00000C9E	0x00000036	[ 38] _BackFromUserCode.2
+0x00000CD4	0x0000001C	[ 38] _BackFromUserCode.SavedCr4End
+0x00000CF0	0x0000000B	[ 38] _BackFromUserCode.SavedCr0End
+0x00000CFB	0x0000000B	[ 38] _BackFromUserCode.X64JmpEnd
+0x00000D06	0x00000002	[ 38] _BackFromUserCode.SavedSpEnd
+0x00000D08	0x00000006	[ 38] _EntryPoint
+0x00000D0E	0x00000002	[ 38] _16Gdtr
+0x00000D10	0x00000008	[ 38] _16GdtrBase
+0x00000D18	0x00000006	[ 38] _16Idtr
+0x00000D1E	0x00000028	[ 38] _ToUserCode
+0x00000D46	0x0000000F	[ 38] _ToUserCode.Base
+0x00000D55	0x0000001B	[ 38] _ToUserCode.RealMode
+0x00000D70	0x00000008	[ 38] _NullSeg
+0x00000D78	0x00000008	[ 38] _16Code
+0x00000D80	0x00000008	[ 38] _16Data
+0x00000D88	0x00000008	[ 38] _32Data
+0x00000D90	0x000000B4	[ 38] _InternalAsmThunk16
+0x00000E44	0x00000020	[ 38] _InternalAsmThunk16.RetFromRealMode
+0x00000E64	0x00000006	[ 39] _AsmWriteTr
+0x00000E6A	0x0000000E	[ 41] _InternalMathLShiftU64
+0x00000E78	0x0000000E	[ 41] _InternalMathRShiftU64
+0x00000E86	0x0000000C	[ 41] _InternalMathMultU64x32
+0x00000E92	0x00000023	[ 41] _InternalMathDivRemU64x32
+0x00000EB5	0x0000003C	[ 42] _ReadUnaligned16
+0x00000EF1	0x00000042	[ 42] _WriteUnaligned16
+0x00000F33	0x0000003B	[ 42] _ReadUnaligned32
+0x00000F6E	0x0000003C	[ 42] _ReadUnaligned64
+0x00000FAA	0x00000044	[ 42] _WriteUnaligned64
+0x00000FEE	0x0000000F	[ 58] _InternalSwitchStack
+0x00000FFD	0x0000008F	[ 59] _SetJump
+0x0000108C	0x0000007C	[ 60] _InternalLongJump
+0x00001108	0x00000003	[ 61] _EnableDisableInterrupts
+0x0000110B	0x0000003A	[ 62] _InternalX86DisablePaging64
+0x00001145	0x00000027	[ 62] _InternalX86DisablePaging64.0
+0x0000116C	0x00000000	[ 62] mTransitionEnd
+0x0000116C	0x0000000F	[ 63] _AsmCpuid
+0x0000117B	0x00000005	[ 63] _AsmCpuid.0
+0x00001180	0x00000007	[ 63] _AsmCpuid.1
+0x00001187	0x00000009	[ 63] _AsmCpuid.2
+0x00001190	0x00000003	[ 63] _AsmCpuid.3
+0x00001193	0x00000015	[ 64] _AsmCpuidEx
+0x000011A8	0x00000007	[ 64] _AsmCpuidEx.0
+0x000011AF	0x00000007	[ 64] _AsmCpuidEx.1
+0x000011B6	0x00000009	[ 64] _AsmCpuidEx.2
+0x000011BF	0x00000003	[ 64] _AsmCpuidEx.3
+0x000011C2	0x00000013	[ 65] _AsmEnableCache
+0x000011D5	0x00000013	[ 66] _AsmDisableCache
+0x000011E8	0x00000009	[ 67] _InternalX86RdRand16
+0x000011F1	0x00000009	[ 67] rn16_ok
+0x000011FA	0x00000009	[ 67] _InternalX86RdRand32
+0x00001203	0x00000008	[ 67] rn32_ok
+0x0000120B	0x0000000A	[ 67] _InternalX86RdRand64
+0x00001215	0x00000009	[ 67] rn64_ok
+0x0000121E	0x000000EE	[ 69] _InternalMemSetMem
+0x0000130C	0x00000084	[ 74] _ZeroMem
+0x00001390	0x000000F3	[ 75] _CompareMem
+0x00001483	0x000000E6	[ 76] _SetMem64
+0x00001569	0x000000E5	[ 78] _SetMem16
+0x0000164E	0x0000006B	[ 79] _SetMem
+0x000016B9	0x000000A4	[ 80] _CopyMem
+0x0000175D	0x00000019	[ 82] _InternalMemSetMem16
+0x00001776	0x00000018	[ 82] _InternalMemSetMem64
+0x0000178E	0x0000000D	[ 82] _InternalMemZeroMem
+0x0000179B	0x0000002F	[ 82] _InternalMemCompareMem
+0x000017CA	0x00000048	[ 83] _CopyGuid
+0x00001812	0x00000055	[ 83] _CompareGuid
+0x00001867	0x000001E2	[ 84] _InternalMemCopyMem
+0x00001A49	0x000001E0	[ 87] _InternalAllocateAlignedPages
+0x00001C29	0x0000005C	[ 87] _AllocateAlignedPages
+0x00001C85	0x000000A4	[ 87] _FreeAlignedPages
+0x00001D29	0x00000067	[ 87] _AllocatePool
+0x00001D90	0x00000067	[ 87] _AllocateRuntimePool
+0x00001DF7	0x0000003D	[ 87] _InternalAllocateZeroPool
+0x00001E34	0x00000052	[ 87] _AllocateZeroPool
+0x00001E86	0x00000052	[ 87] _AllocateRuntimeZeroPool
+0x00001ED8	0x000000A0	[ 87] _InternalAllocateCopyPool
+0x00001F78	0x00000058	[ 87] _AllocateCopyPool
+0x00001FD0	0x00000058	[ 87] _AllocateRuntimeCopyPool
+0x00002028	0x00000056	[ 87] _InternalReallocatePool
+0x0000207E	0x0000006F	[ 87] _FreePool
+0x000020ED	0x0000005B	[ 87] _ReallocatePool
+0x00002148	0x00000010	[ 88] _MemoryProfileLibRecord
+0x00002158	0x00000048	[ 89] _UefiRuntimeServicesTableLibConstructor
+0x000021A0	0x000000DA	[ 90] _IsDevicePathValid
+0x0000227A	0x00000056	[ 90] _IsDevicePathEnd
+0x000022D0	0x00000048	[ 90] _DevicePathNodeLength
+0x00002318	0x00000044	[ 90] _NextDevicePathNode
+0x0000235C	0x0000003B	[ 90] _DevicePathType
+0x00002397	0x0000003C	[ 90] _DevicePathSubType
+0x000023D3	0x00000046	[ 90] _IsDevicePathEndType
+0x00002419	0x00000056	[ 90] _IsDevicePathEndInstance
+0x0000246F	0x00000079	[ 90] _SetDevicePathNodeLength
+0x000024E8	0x0000004D	[ 90] _SetDevicePathEndNode
+0x00002535	0x00000070	[ 90] _UefiDevicePathLibGetDevicePathSize
+0x000025A5	0x0000002C	[ 90] _UefiDevicePathLibDuplicateDevicePath
+0x000025D1	0x000000D4	[ 90] _UefiDevicePathLibAppendDevicePath
+0x000026A5	0x0000003B	[ 90] _DevicePathFromHandle
+0x000026E0	0x0000000A	[ 93] _GetDevicePathSize
+0x000026EA	0x0000000A	[ 93] _DuplicateDevicePath
+0x000026F4	0x0000000A	[ 93] _AppendDevicePath
+0x000026FE	0x000000B5	[ 94] _UefiBootServicesTableLibConstructor
+0x000027B3	0x0000003F	[ 95] __ModuleEntryPoint
+0x000027F2	0x0000003F	[ 96] _PeCoffLoaderRelocateImageExtraAction
+0x00002831	0x0000003F	[ 96] _PeCoffLoaderUnloadImageExtraAction
+0x00002870	0x00000060	[ 98] _EfiGetNameGuidFromFwVolDevicePathNode
+0x000028D0	0x00000084	[ 98] _EfiInitializeFwVolDevicepathNode
+0x00002954	0x00000008	[101] _UefiLibConstructor
+0x0000295C	0x000000C6	[101] _EfiGetSystemConfigurationTable
+0x00002A22	0x00000190	[101] _EfiCreateProtocolNotifyEvent
+0x00002BB2	0x00000006	[101] _EfiEventEmptyFunction
+0x00002BB8	0x000000DD	[102] _ReallocateExtractHandlerTable
+0x00002C95	0x0000000A	[102] _DxeExtractGuidedSectionLibConstructor
+0x00002C9F	0x00000049	[102] _ExtractGuidedSectionGetGuidList
+0x00002CE8	0x0000016D	[102] _ExtractGuidedSectionRegisterHandlers
+0x00002E55	0x00000150	[102] _ExtractGuidedSectionGetInfo
+0x00002FA5	0x0000012A	[102] _ExtractGuidedSectionDecode
+0x000030CF	0x0000004F	[103] _InvalidateInstructionCacheRange
+0x0000311E	0x0000008F	[104] _FillBuf
+0x000031AD	0x000002E6	[104] _MakeTable
+0x00003493	0x00000099	[104] _DecodeP
+0x0000352C	0x000001E7	[104] _ReadPTLen
+0x00003713	0x000001C0	[104] _ReadCLen
+0x000038D3	0x000000EB	[104] _DecodeC
+0x000039BE	0x0000009E	[104] _Decode
+0x00003A5C	0x000000D2	[104] _UefiDecompressGetInfo
+0x00003B2E	0x000000FC	[104] _UefiDecompress
+0x00003C2A	0x00000008	[105] _StartPerformanceMeasurement
+0x00003C32	0x00000008	[105] _EndPerformanceMeasurement
+0x00003C3A	0x0000000E	[105] _PerformanceMeasurementEnabled
+0x00003C48	0x00000044	[106] _GetHobList
+0x00003C8C	0x0000005F	[106] _GetNextHob
+0x00003CEB	0x00000020	[106] _GetFirstHob
+0x00003D0B	0x00000053	[106] _GetNextGuidHob
+0x00003D5E	0x00000022	[106] _GetFirstGuidHob
+0x00003D80	0x0000052B	[107] _PeCoffLoaderGetPeHeader
+0x000042AB	0x000003E3	[107] _PeCoffLoaderGetImageInfo
+0x00004690	0x000003A8	[107] _PeCoffLoaderRelocateImage
+0x00004A38	0x000006F2	[107] _PeCoffLoaderLoadImage
+0x0000512C	0x000000A9	[107] _PeCoffLoaderImageReadFromMemory
+0x000051D5	0x00000015	[107] _PeCoffLoaderUnloadImage
+0x000051EA	0x00000010	[108] _PeCoffLoaderRelocateImageEx
+0x000051FA	0x0000003A	[108] _PeCoffLoaderImageFormatSupported
+0x00005234	0x000000B8	[109] _PeCoffLoaderGetEntryPoint
+0x000052EC	0x00000070	[109] _PeCoffLoaderGetMachineType
+0x0000535C	0x00000161	[109] _PeCoffLoaderGetPdbPointer
+0x000054BD	0x00000074	[109] _PeCoffGetSizeOfHeaders
+0x00005531	0x00000008	[110] _ReportStatusCode
+0x00005539	0x00000066	[110] _ReportStatusCodeWithExtendedData
+0x0000559F	0x00000008	[110] _ReportProgressCodeEnabled
+0x000055A7	0x00000008	[110] _ReportErrorCodeEnabled
+0x000055AF	0x00000008	[110] _ReportDebugCodeEnabled
+0x000055B7	0x00000031	[111] _GetPerformanceCounter
+0x000055E8	0x0000051D	[112] _GetFileBufferByFilePath
+0x00005B05	0x00000012	[113] _InitializeDebugAgent
+0x00005B17	0x00000008	[113] _SaveAndSetDebugTimerInterrupt
+0x00005B1F	0x00000008	[114] _InitializeCpuExceptionHandlersEx
+0x00005B27	0x000000A0	[115] _Crc32GuidedSectionGetInfo
+0x00005BC7	0x00000142	[115] _Crc32GuidedSectionHandler
+0x00005D09	0x0000001F	[115] _DxeCrc32GuidedSectionExtractLibConstructor
+0x00005D28	0x00000160	[116] _CustomGuidedSectionExtract
+0x00005E88	0x000000D4	[116] _InitializeSectionExtraction
+0x00005F5C	0x00000072	[116] _IsValidSectionStream
+0x00005FCE	0x000000E5	[116] _OpenSectionStreamEx
+0x000060B3	0x0000004E	[116] _OpenSectionStream
+0x00006101	0x00000053	[116] _ChildIsType
+0x00006154	0x0000006A	[116] _VerifyGuidedSectionGuid
+0x000061BE	0x00000183	[116] _NotifyGuidedExtraction
+0x00006341	0x0000007F	[116] _CreateGuidedExtractionRpnEvent
+0x000063C0	0x000003EB	[116] _CreateChildNode
+0x000067AB	0x000002D4	[116] _FindChildNode
+0x00006A7F	0x0000012E	[116] _FindStreamNode
+0x00006BAD	0x000001CD	[116] _GetSection
+0x00006D7A	0x0000006F	[116] _FreeChildNode
+0x00006DE9	0x000000EA	[116] _CloseSectionStream
+0x00006ED3	0x000000D5	[117] _CoreLoadImageEx
+0x00006FA8	0x0000000D	[117] _CoreUnloadImageEx
+0x00006FB5	0x000001D4	[117] _CoreInitializeImageServices
+0x00007189	0x000000B2	[117] _CoreReadImageFile
+0x0000723B	0x0000015B	[117] _CheckAndMarkFixLoadingMemoryUsageBitMap
+0x00007396	0x0000014D	[117] _GetPeCoffImageFixLoadingAssignedAddress
+0x000074E3	0x000006AD	[117] _CoreLoadPeImage
+0x00007B90	0x0000008F	[117] _CoreLoadedImageInfo
+0x00007C1F	0x00000281	[117] _CoreUnloadAndCloseImage
+0x00007EA0	0x000005EA	[117] _CoreLoadImageCommon
+0x0000848A	0x000000CB	[117] _CoreLoadImage
+0x00008555	0x0000043B	[117] _CoreStartImage
+0x00008990	0x00000134	[117] _CoreExit
+0x00008AC4	0x00000063	[117] _CoreUnloadImage
+0x00008B27	0x000002A7	[118] _CoreInitializeDebugImageInfoTable
+0x00008DCE	0x00000062	[118] _CoreUpdateDebugTableCrc32
+0x00008E30	0x00000114	[118] _CoreNewDebugImageInfoEntry
+0x00008F44	0x0000006B	[118] _CoreRemoveDebugImageInfoEntry
+0x00008FAF	0x00000063	[119] _CoreInternalWaitForTick
+0x00009012	0x0000009B	[119] _CoreStall
+0x000090AD	0x00000054	[120] _CoreSetWatchdogTimer
+0x00009101	0x000001DF	[121] _CoreInstallConfigurationTable
+0x000092E0	0x000000B6	[122] _MergeMemoryMap
+0x00009396	0x00000780	[122] _CoreGetMemoryMapWithSeparatedImageSection
+0x00009B16	0x000000D7	[122] _SortImageRecordCodeSection
+0x00009BED	0x000000EC	[122] _IsImageRecordCodeSectionValid
+0x00009CD9	0x00000689	[122] _InsertImageRecord
+0x0000A362	0x00000078	[122] _SetPropertiesTableSectionAlignment
+0x0000A3DA	0x00000195	[122] _RemoveImageRecord
+0x0000A56F	0x00000250	[122] _InstallPropertiesTable
+0x0000A7BF	0x0000009A	[122] _CoreInitializePropertiesTable
+0x0000A859	0x00000090	[122] _GetImageRecordByAddress
+0x0000A8E9	0x00000513	[123] _InstallMemoryAttributesTable
+0x0000ADFC	0x0000001E	[123] _InstallMemoryAttributesTableOnMemoryAllocation
+0x0000AE1A	0x0000001A	[123] _InstallMemoryAttributesTableOnReadyToBoot
+0x0000AE34	0x00000092	[123] _CoreInitializeMemoryAttributesTable
+0x0000AEC6	0x00000084	[124] _GetImageType
+0x0000AF4A	0x0000005F	[124] _GetUefiImageProtectionPolicy
+0x0000AFA9	0x00000103	[124] _SetUefiImageMemoryAttributes
+0x0000B0AC	0x00000130	[124] _SetUefiImageProtectionAttributes
+0x0000B1DC	0x00000073	[124] _IsMemoryProtectionSectionAligned
+0x0000B24F	0x0000009C	[124] _FreeImageRecord
+0x0000B2EB	0x00000622	[124] _ProtectUefiImage
+0x0000B90D	0x000000A9	[124] _UnprotectUefiImage
+0x0000B9B6	0x00000824	[124] _MemoryProtectionCpuArchProtocolNotify
+0x0000C1DA	0x00000051	[124] _MemoryProtectionExitBootServicesCallback
+0x0000C22B	0x000001A9	[124] _DisableNullDetectionAtTheEndOfDxe
+0x0000C3D4	0x000002C6	[124] _CoreInitializeMemoryProtection
+0x0000C69A	0x00000158	[124] _ApplyMemoryProtectionPolicy
+0x0000C7F2	0x0000008A	[125] _CoreAcquireLockOrFail
+0x0000C87C	0x00000073	[125] _CoreAcquireLock
+0x0000C8EF	0x0000006F	[125] _CoreReleaseLock
+0x0000C95E	0x00000377	[126] _CoreConnectController
+0x0000CCD5	0x00000496	[126] _CoreConnectSingleController
+0x0000D16B	0x0000013A	[126] _AddSortedDriverBindingProtocol
+0x0000D2A5	0x00000582	[126] _CoreDisconnectController
+0x0000D827	0x0000009F	[127] _CoreNotifyProtocolEntry
+0x0000D8C6	0x000000E0	[127] _CoreRemoveInterfaceFromProtocol
+0x0000D9A6	0x000000AD	[127] _CoreRegisterProtocolNotify
+0x0000DA53	0x000000F1	[127] _CoreReinstallProtocolInterface
+0x0000DB44	0x0000019B	[128] _CoreLocateHandle
+0x0000DCDF	0x0000006E	[128] _CoreGetNextLocateAllHandles
+0x0000DD4D	0x000000B4	[128] _CoreGetNextLocateByRegisterNotify
+0x0000DE01	0x00000098	[128] _CoreGetNextLocateByProtocol
+0x0000DE99	0x00000209	[128] _CoreLocateDevicePath
+0x0000E0A2	0x000000CB	[128] _CoreLocateHandleBuffer
+0x0000E16D	0x000000E2	[128] _CoreLocateProtocol
+0x0000E24F	0x00000011	[129] _CoreAcquireProtocolLock
+0x0000E260	0x00000011	[129] _CoreReleaseProtocolLock
+0x0000E271	0x00000092	[129] _CoreValidateHandle
+0x0000E303	0x00000114	[129] _CoreFindProtocolEntry
+0x0000E417	0x000000CD	[129] _CoreFindProtocolInterface
+0x0000E4E4	0x0000010B	[129] _CoreUnregisterProtocolNotifyEvent
+0x0000E5EF	0x00000022	[129] _CoreUnregisterProtocolNotify
+0x0000E611	0x00000018	[129] _CoreInstallProtocolInterface
+0x0000E629	0x000002AD	[129] _CoreInstallProtocolInterfaceNotify
+0x0000E8D6	0x0000002B	[129] _CoreHandleProtocol
+0x0000E901	0x00000170	[129] _CoreInstallMultipleProtocolInterfaces
+0x0000EA71	0x00000101	[129] _CoreUninstallProtocolInterface
+0x0000EB72	0x0000015C	[129] _CoreDisconnectControllersUsingProtocolInterface
+0x0000ECCE	0x000000C1	[129] _CoreUninstallMultipleProtocolInterfaces
+0x0000ED8F	0x00000095	[129] _CoreGetProtocolInterface
+0x0000EE24	0x00000382	[129] _CoreOpenProtocol
+0x0000F1A6	0x0000011C	[129] _CoreCloseProtocol
+0x0000F2C2	0x00000173	[129] _CoreOpenProtocolInformation
+0x0000F435	0x00000118	[129] _CoreProtocolsPerHandle
+0x0000F54D	0x0000000D	[129] _CoreGetHandleDatabaseKey
+0x0000F55A	0x00000164	[129] _CoreConnectHandlesByKey
+0x0000F6C0	0x000001DE	[130] _CoreDumpGcdMemorySpaceMap
+0x0000F89E	0x00000140	[130] _CoreGetMemorySpaceMap
+0x0000F9DE	0x000001C4	[130] _CoreDumpGcdIoSpaceMap
+0x0000FBA2	0x0000012C	[130] _CoreGetIoSpaceMap
+0x0000FCCE	0x00000111	[130] _CoreValidateResourceDescriptorHobAttributes
+0x0000FDDF	0x00000011	[130] _CoreAcquireGcdMemoryLock
+0x0000FDF0	0x00000011	[130] _CoreReleaseGcdMemoryLock
+0x0000FE02	0x00000075	[130] _CoreAllocateGcdMapEntry
+0x0000FE77	0x00000119	[130] _CoreInsertGcdMapEntry
+0x0000FF90	0x000000FF	[130] _CoreMergeGcdMapEntry
+0x0001008F	0x00000063	[130] _CoreCleanupGcdMapEntry
+0x000100F2	0x00000102	[130] _CoreSearchGcdMapEntry
+0x000101F7	0x0000005D	[130] _ConverToCpuArchAttributes
+0x00010254	0x00000564	[130] _CoreConvertSpace
+0x000107BB	0x000006C3	[130] _CoreAllocateSpace
+0x00010E7E	0x000000F2	[130] _CoreInternalAddMemorySpace
+0x00010F70	0x000001CC	[130] _CoreAllocateMemorySpace
+0x0001113C	0x00000157	[130] _CoreAddMemorySpace
+0x00011293	0x00000069	[130] _CoreFreeMemorySpace
+0x000112FC	0x00000069	[130] _CoreRemoveMemorySpace
+0x00011368	0x00000121	[130] _CoreGetMemorySpaceDescriptor
+0x00011489	0x0000009B	[130] _CoreSetMemorySpaceAttributes
+0x00011524	0x000000CA	[130] _CoreSetMemorySpaceCapabilities
+0x000115EE	0x000000BE	[130] _CoreAddIoSpace
+0x000116AC	0x000001CC	[130] _CoreAllocateIoSpace
+0x00011878	0x00000069	[130] _CoreFreeIoSpace
+0x000118E1	0x00000069	[130] _CoreRemoveIoSpace
+0x0001194D	0x00000111	[130] _CoreGetIoSpaceDescriptor
+0x00011A5E	0x00000047	[130] _CoreConvertResourceDescriptorHobAttributesToCapabilities
+0x00011AA5	0x00000044	[130] _CalculateTotalMemoryBinSizeNeeded
+0x00011AE9	0x00000450	[130] _CoreInitializeMemoryServices
+0x00011F39	0x00000627	[130] _CoreInitializeGcdServices
+0x00012560	0x0000006B	[131] _CoreInitializePool
+0x000125CB	0x00000113	[131] _LookupPoolHead
+0x000126DE	0x000003E2	[131] _CoreAllocatePoolI
+0x00012AC0	0x000000BE	[131] _CoreInternalAllocatePool
+0x00012B7E	0x0000005C	[131] _CoreAllocatePool
+0x00012BDA	0x0000007E	[131] _CoreAllocatePoolPagesI
+0x00012C58	0x00000052	[131] _CoreInternalFreePool
+0x00012CAA	0x0000046A	[131] _CoreFreePoolI
+0x00013114	0x00000054	[131] _CoreFreePool
+0x00013168	0x00000046	[131] _CoreFreePoolPagesI
+0x000131AE	0x00000011	[132] _CoreAcquireMemoryLock
+0x000131BF	0x00000011	[132] _CoreReleaseMemoryLock
+0x000131D0	0x00000045	[132] _RemoveMemoryMapEntry
+0x00013215	0x0000025D	[132] _CoreAddRange
+0x00013472	0x000000BA	[132] _AllocateMemoryMapEntry
+0x0001352C	0x000000A5	[132] _CoreAllocatePoolPages
+0x000135D1	0x000001AF	[132] _CoreFreeMemoryMapStack
+0x00013780	0x0000013A	[132] _PromoteMemoryResource
+0x000138BA	0x00000092	[132] _CoreLoadingFixedAddressHook
+0x0001394C	0x0000009C	[132] _CoreAllocatePages
+0x000139E8	0x00000070	[132] _CoreFreePages
+0x00013A58	0x00000273	[132] _CoreAddMemoryDescriptor
+0x00013CCB	0x0000061C	[132] _CoreConvertPagesEx
+0x000142E7	0x0000002A	[132] _CoreConvertPages
+0x00014311	0x00000052	[132] _CoreUpdateMemoryAttributes
+0x00014363	0x00000160	[132] _CoreFindFreePagesI
+0x000144C3	0x000000D9	[132] _FindFreePages
+0x0001459C	0x0000017E	[132] _CoreInternalAllocatePages
+0x0001471A	0x00000135	[132] _CoreInternalFreePages
+0x0001484F	0x00000072	[132] _MergeMemoryMapDescriptor
+0x000148C1	0x00000584	[132] _CoreGetMemoryMap
+0x00014E45	0x0000002A	[132] _CoreFreePoolPages
+0x00014E6F	0x00000162	[132] _CoreTerminateMemoryMap
+0x00014FD4	0x00000067	[134] _ProfileProtocolGetData
+0x0001503B	0x000000E1	[134] _ProfileProtocolRegisterImage
+0x0001511C	0x000000C4	[134] _ProfileProtocolUnregisterImage
+0x000151E0	0x0000002E	[134] _ProfileProtocolGetRecordingState
+0x0001520E	0x00000024	[134] _ProfileProtocolSetRecordingState
+0x00015232	0x00000035	[134] _ProfileProtocolRecord
+0x0001526A	0x000000A1	[134] _InternalPeCoffGetSubsystem
+0x0001530B	0x000000B8	[134] _InternalPeCoffGetEntryPoint
+0x000153C3	0x00000245	[134] _BuildDriverInfo
+0x00015608	0x000000B6	[134] _NeedRecordThisDriver
+0x000156BE	0x0000011B	[134] _RegisterDxeCore
+0x000157D9	0x000000A7	[134] _MemoryProfileInit
+0x00015880	0x0000008E	[134] _MemoryProfileInstallProtocol
+0x0001590E	0x00000040	[134] _GetFileNameFromFilePath
+0x0001594E	0x00000097	[134] _RegisterMemoryProfileImage
+0x000159E5	0x000000A1	[134] _GetMemoryProfileDriverInfoByFileNameAndAddress
+0x00015A86	0x00000085	[134] _GetMemoryProfileDriverInfoFromAddress
+0x00015B0B	0x00000161	[134] _UnregisterMemoryProfileImage
+0x00015C6F	0x00000205	[134] _CoreUpdateProfileAllocate
+0x00015E74	0x000000D1	[134] _GetMemoryProfileAllocInfoFromAddress
+0x00015F45	0x000002A7	[134] _CoreUpdateProfileFree
+0x000161EC	0x00000158	[134] _CoreUpdateProfile
+0x00016344	0x000000DF	[134] _MemoryProfileGetDataSize
+0x00016423	0x0000016F	[134] _MemoryProfileCopyData
+0x00016592	0x00000327	[135] _FindGuardedMemoryMap
+0x000168B9	0x00000120	[135] _SetGuardedMemoryBits
+0x000169D9	0x00000122	[135] _ClearGuardedMemoryBits
+0x00016AFB	0x0000018F	[135] _GetGuardedMemoryBits
+0x00016C8A	0x00000056	[135] _GetGuardMapBit
+0x00016CE0	0x00000037	[135] _IsGuardPage
+0x00016D17	0x0000001A	[135] _IsMemoryGuarded
+0x00016D31	0x000000B1	[135] _IsMemoryTypeToGuard
+0x00016DE2	0x0000000F	[135] _IsPoolTypeToGuard
+0x00016DF1	0x0000000D	[135] _IsPageTypeToGuard
+0x00016DFE	0x0000003C	[135] _IsHeapGuardEnabled
+0x00016E3A	0x000000D5	[135] _SetGuardForMemory
+0x00016F0F	0x00000122	[135] _UnsetGuardForMemory
+0x00017031	0x000000D5	[135] _AdjustMemoryS
+0x00017106	0x00000097	[135] _AdjustMemoryF
+0x0001719D	0x00000079	[135] _AdjustMemoryA
+0x00017216	0x00000030	[135] _AdjustPoolHeadA
+0x00017246	0x00000021	[135] _AdjustPoolHeadF
+0x00017267	0x00000075	[135] _CoreConvertPagesWithGuard
+0x000172DC	0x00000226	[135] _SetAllGuardPages
+0x00017502	0x00000376	[135] _DumpGuardedMemoryBitmap
+0x00017878	0x0000003F	[135] _HeapGuardCpuArchProtocolNotify
+0x000178B7	0x00000053	[136] _FwVolBlockGetAttributes
+0x0001790A	0x00000010	[136] _FwVolBlockSetAttributes
+0x0001791A	0x00000064	[136] _FwVolBlockGetPhysicalAddress
+0x0001797E	0x0000009B	[136] _FwVolBlockGetBlockSize
+0x00017A19	0x000000C7	[136] _FwVolBlockReadBlock
+0x00017AE0	0x00000010	[136] _FwVolBlockWriteBlock
+0x00017AF0	0x00000010	[136] _FwVolBlockEraseBlock
+0x00017B00	0x00000015	[136] _GetFvbAuthenticationStatus
+0x00017B15	0x0000024F	[136] _ProduceFVBProtocolOnBuffer
+0x00017D64	0x000000AE	[136] _FwVolBlockDriverInit
+0x00017E12	0x00000095	[136] _CoreProcessFirmwareVolume
+0x00017EA7	0x00000010	[137] _FvWriteFile
+0x00017EB7	0x00000171	[138] _FvGetNextFile
+0x00018028	0x0000022E	[138] _FvReadFile
+0x00018256	0x0000015E	[138] _FvReadFileSection
+0x000183B4	0x00000061	[139] _FvGetVolumeAttributes
+0x00018415	0x00000010	[139] _FvSetVolumeAttributes
+0x00018425	0x00000010	[139] _FvGetVolumeInfo
+0x00018435	0x00000010	[139] _FvSetVolumeInfo
+0x00018445	0x00000024	[140] _GetFileState
+0x00018469	0x00000035	[140] _IsBufferErased
+0x0001849E	0x0000001D	[140] _VerifyFvHeaderChecksum
+0x000184BB	0x00000030	[140] _VerifyHeaderChecksum
+0x000184EB	0x0000004B	[140] _IsValidFfsHeader
+0x00018536	0x00000082	[140] _IsValidFfsFile
+0x000185B8	0x0000014E	[141] _ReadFvbData
+0x00018706	0x000000FB	[141] _GetFwVolHeader
+0x00018801	0x0000007B	[141] _FreeFvDeviceResource
+0x0001887C	0x000004F0	[141] _FvCheck
+0x00018D6C	0x0000029C	[141] _NotifyFwVolBlock
+0x00019008	0x0000003E	[141] _FwVolDriverInit
+0x00019046	0x00000050	[142] _CoreSetInterruptState
+0x00019096	0x000000BC	[142] _CoreRaiseTpl
+0x00019152	0x00000112	[142] _CoreRestoreTpl
+0x00019264	0x000000D5	[143] _CoreInsertEventTimer
+0x00019339	0x0000012A	[143] _CoreCheckTimers
+0x00019463	0x00000098	[143] _CoreInitializeTimer
+0x000194FB	0x0000009C	[143] _CoreTimerTick
+0x00019597	0x0000010E	[143] _CoreSetTimer
+0x000196A5	0x00000069	[144] _CoreInitializeEventServices
+0x0001970E	0x0000002F	[144] _CoreCreateEventEx
+0x0001973D	0x0000014C	[144] _CoreDispatchEventNotifies
+0x00019889	0x0000008B	[144] _CoreNotifyEvent
+0x00019914	0x000000A4	[144] _CoreNotifySignalList
+0x000199B8	0x00000049	[144] _CoreCreateEvent
+0x00019A01	0x000001C3	[144] _CoreCreateEventInternal
+0x00019BC4	0x0000008D	[144] _CoreSignalEvent
+0x00019C51	0x000000AA	[144] _CoreCheckEvent
+0x00019CFB	0x0000007F	[144] _CoreWaitForEvent
+0x00019D7A	0x0000010A	[144] _CoreCloseEvent
+0x00019E84	0x000000A1	[145] _GrowDepexStack
+0x00019F27	0x00000055	[145] _CorePreProcessDepex
+0x00019F7C	0x000006DC	[145] _CoreIsSchedulable
+0x0001A658	0x00000078	[146] _CoreGetDepexSectionAndPreProccess
+0x0001A6D0	0x0000011C	[146] _CoreSchedule
+0x0001A7EC	0x000000E4	[146] _CoreTrust
+0x0001A8D0	0x000003EF	[146] _CoreDispatcher
+0x0001ACBF	0x0000021E	[146] _CoreProcessFvImageFile
+0x0001AEDD	0x000002E5	[146] _CoreInsertOnScheduledQueueWhileProcessingBeforeAndAfter
+0x0001B1C2	0x0000007D	[146] _FvHasBeenProcessed
+0x0001B23F	0x0000025F	[146] _FvIsBeingProcesssed
+0x0001B49E	0x0000005E	[146] _CoreFvToDevicePath
+0x0001B4FC	0x000000C6	[146] _CoreAddToDriverList
+0x0001B5C2	0x00000071	[146] _FvFoundInHobFv2
+0x0001B633	0x000000E2	[146] _GetFvUsedSize
+0x0001B715	0x0000047B	[146] _CoreFwVolEventProtocolNotify
+0x0001BB90	0x0000003C	[146] _CoreInitializeDispatcher
+0x0001BBCC	0x000000AA	[146] _CoreDisplayDiscoveredNotDispatched
+0x0001BC76	0x00000033	[147] _CoreAllEfiServicesAvailable
+0x0001BCA9	0x0000015E	[147] _GenericProtocolNotify
+0x0001BE07	0x00000116	[147] _CoreNotifyOnProtocolEntryTable
+0x0001BF1D	0x00000025	[147] _CoreNotifyOnProtocolInstallation
+0x0001BF42	0x000000B2	[147] _CoreDisplayMissingArchProtocols
+0x0001BFF4	0x00000104	[148] _CoreExitBootServices
+0x0001C0F8	0x00000010	[148] _CoreEfiNotAvailableYetArg1
+0x0001C108	0x00000010	[148] _CoreEfiNotAvailableYetArg3
+0x0001C118	0x00000010	[148] _CoreEfiNotAvailableYetArg2
+0x0001C128	0x00000010	[148] _CoreEfiNotAvailableYetArg4
+0x0001C138	0x00000010	[148] _CoreEfiNotAvailableYetArg5
+0x0001C148	0x00000035	[148] _DxeMainUefiDecompressGetInfo
+0x0001C17D	0x0000007A	[148] _DxeMainUefiDecompress
+0x0001C1F7	0x00000B4B	[148] _DxeMain
+0x0001CD42	0x00000038	[148] _CalculateEfiHdrCrc
+0x0001CD7A	0x000001F7	[149] _ProcessLibraryConstructorList
+0x0001CF71	0x0000000A	[149] _ProcessModuleEntryPointList
+0x0001CF7B	0x00000012	[  1] literal string: ((BOOLEAN)(0==1))
+0x0001CF8D	0x00000017	[  1] literal string: Buffer != ((void *) 0)
+0x0001CFA4	0x0000003D	[  3] literal string: /Users/g5/Dev/SctWorkspace/MdePkg/Library/BaseLib/CheckSum.c
+0x0001CFE1	0x00000039	[  3] literal string: Length <= (0xFFFFFFFFFFFFFFFFULL - ((UINTN) Buffer) + 1)
+0x0001D01A	0x0000001C	[  3] literal string: ((UINTN) Buffer & 0x1) == 0
+0x0001D036	0x00000014	[  3] literal string: (Length & 0x1) == 0
+0x0001D04A	0x0000001B	[  4] literal string: EntryPoint != ((void *) 0)
+0x0001D065	0x0000003D	[  8] literal string: /Users/g5/Dev/SctWorkspace/MdePkg/Library/BaseLib/LongJump.c
+0x0001D0A2	0x0000000B	[  8] literal string: Value != 0
+0x0001D0AD	0x0000003C	[  9] literal string: /Users/g5/Dev/SctWorkspace/MdePkg/Library/BaseLib/SetJump.c
+0x0001D0E9	0x0000001B	[  9] literal string: JumpBuffer != ((void *) 0)
+0x0001D104	0x00000023	[  9] literal string: ((UINTN)JumpBuffer & (8 - 1)) == 0
+0x0001D127	0x0000003E	[ 10] literal string: /Users/g5/Dev/SctWorkspace/MdePkg/Library/BaseLib/RShiftU64.c
+0x0001D165	0x0000000B	[ 10] literal string: Count < 64
+0x0001D170	0x0000000D	[ 16] literal string: Divisor != 0
+0x0001D17D	0x0000003E	[ 17] literal string: /Users/g5/Dev/SctWorkspace/MdePkg/Library/BaseLib/LShiftU64.c
+0x0001D1BB	0x00000047	[ 27] literal string: /Users/g5/Dev/SctWorkspace/MdePkg/Library/BaseLib/DivU64x32Remainder.c
+0x0001D202	0x0000003F	[ 34] literal string: /Users/g5/Dev/SctWorkspace/MdePkg/Library/BaseLib/LinkedList.c
+0x0001D241	0x00000015	[ 34] literal string: List != ((void *) 0)
+0x0001D256	0x00000022	[ 34] literal string: List->ForwardLink != ((void *) 0)
+0x0001D278	0x0000001F	[ 34] literal string: List->BackLink != ((void *) 0)
+0x0001D297	0x00000028	[ 34] literal string: InternalBaseLibIsListValid (FirstEntry)
+0x0001D2BF	0x0000001C	[ 34] literal string: SecondEntry != ((void *) 0)
+0x0001D2DB	0x00000019	[ 34] literal string: ListHead != ((void *) 0)
+0x0001D2F4	0x00000038	[ 34] literal string: ((BOOLEAN)(0==1)) == IsNodeInList ((ListHead), (Entry))
+0x0001D32C	0x00000026	[ 34] literal string: InternalBaseLibIsListValid (ListHead)
+0x0001D352	0x00000022	[ 34] literal string: InternalBaseLibIsListValid (List)
+0x0001D374	0x00000033	[ 34] literal string: ((BOOLEAN)(1==1)) == IsNodeInList ((List), (Node))
+0x0001D3A7	0x00000040	[ 34] literal string: ((BOOLEAN)(1==1)) == IsNodeInList ((FirstEntry), (SecondEntry))
+0x0001D3E7	0x00000015	[ 34] literal string: !IsListEmpty (Entry)
+0x0001D3FC	0x0000003B	[ 36] literal string: /Users/g5/Dev/SctWorkspace/MdePkg/Library/BaseLib/String.c
+0x0001D437	0x00000017	[ 36] literal string: String != ((void *) 0)
+0x0001D44E	0x00000038	[ 36] literal string: Length < _gPcd_FixedAtBuild_PcdMaximumAsciiStringLength
+0x0001D486	0x0000003E	[ 42] literal string: /Users/g5/Dev/SctWorkspace/MdePkg/Library/BaseLib/Unaligned.c
+0x0001D4C4	0x00000038	[ 70] literal string: (Length - 1) <= (0xFFFFFFFFFFFFFFFFULL - (UINTN)Buffer)
+0x0001D4FC	0x00000025	[ 70] literal string: (Length & (sizeof (Value) - 1)) == 0
+0x0001D521	0x00000049	[ 74] literal string: /Users/g5/Dev/SctWorkspace/MdePkg/Library/BaseMemoryLib/ZeroMemWrapper.c
+0x0001D56A	0x00000036	[ 74] literal string: Length <= (0xFFFFFFFFFFFFFFFFULL - (UINTN)Buffer + 1)
+0x0001D5A0	0x0000004C	[ 75] literal string: /Users/g5/Dev/SctWorkspace/MdePkg/Library/BaseMemoryLib/CompareMemWrapper.c
+0x0001D5EC	0x00000022	[ 75] literal string: DestinationBuffer != ((void *) 0)
+0x0001D60E	0x0000001D	[ 75] literal string: SourceBuffer != ((void *) 0)
+0x0001D62B	0x00000043	[ 75] literal string: (Length - 1) <= (0xFFFFFFFFFFFFFFFFULL - (UINTN)DestinationBuffer)
+0x0001D66E	0x0000003E	[ 75] literal string: (Length - 1) <= (0xFFFFFFFFFFFFFFFFULL - (UINTN)SourceBuffer)
+0x0001D6AC	0x0000004A	[ 76] literal string: /Users/g5/Dev/SctWorkspace/MdePkg/Library/BaseMemoryLib/SetMem64Wrapper.c
+0x0001D6F6	0x0000002E	[ 76] literal string: (((UINTN)Buffer) & (sizeof (Value) - 1)) == 0
+0x0001D724	0x0000004A	[ 78] literal string: /Users/g5/Dev/SctWorkspace/MdePkg/Library/BaseMemoryLib/SetMem16Wrapper.c
+0x0001D76E	0x00000048	[ 79] literal string: /Users/g5/Dev/SctWorkspace/MdePkg/Library/BaseMemoryLib/SetMemWrapper.c
+0x0001D7B6	0x00000049	[ 80] literal string: /Users/g5/Dev/SctWorkspace/MdePkg/Library/BaseMemoryLib/CopyMemWrapper.c
+0x0001D7FF	0x00000061	[ 87] literal string: /Users/g5/Dev/SctWorkspace/MdeModulePkg/Library/DxeCoreMemoryAllocationLib/MemoryAllocationLib.c
+0x0001D860	0x0000000B	[ 87] literal string: Pages != 0
+0x0001D86B	0x00000021	[ 87] literal string: \nASSERT_EFI_ERROR (Status = %r)\n
+0x0001D88C	0x00000014	[ 87] literal string: !EFI_ERROR (Status)
+0x0001D8A0	0x00000023	[ 87] literal string: (Alignment & (Alignment - 1)) == 0
+0x0001D8C3	0x00000012	[ 87] literal string: RealPages > Pages
+0x0001D8D5	0x0000003F	[ 87] literal string: AllocationSize <= (0xFFFFFFFFFFFFFFFFULL - (UINTN) Buffer + 1)
+0x0001D914	0x00000064	[ 89] literal string: /Users/g5/Dev/SctWorkspace/MdePkg/Library/UefiRuntimeServicesTableLib/UefiRuntimeServicesTableLib.c
+0x0001D978	0x00000014	[ 89] literal string: gRT != ((void *) 0)
+0x0001D98C	0x00000052	[ 90] literal string: /Users/g5/Dev/SctWorkspace/MdePkg/Library/UefiDevicePathLib/DevicePathUtilities.c
+0x0001D9DE	0x0000001B	[ 90] literal string: DevicePath != ((void *) 0)
+0x0001D9F9	0x00000015	[ 90] literal string: Node != ((void *) 0)
+0x0001DA0E	0x00000047	[ 90] literal string: (Length >= sizeof (EFI_DEVICE_PATH_PROTOCOL)) && (Length < 0x00010000)
+0x0001DA55	0x0000005E	[ 94] literal string: /Users/g5/Dev/SctWorkspace/MdePkg/Library/UefiBootServicesTableLib/UefiBootServicesTableLib.c
+0x0001DAB3	0x0000001D	[ 94] literal string: gImageHandle != ((void *) 0)
+0x0001DAD0	0x00000014	[ 94] literal string: gST != ((void *) 0)
+0x0001DAE4	0x00000014	[ 94] literal string: gBS != ((void *) 0)
+0x0001DAF8	0x00000050	[ 95] literal string: /Users/g5/Dev/SctWorkspace/MdePkg/Library/DxeCoreEntryPoint/DxeCoreEntryPoint.c
+0x0001DB48	0x0000005E	[ 96] literal string: /Users/g5/Dev/SctWorkspace/MdePkg/Library/BasePeCoffExtraActionLibNull/PeCoffExtraActionLib.c
+0x0001DBA6	0x0000001D	[ 96] literal string: ImageContext != ((void *) 0)
+0x0001DBC3	0x00000041	[ 98] literal string: /Users/g5/Dev/SctWorkspace/MdePkg/Library/UefiLib/UefiNotTiano.c
+0x0001DC04	0x00000021	[ 98] literal string: FvDevicePathNode != ((void *) 0)
+0x0001DC25	0x00000019	[ 98] literal string: NameGuid != ((void *) 0)
+0x0001DC3E	0x0000003C	[101] literal string: /Users/g5/Dev/SctWorkspace/MdePkg/Library/UefiLib/UefiLib.c
+0x0001DC7A	0x0000001A	[101] literal string: TableGuid != ((void *) 0)
+0x0001DC94	0x00000016	[101] literal string: Table != ((void *) 0)
+0x0001DCAA	0x0000001D	[101] literal string: ProtocolGuid != ((void *) 0)
+0x0001DCC7	0x0000001F	[101] literal string: NotifyFunction != ((void *) 0)
+0x0001DCE6	0x0000001D	[101] literal string: Registration != ((void *) 0)
+0x0001DD03	0x00000015	[101] literal string: Lock != ((void *) 0)
+0x0001DD18	0x0000001E	[101] literal string: Lock->Lock == EfiLockReleased
+0x0001DD36	0x00000023	[101] literal string: Lock->Lock != EfiLockUninitialized
+0x0001DD59	0x0000001E	[101] literal string: Lock->Lock == EfiLockAcquired
+0x0001DD77	0x00000062	[102] literal string: /Users/g5/Dev/SctWorkspace/MdePkg/Library/DxeExtractGuidedSectionLib/DxeExtractGuidedSectionLib.c
+0x0001DDD9	0x00000028	[102] literal string: ExtractHandlerGuidTable != ((void *) 0)
+0x0001DE01	0x0000001C	[102] literal string: SectionGuid != ((void *) 0)
+0x0001DE1D	0x0000001F	[102] literal string: GetInfoHandler != ((void *) 0)
+0x0001DE3C	0x0000001E	[102] literal string: DecodeHandler != ((void *) 0)
+0x0001DE5A	0x0000001D	[102] literal string: InputSection != ((void *) 0)
+0x0001DE77	0x00000021	[102] literal string: OutputBufferSize != ((void *) 0)
+0x0001DE98	0x00000022	[102] literal string: ScratchBufferSize != ((void *) 0)
+0x0001DEBA	0x00000021	[102] literal string: SectionAttribute != ((void *) 0)
+0x0001DEDB	0x0000001D	[102] literal string: OutputBuffer != ((void *) 0)
+0x0001DEF8	0x00000025	[102] literal string: AuthenticationStatus != ((void *) 0)
+0x0001DF1D	0x0000004D	[103] literal string: /Users/g5/Dev/SctWorkspace/MdePkg/Library/BaseCacheMaintenanceLib/X86Cache.c
+0x0001DF6A	0x00000039	[103] literal string: (Length - 1) <= (0xFFFFFFFFFFFFFFFFULL - (UINTN)Address)
+0x0001DFA3	0x00000058	[104] literal string: /Users/g5/Dev/SctWorkspace/MdePkg/Library/BaseUefiDecompressLib/BaseUefiDecompressLib.c
+0x0001DFFB	0x00000010	[104] literal string: TableBits <= 16
+0x0001E00B	0x00000016	[104] literal string: nn <= ((1U << 5) - 1)
+0x0001E021	0x00000017	[104] literal string: Source != ((void *) 0)
+0x0001E038	0x00000020	[104] literal string: DestinationSize != ((void *) 0)
+0x0001E058	0x0000001C	[104] literal string: ScratchSize != ((void *) 0)
+0x0001E074	0x0000001C	[104] literal string: Destination != ((void *) 0)
+0x0001E090	0x00000018	[104] literal string: Scratch != ((void *) 0)
+0x0001E0A8	0x00000041	[106] literal string: /Users/g5/Dev/SctWorkspace/MdePkg/Library/DxeCoreHobLib/HobLib.c
+0x0001E0E9	0x00000019	[106] literal string: gHobList != ((void *) 0)
+0x0001E102	0x00000019	[106] literal string: HobStart != ((void *) 0)
+0x0001E11B	0x00000045	[107] literal string: /Users/g5/Dev/SctWorkspace/MdePkg/Library/BasePeCoffLib/BasePeCoff.c
+0x0001E160	0x00000051	[107] literal string: (UINTN)FixupData <= (UINTN)ImageContext->FixupData + ImageContext->FixupDataSize
+0x0001E1B1	0x00000019	[107] literal string: ReadSize != ((void *) 0)
+0x0001E1CA	0x0000001B	[107] literal string: FileHandle != ((void *) 0)
+0x0001E1E5	0x0000005B	[109] literal string: /Users/g5/Dev/SctWorkspace/MdePkg/Library/BasePeCoffGetEntryPointLib/PeCoffGetEntryPoint.c
+0x0001E240	0x00000019	[109] literal string: Pe32Data != ((void *) 0)
+0x0001E259	0x00000060	[110] literal string: /Users/g5/Dev/SctWorkspace/MdePkg/Library/BaseReportStatusCodeLibNull/BaseReportStatusCodeLib.c
+0x0001E2B9	0x0000001D	[110] literal string: ExtendedData != ((void *) 0)
+0x0001E2D6	0x00000016	[110] literal string: ExtendedDataSize != 0
+0x0001E2EC	0x00000052	[111] literal string: /Users/g5/Dev/SctWorkspace/MdePkg/Library/BaseTimerLibNullTemplate/TimerLibNull.c
+0x0001E33E	0x00000072	[115] literal string: /Users/g5/Dev/SctWorkspace/MdeModulePkg/Library/DxeCrc32GuidedSectionExtractLib/DxeCrc32GuidedSectionExtractLib.c
+0x0001E3B0	0x00000040	[115] literal string: ((EFI_GUID_DEFINED_SECTION2 *) InputSection)->Attributes & 0x02
+0x0001E3F0	0x0000003F	[115] literal string: ((EFI_GUID_DEFINED_SECTION *) InputSection)->Attributes & 0x02
+0x0001E42F	0x0000005B	[116] literal string: /Users/g5/Dev/SctWorkspace/MdeModulePkg/Core/Dxe/SectionExtraction/CoreSectionExtraction.c
+0x0001E48A	0x00000028	[116] literal string: GuidedHeader->CommonHeader.Type == 0x02
+0x0001E4B2	0x00000018	[116] literal string: Context != ((void *) 0)
+0x0001E4CA	0x0000001B	[116] literal string: Decompress != ((void *) 0)
+0x0001E4E5	0x00000015	[116] literal string: CR has Bad Signature
+0x0001E4FA	0x00000021	[116] literal string: CurrentChildNode != ((void *) 0)
+0x0001E51B	0x0000002B	[116] literal string: (((INTN)(RETURN_STATUS)(ErrorStatus)) < 0)
+0x0001E546	0x0000004E	[116] literal string: (((EFI_COMMON_SECTION_HEADER2 *) (UINTN) Section)->ExtendedSize) > 0x00FFFFFF
+0x0001E594	0x0000003C	[116] literal string: It is a FFS3 formatted section in a non-FFS3 formatted FV.\n
+0x0001E5D0	0x0000004E	[116] literal string: ChildNode->Signature == ((('S') | ('X' << 8)) | ((('C') | ('S' << 8)) << 16))
+0x0001E61E	0x00000029	[116] literal string: GetInfo from guided section Failed - %r\n
+0x0001E647	0x00000024	[116] literal string: Extract guided section Failed - %r\n
+0x0001E66B	0x0000003F	[117] literal string: /Users/g5/Dev/SctWorkspace/MdeModulePkg/Core/Dxe/Image/Image.c
+0x0001E6AA	0x0000001F	[117] literal string: DxeCoreHob.Raw != ((void *) 0)
+0x0001E6C9	0x0000004A	[117] literal string: FHand->Signature == ((('i') | ('m' << 8)) | ((('g') | ('f' << 8)) << 16))
+0x0001E713	0x00000051	[117] literal string: LOADING MODULE FIXED INFO: Loading module at fixed address 0x%11p. Status = %r \n
+0x0001E764	0x0000001F	[117] literal string: Image type %s can't be loaded 
+0x0001E783	0x00000014	[117] literal string: on %s UEFI system.\n
+0x0001E797	0x0000006D	[117] literal string: LOADING MODULE FIXED ERROR: Loading module at fixed address failed since specified memory is not available.\n
+0x0001E804	0x00000040	[117] literal string: CoreLoadPeImage: There is no EBC interpreter for an EBC image.\n
+0x0001E844	0x0000002C	[117] literal string: Loading driver at 0x%11p EntryPoint=0x%11p 
+0x0001E870	0x00000003	[117] literal string: %a
+0x0001E873	0x00000002	[117] literal string: \n
+0x0001E875	0x0000002C	[117] literal string: CoreLoadedImageInfo: Not an ImageHandle %p\n
+0x0001E8A1	0x00000014	[117] literal string: gEfiCurrentTpl < 16
+0x0001E8B5	0x00000030	[117] literal string: LoadImageEx: Parent handle not an image handle\n
+0x0001E8E5	0x0000001A	[117] literal string: gSecurity != ((void *) 0)
+0x0001E8FF	0x0000000B	[117] literal string: LoadImage:
+0x0001E90A	0x00000020	[117] literal string: Image type %s can't be started 
+0x0001E92A	0x0000000C	[117] literal string: StartImage:
+0x0001E936	0x00000027	[117] literal string: Error: Image at %11p start failed: %r\n
+0x0001E95D	0x0000001D	[117] literal string: Image->Tpl == gEfiCurrentTpl
+0x0001E97A	0x00000029	[117] literal string: StartImage: ExitDataSize %d, ExitData %p
+0x0001E9A3	0x00000007	[117] literal string:  (%hs)
+0x0001E9AA	0x00000023	[117] literal string: Exit: Image is not exitable image\n
+0x0001E9CD	0x000000BD	[118] literal string: Allocate memory for EFI_SYSTEM_TABLE_POINTER below PcdMaxEfiSystemTablePointerAddress failed.                           Retry to allocate memroy as close to the top of memory as feasible.\n
+0x0001EA8A	0x00000047	[118] literal string: /Users/g5/Dev/SctWorkspace/MdeModulePkg/Core/Dxe/Misc/DebugImageInfo.c
+0x0001EAD1	0x0000001C	[118] literal string: mDebugTable != ((void *) 0)
+0x0001EAED	0x00000019	[118] literal string: Index < mMaxTableEntries
+0x0001EB06	0x00000048	[122] literal string: /Users/g5/Dev/SctWorkspace/MdeModulePkg/Core/Dxe/Misc/PropertiesTable.c
+0x0001EB4E	0x0000001A	[122] literal string: MemoryMap != ((void *) 0)
+0x0001EB68	0x0000001F	[122] literal string: ImageCode SegmentCount - 0x%x\n
+0x0001EB87	0x0000001A	[122] literal string: InsertImageRecord - 0x%x\n
+0x0001EBA1	0x00000029	[122] literal string: InsertImageRecord - 0x%016lx - 0x%016lx\n
+0x0001EBCA	0x00000019	[122] literal string: ImageRecordCount - 0x%x\n
+0x0001EBE3	0x0000000E	[122] literal string:   Image - %a\n
+0x0001EBF1	0x00000024	[122] literal string: Hdr.Pe32->Signature invalid - 0x%x\n
+0x0001EC15	0x0000004C	[122] literal string: !!!!!!!!  InsertImageRecord - Section Alignment(0x%x) is not %dK  !!!!!!!!\n
+0x0001EC61	0x00000020	[122] literal string: !!!!!!!!  Image - %a  !!!!!!!!\n
+0x0001EC81	0x00000020	[122] literal string:   Section - '%c%c%c%c%c%c%c%c'\n
+0x0001ECA1	0x00000021	[122] literal string:   VirtualSize          - 0x%08x\n
+0x0001ECC2	0x00000021	[122] literal string:   VirtualAddress       - 0x%08x\n
+0x0001ECE3	0x00000021	[122] literal string:   SizeOfRawData        - 0x%08x\n
+0x0001ED04	0x00000021	[122] literal string:   PointerToRawData     - 0x%08x\n
+0x0001ED25	0x00000021	[122] literal string:   PointerToRelocations - 0x%08x\n
+0x0001ED46	0x00000021	[122] literal string:   PointerToLinenumbers - 0x%08x\n
+0x0001ED67	0x00000021	[122] literal string:   NumberOfRelocations  - 0x%08x\n
+0x0001ED88	0x00000021	[122] literal string:   NumberOfLinenumbers  - 0x%08x\n
+0x0001EDA9	0x00000021	[122] literal string:   Characteristics      - 0x%08x\n
+0x0001EDCA	0x00000020	[122] literal string: ImageCode: 0x%016lx - 0x%016lx\n
+0x0001EDEA	0x0000003F	[122] literal string: !!!!!!!!  InsertImageRecord - CodeSegmentCount is 0  !!!!!!!!\n
+0x0001EE29	0x00000026	[122] literal string: IsImageRecordCodeSectionValid - FAIL\n
+0x0001EE4F	0x0000001A	[122] literal string: RemoveImageRecord - 0x%x\n
+0x0001EE69	0x00000029	[122] literal string: RemoveImageRecord - 0x%016lx - 0x%016lx\n
+0x0001EE92	0x00000029	[122] literal string: !!!!!!!! ImageRecord not found !!!!!!!!\n
+0x0001EEBB	0x00000026	[122] literal string: MemoryProtectionAttribute - 0x%016lx\n
+0x0001EEE1	0x0000003E	[122] literal string: MemoryProtectionAttribute NON_EXECUTABLE_PE_DATA is not set, 
+0x0001EF1F	0x00000036	[122] literal string: because Runtime Driver Section Alignment is not %dK.\n
+0x0001EF55	0x0000001A	[122] literal string: Total Image Count - 0x%x\n
+0x0001EF6F	0x00000013	[122] literal string: Dump ImageRecord:\n
+0x0001EF82	0x00000019	[122] literal string: TotalNewRecordCount != 0
+0x0001EF9B	0x0000002C	[122] literal string: SetPropertiesTableSectionAlignment - Clear\n
+0x0001EFC7	0x00000022	[122] literal string:   Image[%d]: 0x%016lx - 0x%016lx\n
+0x0001EFE9	0x0000004E	[123] literal string: /Users/g5/Dev/SctWorkspace/MdeModulePkg/Core/Dxe/Misc/MemoryAttributesTable.c
+0x0001F037	0x00000039	[123] literal string: Status == ((RETURN_STATUS)(0x8000000000000000ULL | (5)))
+0x0001F070	0x00000026	[123] literal string: MemoryAttributesTable != ((void *) 0)
+0x0001F096	0x00000018	[123] literal string: MemoryAttributesTable:\n
+0x0001F0AE	0x00000021	[123] literal string:   Version              - 0x%08x\n
+0x0001F0CF	0x00000021	[123] literal string:   NumberOfEntries      - 0x%08x\n
+0x0001F0F0	0x00000021	[123] literal string:   DescriptorSize       - 0x%08x\n
+0x0001F111	0x0000000E	[123] literal string: Entry (0x%x)\n
+0x0001F11F	0x0000001C	[123] literal string:   Type              - 0x%x\n
+0x0001F13B	0x00000020	[123] literal string:   PhysicalStart     - 0x%016lx\n
+0x0001F15B	0x00000020	[123] literal string:   VirtualStart      - 0x%016lx\n
+0x0001F17B	0x00000020	[123] literal string:   NumberOfPages     - 0x%016lx\n
+0x0001F19B	0x00000020	[123] literal string:   Attribute         - 0x%016lx\n
+0x0001F1BB	0x00000049	[124] literal string: /Users/g5/Dev/SctWorkspace/MdeModulePkg/Core/Dxe/Misc/MemoryProtection.c
+0x0001F204	0x0000003F	[124] literal string: SetUefiImageMemoryAttributes - 0x%016lx - 0x%016lx (0x%016lx)\n
+0x0001F243	0x00000015	[124] literal string: gCpu != ((void *) 0)
+0x0001F258	0x00000037	[124] literal string: CurrentBase <= ImageRecordCodeSection->CodeSegmentBase
+0x0001F28F	0x00000018	[124] literal string: CurrentBase <= ImageEnd
+0x0001F2A7	0x0000001F	[124] literal string: ProtectUefiImageCommon - 0x%x\n
+0x0001F2C6	0x00000019	[124] literal string:   - 0x%016lx - 0x%016lx\n
+0x0001F2DF	0x00000053	[124] literal string: !!!!!!!!  ProtectUefiImageCommon - Section Alignment(0x%x) is incorrect  !!!!!!!!\n
+0x0001F332	0x00000044	[124] literal string: !!!!!!!!  ProtectUefiImageCommon - CodeSegmentCount is 0  !!!!!!!!\n
+0x0001F376	0x00000028	[124] literal string: MemoryProtectionCpuArchProtocolNotify:\n
+0x0001F39E	0x0000002D	[124] literal string: DisableNullDetectionAtTheEndOfDxe(): start\n
+0x0001F3CB	0x0000002B	[124] literal string: DisableNullDetectionAtTheEndOfDxe(): end\n
+0x0001F3F6	0x00000059	[124] literal string: (GetPermissionAttributeForMemoryType (EfiBootServicesCode) & 0x0000000000004000ULL) == 0
+0x0001F44F	0x0000005C	[124] literal string: (GetPermissionAttributeForMemoryType (EfiRuntimeServicesCode) & 0x0000000000004000ULL) == 0
+0x0001F4AB	0x00000053	[124] literal string: (GetPermissionAttributeForMemoryType (EfiLoaderCode) & 0x0000000000004000ULL) == 0
+0x0001F4FE	0x00000079	[124] literal string: GetPermissionAttributeForMemoryType (EfiBootServicesData) == GetPermissionAttributeForMemoryType (EfiConventionalMemory)
+0x0001F577	0x00000030	[124] literal string: %a: StackBase = 0x%016lx  StackSize = 0x%016lx\n
+0x0001F5A7	0x00000026	[124] literal string: InitializeDxeNxMemoryProtectionPolicy
+0x0001F5CD	0x00000019	[124] literal string: (StackBase & 0xFFF) == 0
+0x0001F5E6	0x0000000F	[124] literal string: StackBase != 0
+0x0001F5F5	0x0000003A	[124] literal string: %a: applying strict permissions to active memory regions\n
+0x0001F62F	0x00000022	[124] literal string: MemoryMapEntry->NumberOfPages > 0
+0x0001F651	0x0000003C	[124] literal string: %a: applying strict permissions to inactive memory regions\n
+0x0001F68D	0x00000044	[124] literal string: Untested GCD memory space region: - 0x%016lx - 0x%016lx (0x%016lx)\n
+0x0001F6D1	0x00000043	[125] literal string: /Users/g5/Dev/SctWorkspace/MdeModulePkg/Core/Dxe/Library/Library.c
+0x0001F714	0x00000046	[126] literal string: /Users/g5/Dev/SctWorkspace/MdeModulePkg/Core/Dxe/Hand/DriverSupport.c
+0x0001F75A	0x0000001F	[126] literal string: HandleFilePath != ((void *) 0)
+0x0001F779	0x0000001D	[126] literal string: TempFilePath != ((void *) 0)
+0x0001F796	0x0000000C	[126] literal string: DB:Support:
+0x0001F7A2	0x0000000A	[126] literal string: DB:Start:
+0x0001F7AC	0x0000003F	[127] literal string: /Users/g5/Dev/SctWorkspace/MdeModulePkg/Core/Dxe/Hand/Notify.c
+0x0001F7EB	0x00000022	[127] literal string: &gProtocolDatabaseLock not locked
+0x0001F80D	0x0000003F	[128] literal string: /Users/g5/Dev/SctWorkspace/MdeModulePkg/Core/Dxe/Hand/Locate.c
+0x0001F84C	0x0000001A	[128] literal string: SearchKey != ((void *) 0)
+0x0001F866	0x0000004F	[128] literal string: ProtNotify->Signature == ((('p') | ('r' << 8)) | ((('t') | ('n' << 8)) << 16))
+0x0001F8B5	0x0000000A	[128] literal string: Size >= 0
+0x0001F8BF	0x00000012	[128] literal string: Size != BestMatch
+0x0001F8D1	0x0000003F	[129] literal string: /Users/g5/Dev/SctWorkspace/MdeModulePkg/Core/Dxe/Hand/Handle.c
+0x0001F910	0x00000021	[129] literal string: InstallProtocolInterface: %g %p\n
+0x0001F931	0x0000003B	[129] literal string: InstallProtocolInterface: input handle at 0x%x is invalid\n
+0x0001F96C	0x00000048	[129] literal string: CoreFindProtocolInterface (Handle, Protocol, Interface) == ((void *) 0)
+0x0001F9B4	0x00000030	[129] literal string: InstallProtocolInterface: %g %p failed with %r\n
+0x0001F9E4	0x00000015	[129] literal string: Prot != ((void *) 0)
+0x0001F9F9	0x0000002A	[129] literal string: Count == ProtocolInterface->OpenListCount
+0x0001FA23	0x0000000A	[130] literal string: NonExist 
+0x0001FA2D	0x0000000A	[130] literal string: Reserved 
+0x0001FA37	0x0000000A	[130] literal string: SystemMem
+0x0001FA41	0x0000000A	[130] literal string: MMIO     
+0x0001FA4B	0x0000000A	[130] literal string: PersisMem
+0x0001FA55	0x0000000A	[130] literal string: MoreRelia
+0x0001FA5F	0x0000000A	[130] literal string: Unknown  
+0x0001FA69	0x00000009	[130] literal string: NonExist
+0x0001FA72	0x00000009	[130] literal string: Reserved
+0x0001FA7B	0x00000009	[130] literal string: I/O     
+0x0001FA84	0x00000009	[130] literal string: Unknown 
+0x0001FA8D	0x0000001A	[130] literal string: AnySearchBottomUp        
+0x0001FAA7	0x0000001A	[130] literal string: MaxAddressSearchBottomUp 
+0x0001FAC1	0x0000001A	[130] literal string: AtAddress                
+0x0001FADB	0x0000001A	[130] literal string: AnySearchTopDown         
+0x0001FAF5	0x0000001A	[130] literal string: MaxAddressSearchTopDown  
+0x0001FB0F	0x0000001A	[130] literal string: Unknown                  
+0x0001FB29	0x0000003B	[130] literal string: /Users/g5/Dev/SctWorkspace/MdeModulePkg/Core/Dxe/Gcd/Gcd.c
+0x0001FB64	0x0000002E	[130] literal string: Status == 0 && MemorySpaceMap != ((void *) 0)
+0x0001FB92	0x00000022	[130] literal string: GCD:Initial GCD Memory Space Map\n
+0x0001FBB4	0x00000050	[130] literal string: GCDMemType Range                             Capabilities     Attributes      \n
+0x0001FC04	0x00000050	[130] literal string: ========== ================================= ================ ================\n
+0x0001FC54	0x00000023	[130] literal string: %a  %016lx-%016lx %016lx %016lx%c\n
+0x0001FC77	0x0000002A	[130] literal string: Status == 0 && IoSpaceMap != ((void *) 0)
+0x0001FCA1	0x0000001F	[130] literal string: GCD:Initial GCD I/O Space Map\n
+0x0001FCC0	0x0000002E	[130] literal string: GCDIoType  Range                            \n
+0x0001FCEE	0x0000002E	[130] literal string: ========== =================================\n
+0x0001FD1C	0x00000016	[130] literal string: %a   %016lx-%016lx%c\n
+0x0001FD32	0x00000045	[130] literal string: ((Attributes & 0x00000080) == 0) || ((Attributes & 0x00100000) != 0)
+0x0001FD77	0x00000045	[130] literal string: ((Attributes & 0x00000100) == 0) || ((Attributes & 0x00200000) != 0)
+0x0001FDBC	0x00000045	[130] literal string: ((Attributes & 0x00000200) == 0) || ((Attributes & 0x00400000) != 0)
+0x0001FE01	0x00000045	[130] literal string: ((Attributes & 0x00040000) == 0) || ((Attributes & 0x00080000) != 0)
+0x0001FE46	0x00000045	[130] literal string: ((Attributes & 0x00800000) == 0) || ((Attributes & 0x01000000) != 0)
+0x0001FE8B	0x0000000C	[130] literal string: Length != 0
+0x0001FE97	0x0000001C	[130] literal string: BottomEntry->Signature == 0
+0x0001FEB3	0x00000019	[130] literal string: TopEntry->Signature == 0
+0x0001FECC	0x0000000F	[130] literal string:   Status = %r\n
+0x0001FEDB	0x00000035	[130] literal string: StartLink != ((void *) 0) && EndLink != ((void *) 0)
+0x0001FF10	0x00000038	[130] literal string: TopEntry != ((void *) 0) && BottomEntry != ((void *) 0)
+0x0001FF48	0x0000000E	[130] literal string:   Status = %r
+0x0001FF56	0x00000019	[130] literal string:   (BaseAddress = %016lx)
+0x0001FF6F	0x0000002F	[130] literal string: GCD:AddMemorySpace(Base=%016lx,Length=%016lx)\n
+0x0001FF9E	0x00000018	[130] literal string:   GcdMemoryType   = %a\n
+0x0001FFB6	0x0000001C	[130] literal string:   Capabilities    = %016lx\n
+0x0001FFD2	0x00000034	[130] literal string: GCD:AllocateMemorySpace(Base=%016lx,Length=%016lx)\n
+0x00020006	0x00000034	[130] literal string: GCD:AllocateMemorySpace(Base=<NULL>,Length=%016lx)\n
+0x0002003A	0x00000018	[130] literal string:   GcdAllocateType = %a\n
+0x00020052	0x0000001C	[130] literal string:   Alignment       = %016lx\n
+0x0002006E	0x00000018	[130] literal string:   ImageHandle     = %p\n
+0x00020086	0x00000018	[130] literal string:   DeviceHandle    = %p\n
+0x0002009E	0x00000030	[130] literal string: GCD:FreeMemorySpace(Base=%016lx,Length=%016lx)\n
+0x000200CE	0x00000032	[130] literal string: GCD:RemoveMemorySpace(Base=%016lx,Length=%016lx)\n
+0x00020100	0x00000039	[130] literal string: GCD:SetMemorySpaceAttributes(Base=%016lx,Length=%016lx)\n
+0x00020139	0x00000018	[130] literal string:   Attributes  = %016lx\n
+0x00020151	0x0000003F	[130] literal string: GCD:CoreSetMemorySpaceCapabilities(Base=%016lx,Length=%016lx)\n
+0x00020190	0x0000001A	[130] literal string:   Capabilities  = %016lx\n
+0x000201AA	0x0000002B	[130] literal string: GCD:AddIoSpace(Base=%016lx,Length=%016lx)\n
+0x000201D5	0x00000015	[130] literal string:   GcdIoType    = %a\n
+0x000201EA	0x00000030	[130] literal string: GCD:AllocateIoSpace(Base=%016lx,Length=%016lx)\n
+0x0002021A	0x00000030	[130] literal string: GCD:AllocateIoSpace(Base=<NULL>,Length=%016lx)\n
+0x0002024A	0x00000018	[130] literal string:   GcdIoType       = %a\n
+0x00020262	0x0000002C	[130] literal string: GCD:FreeIoSpace(Base=%016lx,Length=%016lx)\n
+0x0002028E	0x0000002E	[130] literal string: GCD:RemoveIoSpace(Base=%016lx,Length=%016lx)\n
+0x000202BC	0x0000003A	[130] literal string: ((*(EFI_HOB_GENERIC_HEADER **)&(Hob))->HobType) == 0x0001
+0x000202F6	0x00000006	[130] literal string: Found
+0x000202FC	0x0000001F	[130] literal string: CoreInitializeMemoryServices:\n
+0x0002031B	0x00000046	[130] literal string:   BaseAddress - 0x%lx Length - 0x%lx MinimalMemorySizeNeeded - 0x%lx\n
+0x00020361	0x00000022	[130] literal string: Length >= MinimalMemorySizeNeeded
+0x00020383	0x00000017	[130] literal string: CpuHob != ((void *) 0)
+0x0002039A	0x00000016	[130] literal string: Entry != ((void *) 0)
+0x000203B0	0x00000079	[130] literal string: (Descriptor.GcdMemoryType == EfiGcdMemoryTypeSystemMemory) || (Descriptor.GcdMemoryType == EfiGcdMemoryTypeMoreReliable)
+0x00020429	0x0000000C	[130] literal string: Status == 0
+0x00020435	0x0000001B	[130] literal string: NewHobList != ((void *) 0)
+0x00020450	0x0000003C	[131] literal string: /Users/g5/Dev/SctWorkspace/MdeModulePkg/Core/Dxe/Mem/Pool.c
+0x0002048C	0x0000001C	[131] literal string: &mPoolMemoryLock not locked
+0x000204A8	0x00000043	[131] literal string: Index < ((sizeof (mPoolSizeTable) / sizeof ((mPoolSizeTable)[0])))
+0x000204EB	0x00000014	[131] literal string: Offset == MaxOffset
+0x000204FF	0x00000030	[131] literal string: AllocatePoolI: Type %x, Addr %p (len %lx) %,ld\n
+0x0002052F	0x0000002C	[131] literal string: AllocatePool: failed to allocate %ld bytes\n
+0x0002055B	0x00000015	[131] literal string: Head != ((void *) 0)
+0x00020570	0x00000049	[131] literal string: Tail->Signature == ((('p') | ('t' << 8)) | ((('a') | ('l' << 8)) << 16))
+0x000205B9	0x00000019	[131] literal string: Head->Size == Tail->Size
+0x000205D2	0x0000001D	[131] literal string: FreePool: %p (len %lx) %,ld\n
+0x000205EF	0x00000015	[131] literal string: Free != ((void *) 0)
+0x00020604	0x0000003C	[132] literal string: /Users/g5/Dev/SctWorkspace/MdeModulePkg/Core/Dxe/Mem/Page.c
+0x00020640	0x00000015	[132] literal string: (Start & 0xFFF) == 0
+0x00020655	0x0000000C	[132] literal string: End > Start
+0x00020661	0x00000018	[132] literal string: &gMemoryLock not locked
+0x00020679	0x00000019	[132] literal string: AddRange: %lx-%lx to %d\n
+0x00020692	0x0000000E	[132] literal string: mMapDepth < 6
+0x000206A0	0x00000006	[132] literal string: Entry
+0x000206A6	0x0000001D	[132] literal string: Promote the memory resource\n
+0x000206C3	0x0000000E	[132] literal string: NumberOfPages
+0x000206D1	0x00000051	[132] literal string: (ChangingType == ((BOOLEAN)(0==1))) || (ChangingAttributes == ((BOOLEAN)(0==1)))
+0x00020722	0x0000002E	[132] literal string: ConvertPages: failed to find range %lx - %lx\n
+0x00020750	0x00000037	[132] literal string: ConvertPages: range %lx - %lx covers multiple entries\n
+0x00020787	0x00000022	[132] literal string: ConvertRange: %lx-%lx to type %d\n
+0x000207A9	0x00000023	[132] literal string: ConvertRange: %lx-%lx to attr %lx\n
+0x000207CC	0x0000002A	[132] literal string: ConvertPages: Incompatible memory types, 
+0x000207F6	0x00000023	[132] literal string: the pages to free have been freed\n
+0x00020819	0x0000002B	[132] literal string: the pages to allocate have been allocated\n
+0x00020844	0x0000001A	[132] literal string: Entry->Start < Entry->End
+0x0002085E	0x00000019	[132] literal string: Entry->VirtualStart == 0
+0x00020877	0x0000002C	[132] literal string: (MergeGcdMapEntry.BaseAddress & 0xFFF) == 0
+0x000208A3	0x00000050	[132] literal string: ((MergeGcdMapEntry.EndAddress - MergeGcdMapEntry.BaseAddress + 1) & 0xFFF) == 0
+0x000208F3	0x00000030	[132] literal string: AllocatePoolPages: failed to allocate %d pages\n
+0x00020923	0x00000024	[132] literal string: Entry->Type != EfiACPIReclaimMemory
+0x00020947	0x00000020	[132] literal string: Entry->Type != EfiACPIMemoryNVS
+0x00020967	0x00000048	[132] literal string: ExitBootServices: A RUNTIME memory entry is not on a proper alignment.\n
+0x000209AF	0x0000004B	[134] literal string: /Users/g5/Dev/SctWorkspace/MdeModulePkg/Core/Dxe/Mem/MemoryProfileRecord.c
+0x000209FA	0x0000001F	[134] literal string: DriverInfoData != ((void *) 0)
+0x00020A19	0x0000001C	[134] literal string: ContextData != ((void *) 0)
+0x00020A35	0x0000002F	[134] literal string: MemoryProfileInit MemoryProfileContext - 0x%x\n
+0x00020A64	0x0000001E	[134] literal string: AllocInfoData != ((void *) 0)
+0x00020A82	0x00000041	[135] literal string: /Users/g5/Dev/SctWorkspace/MdeModulePkg/Core/Dxe/Mem/HeapGuard.c
+0x00020AC3	0x0000000F	[135] literal string: MapMemory != 0
+0x00020AD2	0x00000017	[135] literal string: BitMap != ((void *) 0)
+0x00020AE9	0x0000001A	[135] literal string: NumberOfPages <= (1 << 6)
+0x00020B03	0x00000010	[135] literal string: Target >= Start
+0x00020B13	0x00000041	[135] literal string:                3               2               1               0
+0x00020B54	0x00000041	[135] literal string: FEDCBA9876543210FEDCBA9876543210FEDCBA9876543210FEDCBA9876543210
+0x00020B95	0x00000055	[135] literal string: ============================= Guarded Memory Bitmap ==============================\n
+0x00020BEA	0x00000017	[135] literal string:                   %a\n
+0x00020C01	0x00000055	[135] literal string: ==================================================================================\n
+0x00020C56	0x0000000D	[135] literal string: %016lx: %a\n
+0x00020C63	0x00000018	[135] literal string: ...             : ...\n
+0x00020C7B	0x00000016	[135] literal string: BitNumber <= (1 << 6)
+0x00020C91	0x00000049	[136] literal string: /Users/g5/Dev/SctWorkspace/MdeModulePkg/Core/Dxe/FwVolBlock/FwVolBlock.c
+0x00020CDA	0x00000048	[136] literal string: Unaligned FvImage found at 0x%lx:0x%lx, the required alignment is 0x%x\n
+0x00020D22	0x00000022	[136] literal string: *FVProtocolHandle != ((void *) 0)
+0x00020D44	0x00000043	[138] literal string: /Users/g5/Dev/SctWorkspace/MdeModulePkg/Core/Dxe/FwVol/FwVolRead.c
+0x00020D87	0x00000045	[139] literal string: /Users/g5/Dev/SctWorkspace/MdeModulePkg/Core/Dxe/FwVol/FwVolAttrib.c
+0x00020DCC	0x0000003D	[141] literal string: Found a FFS3 formatted file: %g in a non-FFS3 formatted FV.\n
+0x00020E09	0x0000003F	[141] literal string: /Users/g5/Dev/SctWorkspace/MdeModulePkg/Core/Dxe/FwVol/FwVol.c
+0x00020E48	0x0000005A	[141] literal string: ((UINT32) (((EFI_FFS_FILE_HEADER2 *) (UINTN) CacheFfsHeader)->ExtendedSize)) > 0x00FFFFFF
+0x00020EA2	0x00000014	[141] literal string: Fvb != ((void *) 0)
+0x00020EB6	0x0000001C	[141] literal string: FwVolHeader != ((void *) 0)
+0x00020ED2	0x00000039	[142] literal string: FATAL ERROR - RaiseTpl with OldTpl(0x%x) > NewTpl(0x%x)\n
+0x00020F0B	0x0000003D	[142] literal string: /Users/g5/Dev/SctWorkspace/MdeModulePkg/Core/Dxe/Event/Tpl.c
+0x00020F48	0x00000011	[142] literal string: ((NewTpl) <= 31)
+0x00020F59	0x0000003B	[142] literal string: FATAL ERROR - RestoreTpl with NewTpl(0x%x) > OldTpl(0x%x)\n
+0x00020F94	0x0000003F	[143] literal string: /Users/g5/Dev/SctWorkspace/MdeModulePkg/Core/Dxe/Event/Timer.c
+0x00020FD3	0x0000001A	[143] literal string: &mEfiTimerLock not locked
+0x00020FED	0x0000003F	[144] literal string: /Users/g5/Dev/SctWorkspace/MdeModulePkg/Core/Dxe/Event/Event.c
+0x0002102C	0x00000025	[144] literal string: gEventQueueLock.OwnerTpl == Priority
+0x00021051	0x00000026	[144] literal string: Event->NotifyFunction != ((void *) 0)
+0x00021077	0x0000001C	[144] literal string: &gEventQueueLock not locked
+0x00021093	0x00000020	[145] literal string: Evaluate DXE DEPEX for FFS(%g)\n
+0x000210B3	0x00000035	[145] literal string:   All UEFI Services Available                     = 
+0x000210E8	0x00000018	[145] literal string: FALSE\n  RESULT = FALSE\n
+0x00021100	0x00000016	[145] literal string: TRUE\n  RESULT = TRUE\n
+0x00021116	0x00000037	[145] literal string:   RESULT = FALSE (Attempt to fetch past end of depex)\n
+0x0002114D	0x00000036	[145] literal string:   RESULT = FALSE (Unexpected BEFORE or AFTER opcode)\n
+0x00021183	0x00000049	[145] literal string: /Users/g5/Dev/SctWorkspace/MdeModulePkg/Core/Dxe/Dispatcher/Dependency.c
+0x000211CC	0x00000007	[145] literal string:   SOR\n
+0x000211D3	0x0000002A	[145] literal string:   RESULT = FALSE (Unexpected SOR opcode)\n
+0x000211FD	0x0000003F	[145] literal string:   SOR                                             = Requested\n
+0x0002123C	0x00000019	[145] literal string:   PUSH GUID(%g) = FALSE\n
+0x00021255	0x00000018	[145] literal string:   PUSH GUID(%g) = TRUE\n
+0x0002126D	0x00000025	[145] literal string:   RESULT = FALSE (Unexpected error)\n
+0x00021292	0x00000007	[145] literal string:   AND\n
+0x00021299	0x00000006	[145] literal string:   OR\n
+0x0002129F	0x00000007	[145] literal string:   NOT\n
+0x000212A6	0x00000008	[145] literal string:   TRUE\n
+0x000212AE	0x00000009	[145] literal string:   FALSE\n
+0x000212B7	0x00000007	[145] literal string:   END\n
+0x000212BE	0x0000000F	[145] literal string:   RESULT = %a\n
+0x000212CD	0x00000005	[145] literal string: TRUE
+0x000212D2	0x00000006	[145] literal string: FALSE
+0x000212D8	0x00000023	[145] literal string:   RESULT = FALSE (Unknown opcode)\n
+0x000212FB	0x00000049	[146] literal string: /Users/g5/Dev/SctWorkspace/MdeModulePkg/Core/Dxe/Dispatcher/Dispatcher.c
+0x00021344	0x00000020	[146] literal string: Schedule FFS(%g) - EFI_SUCCESS\n
+0x00021364	0x00000022	[146] literal string: Schedule FFS(%g) - EFI_NOT_FOUND\n
+0x00021386	0x00000013	[146] literal string: Loading driver %g\n
+0x00021399	0x00000029	[146] literal string: DriverEntry->ImageHandle != ((void *) 0)
+0x000213C2	0x00000043	[146] literal string:   SOR                                             = Not Requested\n
+0x00021405	0x00000012	[146] literal string:   RESULT = FALSE\n
+0x00021417	0x00000014	[146] literal string:   BEFORE FFS(%g) = 
+0x0002142B	0x0000001C	[146] literal string: TRUE\n  END\n  RESULT = TRUE\n
+0x00021447	0x0000001E	[146] literal string: FALSE\n  END\n  RESULT = FALSE\n
+0x00021465	0x00000013	[146] literal string:   AFTER FFS(%g) = 
+0x00021478	0x0000003B	[146] literal string: FvImage on FvHandle %p and %p has the same FvNameGuid %g.\n
+0x000214B3	0x0000001C	[146] literal string: KnownHandle != ((void *) 0)
+0x000214CF	0x0000001C	[146] literal string: DriverEntry != ((void *) 0)
+0x000214EB	0x00000039	[146] literal string: FV at 0x%x has 0x%x used size, and erase byte is 0x%02x\n
+0x00021524	0x0000002F	[146] literal string: %a() FV at 0x%x, FvAlignment required is 0x%x\n
+0x00021553	0x00000017	[146] literal string: CoreProcessFvImageFile
+0x0002156A	0x0000001B	[146] literal string:   RESULT = TRUE (Apriori)\n
+0x00021585	0x0000002B	[146] literal string: Driver %g was discovered but not loaded!!\n
+0x000215B0	0x00000009	[147] literal string: Security
+0x000215B9	0x00000004	[147] literal string: CPU
+0x000215BD	0x0000000A	[147] literal string: Metronome
+0x000215C7	0x00000006	[147] literal string: Timer
+0x000215CD	0x00000004	[147] literal string: Bds
+0x000215D1	0x0000000F	[147] literal string: Watchdog Timer
+0x000215E0	0x00000008	[147] literal string: Runtime
+0x000215E8	0x00000009	[147] literal string: Variable
+0x000215F1	0x0000000F	[147] literal string: Variable Write
+0x00021600	0x00000008	[147] literal string: Capsule
+0x00021608	0x00000012	[147] literal string: Monotonic Counter
+0x0002161A	0x00000006	[147] literal string: Reset
+0x00021620	0x00000010	[147] literal string: Real Time Clock
+0x00021630	0x00000001	[147] literal string: 
+0x00021631	0x0000004D	[147] literal string: /Users/g5/Dev/SctWorkspace/MdeModulePkg/Core/Dxe/DxeMain/DxeProtocolNotify.c
+0x0002167E	0x00000021	[147] literal string: \n%a Arch Protocol not present!!\n
+0x0002169F	0x00000043	[148] literal string: /Users/g5/Dev/SctWorkspace/MdeModulePkg/Core/Dxe/DxeMain/DxeMain.c
+0x000216E2	0x0000001B	[148] literal string: gDxeCoreST != ((void *) 0)
+0x000216FD	0x0000001B	[148] literal string: gDxeCoreRT != ((void *) 0)
+0x00021718	0x00000004	[148] literal string: PEI
+0x0002171C	0x00000004	[148] literal string: DXE
+0x00021720	0x0000001F	[148] literal string: HOBLIST address in DXE = 0x%p\n
+0x0002173F	0x0000002A	[148] literal string: Memory Allocation 0x%08x 0x%0lx - 0x%0lx\n
+0x00021769	0x00000023	[148] literal string: FV Hob            0x%0lx - 0x%0lx\n
+0x0002178C	0x00000023	[148] literal string: FV2 Hob           0x%0lx - 0x%0lx\n
+0x000217AF	0x0000001B	[148] literal string:                   %g - %g\n
+0x000217CA	0x00000031	[148] literal string: FV3 Hob           0x%0lx - 0x%0lx - 0x%x - 0x%x\n
+0x000217FB	0x0000001B	[148] literal string: VectorInfo != ((void *) 0)
+0x00021816	0x00000019	[148] literal string: CoreInitializeDispatcher
+0x0002182F	0x00000008	[148] literal string: DxeMain
+0x00021837	0x0000000F	[148] literal string: CoreDispatcher
+0x00021846	0x0000006C	[149] literal string: /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdeModulePkg/Core/Dxe/DxeMain/DEBUG/AutoGen.c
+0x000218C0	0x00000004	[ 90] _mUefiDevicePathLibEndDevicePath
+0x000218D0	0x00000010	[117] 16-byte-literal
+0x000218E0	0x00000010	[117] 16-byte-literal
+0x000218F0	0x00000018	[131] _mPoolSizeTable
+0x00021908	0x00000008	[149] __gPcd_FixedAtBuild_PcdFrameworkCompatibilitySupport
+0x00021910	0x00000008	[149] __gPcd_FixedAtBuild_PcdLoadModuleAtFixAddressEnable
+0x00021918	0x00000008	[149] __gPcd_FixedAtBuild_PcdMaxEfiSystemTablePointerAddress
+0x00021920	0x00000008	[149] __gPcd_FixedAtBuild_PcdMemoryProfileMemoryType
+0x00021928	0x00000001	[149] __gPcd_FixedAtBuild_PcdMemoryProfilePropertyMask
+0x00021929	0x00000001	[149] __gPcd_FixedAtBuild_PcdMemoryProfileDriverPath
+0x0002192A	0x00000002	[149] __gPcd_FixedAtBuild_PcdPropertiesTableEnable
+0x0002192C	0x00000004	[149] __gPcd_FixedAtBuild_PcdImageProtectionPolicy
+0x00021930	0x00000008	[149] __gPcd_FixedAtBuild_PcdDxeNxMemoryProtectionPolicy
+0x00021938	0x00000008	[149] __gPcd_FixedAtBuild_PcdNullPointerDetectionPropertyMask
+0x00021940	0x00000008	[149] __gPcd_FixedAtBuild_PcdHeapGuardPageType
+0x00021948	0x00000008	[149] __gPcd_FixedAtBuild_PcdHeapGuardPoolType
+0x00021950	0x00000001	[149] __gPcd_FixedAtBuild_PcdHeapGuardPropertyMask
+0x00021951	0x00000001	[149] __gPcd_FixedAtBuild_PcdCpuStackGuard
+0x00021952	0x00000002	[149] __gPcd_FixedAtBuild_PcdVerifyNodeInList
+0x00021954	0x00000004	[149] __gPcd_FixedAtBuild_PcdMaximumLinkedListLength
+0x00021958	0x00000004	[149] __gPcd_FixedAtBuild_PcdMaximumAsciiStringLength
+0x0002195C	0x00000004	[149] __gPcd_FixedAtBuild_PcdMaximumDevicePathNodeCount
+0x00021964	0x00000001	[149] __gPcd_FixedAtBuild_PcdPerformanceLibraryPropertyMask
+0x00021966	0x0000000A	[117] l_.str
+0x00021970	0x0000000A	[117] l_.str.1
+0x0002197A	0x00000008	[117] l_.str.2
+0x00021982	0x00000008	[117] l_.str.3
+0x0002198A	0x00000010	[117] l_.str.4
+0x0002199A	0x00000014	[117] l_.str.5
+0x000219C0	0x000000E0	[147] _mMissingProtocols
+0x00021AA0	0x00000002	[ 38] _m16Size
+0x00021AA2	0x00000002	[ 38] _mThunk16Attr
+0x00021AA4	0x00000002	[ 38] _m16Gdt
+0x00021AA6	0x00000002	[ 38] _m16GdtrBase
+0x00021AA8	0x00000002	[ 38] _mTransition
+0x00021AB0	0x00000010	[116] _mStreamRoot
+0x00021AC0	0x00000008	[116] _mCustomGuidedSectionExtractionProtocol
+0x00021AD0	0x00000020	[117] _mLoadPe32PrivateData
+0x00021AF0	0x00000190	[117] _mCorePrivateImage
+0x00021C80	0x00000050	[117] _mMachineTypeInfo
+0x00021CD0	0x00000028	[122] _mImagePropertiesPrivateData
+0x00021CF8	0x00000010	[122] _mPropertiesTable
+0x00021D08	0x00000018	[122] _mPropertiesTableLock
+0x00021D20	0x00000010	[129] _mProtocolDatabase
+0x00021D30	0x00000010	[129] _gHandleList
+0x00021D40	0x00000018	[129] _gProtocolDatabaseLock
+0x00021D60	0x00000018	[130] _mGcdMemorySpaceLock
+0x00021D78	0x00000018	[130] _mGcdIoSpaceLock
+0x00021D90	0x00000010	[130] _mGcdMemorySpaceMap
+0x00021DA0	0x00000010	[130] _mGcdIoSpaceMap
+0x00021DB0	0x00000050	[130] _mGcdMemorySpaceMapEntryTemplate
+0x00021E00	0x00000050	[130] _mGcdIoSpaceMapEntryTemplate
+0x00021E50	0x00000170	[130] _mAttributeConversionTable
+0x00021FC0	0x00000040	[130] _mGcdMemoryTypeNames
+0x00022000	0x00000020	[130] _mGcdIoTypeNames
+0x00022020	0x00000030	[130] _mGcdAllocationTypeNames
+0x00022050	0x00000010	[131] _mPoolHeadList
+0x00022060	0x00000018	[131] _mPoolMemoryLock
+0x00022080	0x00000010	[132] _mFreeMemoryMapEntryList
+0x00022090	0x00000300	[132] _mMemoryTypeStatistics
+0x00022390	0x00000008	[132] _mDefaultMaximumAddress
+0x00022398	0x00000008	[132] _mDefaultBaseAddress
+0x000223A0	0x00000080	[132] _gMemoryTypeInformation
+0x00022420	0x00000018	[133] _gMemoryLock
+0x00022438	0x00000010	[133] _gMemoryMap
+0x00022448	0x00000010	[134] _mImageQueue
+0x00022458	0x00000148	[134] _mMemoryProfileContext
+0x000225A0	0x00000018	[134] _mMemoryProfileLock
+0x000225B8	0x00000030	[134] _mProfileProtocol
+0x000225F0	0x00000010	[135] _mMapLevel
+0x00022600	0x00000030	[135] _mLevelShift
+0x00022630	0x00000028	[135] _mLevelMask
+0x00022658	0x0000001C	[136] _mFvMemmapDevicePathTemplate
+0x00022674	0x0000001C	[136] _mFvPIWGDevicePathTemplate
+0x00022690	0x00000080	[136] _mFwVolBlock
+0x00022710	0x00000008	[138] _mFvAttributes
+0x00022718	0x00000008	[138] _mFvAttributes2
+0x00022720	0x000000A0	[141] _mFvDevice
+0x000227C0	0x00000010	[143] _mEfiTimerList
+0x000227D0	0x00000018	[143] _mEfiTimerLock
+0x000227E8	0x00000018	[143] _mEfiSystemTimeLock
+0x00022800	0x00000008	[144] _gEfiCurrentTpl
+0x00022808	0x00000018	[144] _gEventQueueLock
+0x00022820	0x00000010	[144] _gEventSignalQueue
+0x00022830	0x00000020	[144] _mEventTable
+0x00022850	0x00000010	[146] _mDiscoveredList
+0x00022860	0x00000010	[146] _mScheduledQueue
+0x00022870	0x00000010	[146] _mFvHandleList
+0x00022880	0x00000018	[146] _mDispatcherLock
+0x00022898	0x00000005	[146] _mDxeFileTypes
+0x000228A0	0x00000230	[147] _mArchProtocols
+0x00022AD0	0x00000078	[147] _mOptionalProtocols
+0x00022B48	0x00000178	[148] _mBootServices
+0x00022CC0	0x000000A8	[148] _mDxeServices
+0x00022D68	0x00000078	[148] _mEfiSystemTableTemplate
+0x00022DE0	0x00000088	[148] _mEfiRuntimeServicesTableTemplate
+0x00022E68	0x00000050	[148] _gRuntimeTemplate
+0x00022EB8	0x00000008	[148] _gRuntime
+0x00022EC0	0x00000008	[148] _gDxeCoreDS
+0x00022EC8	0x00000008	[148] _gDxeCoreRT
+0x00022ED0	0x00000010	[148] _gEfiDecompress
+0x00022EE0	0x00000010	[149] _gEfiEventMemoryMapChangeGuid
+0x00022EF0	0x00000010	[149] _gEfiEventVirtualAddressChangeGuid
+0x00022F00	0x00000010	[149] _gEfiEventExitBootServicesGuid
+0x00022F10	0x00000010	[149] _gEfiHobMemoryAllocModuleGuid
+0x00022F20	0x00000010	[149] _gEfiFirmwareFileSystem2Guid
+0x00022F30	0x00000010	[149] _gEfiFirmwareFileSystem3Guid
+0x00022F40	0x00000010	[149] _gAprioriGuid
+0x00022F50	0x00000010	[149] _gEfiDebugImageInfoTableGuid
+0x00022F60	0x00000010	[149] _gEfiHobListGuid
+0x00022F70	0x00000010	[149] _gEfiDxeServicesTableGuid
+0x00022F80	0x00000010	[149] _gEfiMemoryTypeInformationGuid
+0x00022F90	0x00000010	[149] _gEfiEventDxeDispatchGuid
+0x00022FA0	0x00000010	[149] _gLoadFixedAddressConfigurationTableGuid
+0x00022FB0	0x00000010	[149] _gIdleLoopEventGuid
+0x00022FC0	0x00000010	[149] _gEventExitBootServicesFailedGuid
+0x00022FD0	0x00000010	[149] _gEfiVectorHandoffTableGuid
+0x00022FE0	0x00000010	[149] _gEdkiiMemoryProfileGuid
+0x00022FF0	0x00000010	[149] _gEfiPropertiesTableGuid
+0x00023000	0x00000010	[149] _gEfiMemoryAttributesTableGuid
+0x00023010	0x00000010	[149] _gEfiEndOfDxeEventGroupGuid
+0x00023020	0x00000010	[149] _gEfiHobMemoryAllocStackGuid
+0x00023030	0x00000010	[149] _gEfiEventReadyToBootGuid
+0x00023040	0x00000010	[149] _gEfiFileInfoGuid
+0x00023050	0x00000010	[149] _gEfiCrc32GuidedSectionExtractionGuid
+0x00023060	0x00000010	[149] _gEfiDecompressProtocolGuid
+0x00023070	0x00000010	[149] _gEfiLoadPeImageProtocolGuid
+0x00023080	0x00000010	[149] _gEfiSimpleFileSystemProtocolGuid
+0x00023090	0x00000010	[149] _gEfiLoadFileProtocolGuid
+0x000230A0	0x00000010	[149] _gEfiLoadFile2ProtocolGuid
+0x000230B0	0x00000010	[149] _gEfiBusSpecificDriverOverrideProtocolGuid
+0x000230C0	0x00000010	[149] _gEfiDriverFamilyOverrideProtocolGuid
+0x000230D0	0x00000010	[149] _gEfiPlatformDriverOverrideProtocolGuid
+0x000230E0	0x00000010	[149] _gEfiDriverBindingProtocolGuid
+0x000230F0	0x00000010	[149] _gEfiFirmwareVolumeBlockProtocolGuid
+0x00023100	0x00000010	[149] _gEfiFirmwareVolume2ProtocolGuid
+0x00023110	0x00000010	[149] _gEfiDevicePathProtocolGuid
+0x00023120	0x00000010	[149] _gEfiLoadedImageProtocolGuid
+0x00023130	0x00000010	[149] _gEfiLoadedImageDevicePathProtocolGuid
+0x00023140	0x00000010	[149] _gEfiHiiPackageListProtocolGuid
+0x00023150	0x00000010	[149] _gEfiEbcProtocolGuid
+0x00023160	0x00000010	[149] _gEfiSmmBase2ProtocolGuid
+0x00023170	0x00000010	[149] _gEfiBdsArchProtocolGuid
+0x00023180	0x00000010	[149] _gEfiCpuArchProtocolGuid
+0x00023190	0x00000010	[149] _gEfiMetronomeArchProtocolGuid
+0x000231A0	0x00000010	[149] _gEfiMonotonicCounterArchProtocolGuid
+0x000231B0	0x00000010	[149] _gEfiRealTimeClockArchProtocolGuid
+0x000231C0	0x00000010	[149] _gEfiResetArchProtocolGuid
+0x000231D0	0x00000010	[149] _gEfiRuntimeArchProtocolGuid
+0x000231E0	0x00000010	[149] _gEfiSecurityArchProtocolGuid
+0x000231F0	0x00000010	[149] _gEfiSecurity2ArchProtocolGuid
+0x00023200	0x00000010	[149] _gEfiTimerArchProtocolGuid
+0x00023210	0x00000010	[149] _gEfiVariableWriteArchProtocolGuid
+0x00023220	0x00000010	[149] _gEfiVariableArchProtocolGuid
+0x00023230	0x00000010	[149] _gEfiCapsuleArchProtocolGuid
+0x00023240	0x00000010	[149] _gEfiWatchdogTimerArchProtocolGuid
+0x00023250	0x00000010	[149] _gEfiSecurityPolicyProtocolGuid
+0x00023260	0x00000010	[149] _gEfiVectorHandoffInfoPpiGuid
+0x00023270	0x00000008	[ 89] _gRT
+0x00023278	0x00000008	[ 94] _gImageHandle
+0x00023280	0x00000008	[ 94] _gST
+0x00023288	0x00000008	[ 94] _gBS
+0x00023290	0x00000008	[ 95] _gHobList
+0x00023298	0x00000004	[102] _mNumberOfExtractHandler
+0x0002329C	0x00000004	[102] _mMaxNumberOfExtractHandler
+0x000232A0	0x00000008	[102] _mExtractHandlerGuidTable
+0x000232A8	0x00000008	[102] _mExtractDecodeHandlerTable
+0x000232B0	0x00000008	[102] _mExtractGetInfoHandlerTable
+0x000232B8	0x00000008	[116] _mSectionExtractionHandle
+0x000232C0	0x00000008	[117] _mCurrentImage
+0x000232C8	0x00000008	[117] _mDxeCodeMemoryRangeUsageBitMap
+0x000232D0	0x00000002	[117] _mDxeCoreImageMachineType
+0x000232D8	0x00000010	[118] _mDebugInfoTableHeader
+0x000232E8	0x00000008	[118] _mMaxTableEntries
+0x000232F0	0x00000008	[118] _mDebugTable
+0x000232F8	0x00000008	[121] _mSystemTableAllocateSize
+0x00023300	0x00000008	[123] _mMemoryAttributesTable
+0x00023308	0x00000001	[123] _mMemoryAttributesTableReadyToBoot
+0x00023310	0x00000008	[128] _mEfiLocateHandleRequest
+0x00023318	0x00000008	[129] _gHandleDatabaseKey
+0x00023320	0x00000008	[132] _mMemoryMapKey
+0x00023328	0x00000008	[132] _mMapDepth
+0x00023330	0x00000008	[132] _mFreeMapStack
+0x00023338	0x00000001	[132] _mMemoryTypeInformationInitialized
+0x00023339	0x00000001	[132] _gLoadFixedAddressCodeMemoryReady
+0x00023340	0x00000008	[134] _mMemoryProfileContextPtr
+0x00023348	0x00000001	[134] _mMemoryProfileGettingStatus
+0x00023349	0x00000001	[134] _mMemoryProfileRecordingEnable
+0x00023350	0x00000008	[135] _mOnGuarding
+0x00023358	0x00000008	[135] _mGuardedMemoryMap
+0x00023360	0x00000008	[143] _mEfiCheckTimerEvent
+0x00023368	0x00000008	[143] _mEfiSystemTime
+0x00023370	0x00000008	[144] _gEventPending
+0x00023378	0x00000008	[144] _gIdleLoopEvent
+0x00023380	0x00000008	[145] _mDepexEvaluationStack
+0x00023388	0x00000008	[145] _mDepexEvaluationStackEnd
+0x00023390	0x00000008	[145] _mDepexEvaluationStackPointer
+0x00023398	0x00000001	[146] _gDispatcherRunning
+0x000233A0	0x00000008	[148] _mDecompressHandle
+0x000233A8	0x00000008	[148] _gSecurity
+0x000233B0	0x00000008	[148] _gSecurity2
+0x000233B8	0x00000008	[148] _gCpu
+0x000233C0	0x00000008	[148] _gMetronome
+0x000233C8	0x00000008	[148] _gTimer
+0x000233D0	0x00000008	[148] _gBds
+0x000233D8	0x00000008	[148] _gWatchdogTimer
+0x000233E0	0x00000008	[148] _gSmmBase2
+0x000233E8	0x00000008	[148] _gDxeCoreST
+0x000233F0	0x00000008	[148] _gDxeCoreImageHandle
+0x000233F8	0x00000008	[148] _gMemoryMapTerminated
+0x00023400	0x00000010	[148] _gLoadModuleAtFixAddressConfigurationTable
+0x00023410	0x00000004	[149] __gPcd_BinaryPatch_PcdLoadFixAddressBootTimeCodePageNumber
+0x00023414	0x00000004	[149] __gPcd_BinaryPatch_PcdLoadFixAddressRuntimeCodePageNumber
+0x00023418	0x00000001	[122] _mPropertiesTableEnable
+0x0002341C	0x00000004	[124] _mImageProtectionPolicy
+0x00023420	0x00000D98	[131] _mPoolHead
+0x000241C0	0x00000180	[132] _mMapStack
+0x00024340	0x00000008	[134] _mMemoryProfileDriverPath
+0x00024348	0x00000008	[134] _mMemoryProfileDriverPathSize
+0x00024350	0x00000008	[141] _gEfiFwVolBlockEvent
+0x00024358	0x00000008	[141] _gEfiFwVolBlockNotifyReg
+0x00024360	0x00000200	[144] _gEventQueue
+0x00024560	0x00000018	[146] _mFvDevicePath
+0x00024578	0x00000008	[146] _mFwVolEvent
+0x00024580	0x00000008	[146] _mFwVolEventRegistration
+0x00024588	0x00000008	[148] _gDxeCoreFileName
+0x00024590	0x00000008	[148] _gDxeCoreLoadedImage
+0x00024598	0x00000010	[124] _mProtectedImageRecordList

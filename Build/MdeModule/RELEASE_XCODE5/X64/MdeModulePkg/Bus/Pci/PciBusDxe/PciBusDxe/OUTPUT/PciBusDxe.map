@@ -1,0 +1,970 @@
+# Path: /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdeModulePkg/Bus/Pci/PciBusDxe/PciBusDxe/DEBUG/PciBusDxe.dll
+# Arch: x86_64
+# Object files:
+[  0] linker synthesized
+[  1] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseDebugPrintErrorLevelLib/BaseDebugPrintErrorLevelLib/OUTPUT/BaseDebugPrintErrorLevelLib.lib(BaseDebugPrintErrorLevelLib.obj)
+[  2] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BasePrintLib/BasePrintLib/OUTPUT/BasePrintLib.lib(PrintLibInternal.obj)
+[  3] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BasePrintLib/BasePrintLib/OUTPUT/BasePrintLib.lib(PrintLib.obj)
+[  4] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/UefiDebugLibConOut/UefiDebugLibConOut/OUTPUT/UefiDebugLibConOut.lib(DebugLib.obj)
+[  5] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CheckSum.obj)
+[  6] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwitchStack.obj)
+[  7] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwapBytes64.obj)
+[  8] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwapBytes32.obj)
+[  9] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwapBytes16.obj)
+[ 10] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(LongJump.obj)
+[ 11] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SetJump.obj)
+[ 12] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(RShiftU64.obj)
+[ 13] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(RRotU64.obj)
+[ 14] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(RRotU32.obj)
+[ 15] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(MultU64x64.obj)
+[ 16] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(MultU64x32.obj)
+[ 17] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(MultS64x64.obj)
+[ 18] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(ModU64x32.obj)
+[ 19] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(LShiftU64.obj)
+[ 20] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(LRotU64.obj)
+[ 21] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(LRotU32.obj)
+[ 22] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(LowBitSet64.obj)
+[ 23] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(LowBitSet32.obj)
+[ 24] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(HighBitSet64.obj)
+[ 25] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(HighBitSet32.obj)
+[ 26] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(GetPowerOfTwo64.obj)
+[ 27] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(GetPowerOfTwo32.obj)
+[ 28] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(DivU64x64Remainder.obj)
+[ 29] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(DivU64x32Remainder.obj)
+[ 30] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(DivU64x32.obj)
+[ 31] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(DivS64x64Remainder.obj)
+[ 32] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(ARShiftU64.obj)
+[ 33] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(BitField.obj)
+[ 34] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuDeadLoop.obj)
+[ 35] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Cpu.obj)
+[ 36] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(LinkedList.obj)
+[ 37] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SafeString.obj)
+[ 38] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(String.obj)
+[ 39] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(FilePaths.obj)
+[ 40] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Thunk16.obj)
+[ 41] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(WriteTr.obj)
+[ 42] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Non-existing.obj)
+[ 43] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Math64.obj)
+[ 44] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Unaligned.obj)
+[ 45] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(X86WriteIdtr.obj)
+[ 46] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(X86WriteGdtr.obj)
+[ 47] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(X86Thunk.obj)
+[ 48] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(X86ReadIdtr.obj)
+[ 49] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(X86ReadGdtr.obj)
+[ 50] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(X86Msr.obj)
+[ 51] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(X86GetInterruptState.obj)
+[ 52] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(X86FxSave.obj)
+[ 53] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(X86FxRestore.obj)
+[ 54] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(X86EnablePaging64.obj)
+[ 55] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(X86EnablePaging32.obj)
+[ 56] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(X86DisablePaging64.obj)
+[ 57] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(X86DisablePaging32.obj)
+[ 58] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(X86RdRand.obj)
+[ 59] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(GccInline.obj)
+[ 60] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwitchStack.obj)
+[ 61] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SetJump.obj)
+[ 62] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(LongJump.obj)
+[ 63] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(EnableDisableInterrupts.obj)
+[ 64] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(DisablePaging64.obj)
+[ 65] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuId.obj)
+[ 66] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuIdEx.obj)
+[ 67] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(EnableCache.obj)
+[ 68] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(DisableCache.obj)
+[ 69] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(RdRand.obj)
+[ 70] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(ChkStkGcc.obj)
+[ 71] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(SetMem.obj)
+[ 72] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(ScanMem64Wrapper.obj)
+[ 73] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(ScanMem32Wrapper.obj)
+[ 74] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(ScanMem16Wrapper.obj)
+[ 75] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(ScanMem8Wrapper.obj)
+[ 76] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(ZeroMemWrapper.obj)
+[ 77] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(CompareMemWrapper.obj)
+[ 78] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(SetMem64Wrapper.obj)
+[ 79] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(SetMem32Wrapper.obj)
+[ 80] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(SetMem16Wrapper.obj)
+[ 81] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(SetMemWrapper.obj)
+[ 82] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(CopyMemWrapper.obj)
+[ 83] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(IsZeroBufferWrapper.obj)
+[ 84] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(MemLibGeneric.obj)
+[ 85] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(MemLibGuid.obj)
+[ 86] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(CopyMem.obj)
+[ 87] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BasePcdLibNull/BasePcdLibNull/OUTPUT/BasePcdLibNull.lib(PcdLib.obj)
+[ 88] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/UefiBootServicesTableLib/UefiBootServicesTableLib/OUTPUT/UefiBootServicesTableLib.lib(UefiBootServicesTableLib.obj)
+[ 89] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/UefiMemoryAllocationLib/UefiMemoryAllocationLib/OUTPUT/UefiMemoryAllocationLib.lib(MemoryAllocationLib.obj)
+[ 90] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/UefiRuntimeServicesTableLib/UefiRuntimeServicesTableLib/OUTPUT/UefiRuntimeServicesTableLib.lib(UefiRuntimeServicesTableLib.obj)
+[ 91] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/UefiDevicePathLib/UefiDevicePathLib/OUTPUT/UefiDevicePathLib.lib(DevicePathUtilities.obj)
+[ 92] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/UefiDevicePathLib/UefiDevicePathLib/OUTPUT/UefiDevicePathLib.lib(DevicePathToText.obj)
+[ 93] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/UefiDevicePathLib/UefiDevicePathLib/OUTPUT/UefiDevicePathLib.lib(DevicePathFromText.obj)
+[ 94] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/UefiDevicePathLib/UefiDevicePathLib/OUTPUT/UefiDevicePathLib.lib(UefiDevicePathLib.obj)
+[ 95] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BasePeCoffExtraActionLibNull/BasePeCoffExtraActionLibNull/OUTPUT/PeCoffExtraActionLibNull.lib(PeCoffExtraActionLib.obj)
+[ 96] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseReportStatusCodeLibNull/BaseReportStatusCodeLibNull/OUTPUT/BaseReportStatusCodeLibNull.lib(BaseReportStatusCodeLib.obj)
+[ 97] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/UefiLib/UefiLib/OUTPUT/UefiLib.lib(UefiLibPrint.obj)
+[ 98] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/UefiLib/UefiLib/OUTPUT/UefiLib.lib(UefiNotTiano.obj)
+[ 99] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/UefiLib/UefiLib/OUTPUT/UefiLib.lib(UefiDriverModel.obj)
+[100] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/UefiLib/UefiLib/OUTPUT/UefiLib.lib(Console.obj)
+[101] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/UefiLib/UefiLib/OUTPUT/UefiLib.lib(UefiLib.obj)
+[102] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/UefiDriverEntryPoint/UefiDriverEntryPoint/OUTPUT/UefiDriverEntryPoint.lib(DriverEntryPoint.obj)
+[103] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BasePeCoffLib/BasePeCoffLib/OUTPUT/BasePeCoffLib.lib(BasePeCoff.obj)
+[104] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BasePeCoffLib/BasePeCoffLib/OUTPUT/BasePeCoffLib.lib(PeCoffLoaderEx.obj)
+[105] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdeModulePkg/Bus/Pci/PciBusDxe/PciBusDxe/OUTPUT/PciBusDxe.lib(PciLib.obj)
+[106] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdeModulePkg/Bus/Pci/PciBusDxe/PciBusDxe/OUTPUT/PciBusDxe.lib(PciIo.obj)
+[107] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdeModulePkg/Bus/Pci/PciBusDxe/PciBusDxe/OUTPUT/PciBusDxe.lib(PciBus.obj)
+[108] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdeModulePkg/Bus/Pci/PciBusDxe/PciBusDxe/OUTPUT/PciBusDxe.lib(PciDeviceSupport.obj)
+[109] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdeModulePkg/Bus/Pci/PciBusDxe/PciBusDxe/OUTPUT/PciBusDxe.lib(ComponentName.obj)
+[110] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdeModulePkg/Bus/Pci/PciBusDxe/PciBusDxe/OUTPUT/PciBusDxe.lib(PciCommand.obj)
+[111] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdeModulePkg/Bus/Pci/PciBusDxe/PciBusDxe/OUTPUT/PciBusDxe.lib(PciResourceSupport.obj)
+[112] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdeModulePkg/Bus/Pci/PciBusDxe/PciBusDxe/OUTPUT/PciBusDxe.lib(PciEnumeratorSupport.obj)
+[113] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdeModulePkg/Bus/Pci/PciBusDxe/PciBusDxe/OUTPUT/PciBusDxe.lib(PciEnumerator.obj)
+[114] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdeModulePkg/Bus/Pci/PciBusDxe/PciBusDxe/OUTPUT/PciBusDxe.lib(PciOptionRomSupport.obj)
+[115] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdeModulePkg/Bus/Pci/PciBusDxe/PciBusDxe/OUTPUT/PciBusDxe.lib(PciDriverOverride.obj)
+[116] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdeModulePkg/Bus/Pci/PciBusDxe/PciBusDxe/OUTPUT/PciBusDxe.lib(PciPowerManagement.obj)
+[117] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdeModulePkg/Bus/Pci/PciBusDxe/PciBusDxe/OUTPUT/PciBusDxe.lib(PciRomTable.obj)
+[118] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdeModulePkg/Bus/Pci/PciBusDxe/PciBusDxe/OUTPUT/PciBusDxe.lib(PciHotPlugSupport.obj)
+[119] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdeModulePkg/Bus/Pci/PciBusDxe/PciBusDxe/OUTPUT/PciBusDxe.lib(AutoGen.obj)
+# Sections:
+# Address	Size    	Segment	Section
+0x00000240	0x000111DA	__TEXT	__text
+0x00011420	0x0000006D	__TEXT	__const
+0x0001148D	0x00001E2E	__TEXT	__cstring
+0x000132BC	0x00001128	__TEXT	__ustring
+0x00014400	0x000004F0	__DATA	__const
+0x000148F0	0x00000388	__DATA	__data
+0x00014C80	0x00000128	__DATA	__common
+# Symbols:
+# Address	Size    	File  Name
+0x00000240	0x00000000	[  0] ___dso_handle
+0x00000240	0x0000000C	[  1] _GetDebugPrintErrorLevel
+0x0000024F	0x000011F9	[  2] _BasePrintLibSPrintMarker
+0x00001448	0x0000002C	[  2] _BasePrintLibSPrint
+0x00001474	0x00000096	[  3] _UnicodeVSPrint
+0x0000150A	0x00000021	[  3] _UnicodeSPrint
+0x0000152B	0x0000006F	[  3] _UnicodeVSPrintAsciiFormat
+0x0000159A	0x00000021	[  3] _UnicodeSPrintAsciiFormat
+0x000015BB	0x0000005F	[  3] _SPrintLength
+0x0000161A	0x00000094	[  4] _DebugPrint
+0x000016AE	0x0000000E	[  4] _DebugAssertEnabled
+0x000016BC	0x0000007C	[  4] _DebugAssert
+0x00001738	0x00000010	[  4] _DebugPrintEnabled
+0x00001748	0x00000011	[  4] _DebugCodeEnabled
+0x00001759	0x0000000F	[  4] _DebugPrintLevelEnabled
+0x00001768	0x00000066	[ 11] _InternalAssertJumpBuffer
+0x000017CE	0x00000049	[ 12] _RShiftU64
+0x00001817	0x0000000A	[ 16] _MultU64x32
+0x00001821	0x00000049	[ 19] _LShiftU64
+0x0000186A	0x00000023	[ 25] _HighBitSet32
+0x0000188D	0x0000004D	[ 29] _DivU64x32Remainder
+0x000018DA	0x0000001A	[ 34] _CpuDeadLoop
+0x000018F4	0x000000BB	[ 36] _InternalBaseLibIsListValid
+0x000019AF	0x0000009D	[ 36] _IsNodeInList
+0x00001A4C	0x00000043	[ 36] _InitializeListHead
+0x00001A8F	0x00000085	[ 36] _InsertHeadList
+0x00001B14	0x00000086	[ 36] _InsertTailList
+0x00001B9A	0x00000043	[ 36] _GetFirstNode
+0x00001BDD	0x00000074	[ 36] _GetNextNode
+0x00001C51	0x00000046	[ 36] _IsListEmpty
+0x00001C97	0x00000077	[ 36] _IsNull
+0x00001D0E	0x000000CC	[ 36] _SwapListEntries
+0x00001DDA	0x00000055	[ 36] _RemoveEntryList
+0x00001E2F	0x00000071	[ 37] _StrnLenS
+0x00001EA0	0x00000036	[ 37] _AsciiStrnLenS
+0x00001ED6	0x00000094	[ 38] _AsciiStrLen
+0x00001F6A	0x000000F1	[ 38] _AsciiStrnCmp
+0x00002060	0x00000000	[ 40] SavedGdt
+0x00002060	0x0000000A	[ 40] _m16Start
+0x0000206A	0x00000008	[ 40] _BackFromUserCode
+0x00002072	0x00000014	[ 40] _BackFromUserCode.Base
+0x00002086	0x0000000D	[ 40] _BackFromUserCode.ThunkAttrEnd
+0x00002093	0x0000000B	[ 40] _BackFromUserCode.1
+0x0000209E	0x00000036	[ 40] _BackFromUserCode.2
+0x000020D4	0x0000001C	[ 40] _BackFromUserCode.SavedCr4End
+0x000020F0	0x0000000B	[ 40] _BackFromUserCode.SavedCr0End
+0x000020FB	0x0000000B	[ 40] _BackFromUserCode.X64JmpEnd
+0x00002106	0x00000002	[ 40] _BackFromUserCode.SavedSpEnd
+0x00002108	0x00000006	[ 40] _EntryPoint
+0x0000210E	0x00000002	[ 40] _16Gdtr
+0x00002110	0x00000008	[ 40] _16GdtrBase
+0x00002118	0x00000006	[ 40] _16Idtr
+0x0000211E	0x00000028	[ 40] _ToUserCode
+0x00002146	0x0000000F	[ 40] _ToUserCode.Base
+0x00002155	0x0000001B	[ 40] _ToUserCode.RealMode
+0x00002170	0x00000008	[ 40] _NullSeg
+0x00002178	0x00000008	[ 40] _16Code
+0x00002180	0x00000008	[ 40] _16Data
+0x00002188	0x00000008	[ 40] _32Data
+0x00002190	0x000000B4	[ 40] _InternalAsmThunk16
+0x00002244	0x00000020	[ 40] _InternalAsmThunk16.RetFromRealMode
+0x00002264	0x00000006	[ 41] _AsmWriteTr
+0x0000226A	0x0000000E	[ 43] _InternalMathLShiftU64
+0x00002278	0x0000000E	[ 43] _InternalMathRShiftU64
+0x00002286	0x0000000C	[ 43] _InternalMathMultU64x32
+0x00002292	0x00000023	[ 43] _InternalMathDivRemU64x32
+0x000022B5	0x0000003C	[ 44] _ReadUnaligned16
+0x000022F1	0x00000042	[ 44] _WriteUnaligned16
+0x00002333	0x00000040	[ 44] _ReadUnaligned24
+0x00002373	0x0000003B	[ 44] _ReadUnaligned32
+0x000023AE	0x0000003C	[ 44] _ReadUnaligned64
+0x000023EA	0x00000007	[ 59] _CpuBreakpoint
+0x000023F1	0x0000000F	[ 60] _InternalSwitchStack
+0x00002400	0x0000008F	[ 61] _SetJump
+0x0000248F	0x0000007C	[ 62] _InternalLongJump
+0x0000250B	0x00000003	[ 63] _EnableDisableInterrupts
+0x0000250E	0x0000003A	[ 64] _InternalX86DisablePaging64
+0x00002548	0x00000027	[ 64] _InternalX86DisablePaging64.0
+0x0000256F	0x00000000	[ 64] mTransitionEnd
+0x0000256F	0x0000000F	[ 65] _AsmCpuid
+0x0000257E	0x00000005	[ 65] _AsmCpuid.0
+0x00002583	0x00000007	[ 65] _AsmCpuid.1
+0x0000258A	0x00000009	[ 65] _AsmCpuid.2
+0x00002593	0x00000003	[ 65] _AsmCpuid.3
+0x00002596	0x00000015	[ 66] _AsmCpuidEx
+0x000025AB	0x00000007	[ 66] _AsmCpuidEx.0
+0x000025B2	0x00000007	[ 66] _AsmCpuidEx.1
+0x000025B9	0x00000009	[ 66] _AsmCpuidEx.2
+0x000025C2	0x00000003	[ 66] _AsmCpuidEx.3
+0x000025C5	0x00000013	[ 67] _AsmEnableCache
+0x000025D8	0x00000013	[ 68] _AsmDisableCache
+0x000025EB	0x00000009	[ 69] _InternalX86RdRand16
+0x000025F4	0x00000009	[ 69] rn16_ok
+0x000025FD	0x00000009	[ 69] _InternalX86RdRand32
+0x00002606	0x00000008	[ 69] rn32_ok
+0x0000260E	0x0000000A	[ 69] _InternalX86RdRand64
+0x00002618	0x00000009	[ 69] rn64_ok
+0x00002621	0x000000EE	[ 71] _InternalMemSetMem
+0x0000270F	0x00000084	[ 76] _ZeroMem
+0x00002793	0x000000F3	[ 77] _CompareMem
+0x00002886	0x000000A4	[ 82] _CopyMem
+0x0000292A	0x0000000D	[ 84] _InternalMemZeroMem
+0x00002937	0x0000002F	[ 84] _InternalMemCompareMem
+0x00002966	0x00000055	[ 85] _CompareGuid
+0x000029BB	0x000001E2	[ 86] _InternalMemCopyMem
+0x00002B9D	0x000000B5	[ 88] _UefiBootServicesTableLibConstructor
+0x00002C52	0x0000003D	[ 89] _AllocatePool
+0x00002C8F	0x0000003B	[ 89] _InternalAllocateZeroPool
+0x00002CCA	0x00000015	[ 89] _AllocateZeroPool
+0x00002CDF	0x0000009E	[ 89] _InternalAllocateCopyPool
+0x00002D7D	0x00000018	[ 89] _AllocateCopyPool
+0x00002D95	0x00000056	[ 89] _InternalReallocatePool
+0x00002DEB	0x00000074	[ 89] _FreePool
+0x00002E5F	0x0000001B	[ 89] _ReallocatePool
+0x00002E7A	0x00000048	[ 90] _UefiRuntimeServicesTableLibConstructor
+0x00002EC2	0x000000DA	[ 91] _IsDevicePathValid
+0x00002F9C	0x00000056	[ 91] _IsDevicePathEnd
+0x00002FF2	0x00000048	[ 91] _DevicePathNodeLength
+0x0000303A	0x00000044	[ 91] _NextDevicePathNode
+0x0000307E	0x0000003B	[ 91] _DevicePathType
+0x000030B9	0x0000003C	[ 91] _DevicePathSubType
+0x000030F5	0x00000046	[ 91] _IsDevicePathEndType
+0x0000313B	0x00000079	[ 91] _SetDevicePathNodeLength
+0x000031B4	0x0000004D	[ 91] _SetDevicePathEndNode
+0x00003201	0x00000070	[ 91] _UefiDevicePathLibGetDevicePathSize
+0x00003271	0x0000002C	[ 91] _UefiDevicePathLibDuplicateDevicePath
+0x0000329D	0x000000D4	[ 91] _UefiDevicePathLibAppendDevicePath
+0x00003371	0x00000097	[ 91] _UefiDevicePathLibAppendDevicePathNode
+0x00003408	0x0000003B	[ 91] _DevicePathFromHandle
+0x00003444	0x000000BC	[ 92] _UefiDevicePathLibCatPrint
+0x00003500	0x00000024	[ 92] _DevPathToTextPci
+0x00003524	0x0000001F	[ 92] _DevPathToTextPccard
+0x00003543	0x0000002B	[ 92] _DevPathToTextMemMap
+0x0000356E	0x000002C9	[ 92] _DevPathToTextVendor
+0x00003837	0x0000001E	[ 92] _DevPathToTextController
+0x00003855	0x00000037	[ 92] _DevPathToTextBmc
+0x0000388C	0x000000D6	[ 92] _DevPathToTextAcpi
+0x00003962	0x000001C1	[ 92] _DevPathToTextAcpiEx
+0x00003B23	0x00000093	[ 92] _DevPathToTextAcpiAdr
+0x00003BB6	0x00000066	[ 92] _DevPathToTextAtapi
+0x00003C1C	0x00000024	[ 92] _DevPathToTextScsi
+0x00003C40	0x00000022	[ 92] _DevPathToTextFibre
+0x00003C62	0x0000008E	[ 92] _DevPathToTextFibreEx
+0x00003CF0	0x0000016B	[ 92] _DevPathToTextSasEx
+0x00003E5B	0x00000065	[ 92] _DevPathToTextNVMe
+0x00003EC0	0x00000024	[ 92] _DevPathToTextUfs
+0x00003EE4	0x0000001F	[ 92] _DevPathToTextSd
+0x00003F03	0x0000001F	[ 92] _DevPathToTextEmmc
+0x00003F22	0x0000001E	[ 92] _DevPathToText1394
+0x00003F40	0x00000024	[ 92] _DevPathToTextUsb
+0x00003F64	0x000000A8	[ 92] _DevPathToTextUsbWWID
+0x0000400C	0x0000001F	[ 92] _DevPathToTextLogicalUnit
+0x0000402B	0x000001C5	[ 92] _DevPathToTextUsbClass
+0x000041F0	0x0000002C	[ 92] _DevPathToTextSata
+0x0000421C	0x0000001E	[ 92] _DevPathToTextI2O
+0x0000423A	0x00000076	[ 92] _DevPathToTextMacAddr
+0x000042B0	0x00000041	[ 92] _CatNetworkProtocol
+0x000042F4	0x000000D9	[ 92] _CatIPv6Address
+0x000043CD	0x00000152	[ 92] _DevPathToTextIPv4
+0x0000451F	0x000000D0	[ 92] _DevPathToTextIPv6
+0x000045EF	0x0000003D	[ 92] _DevPathToTextInfiniBand
+0x0000462C	0x000000F8	[ 92] _DevPathToTextUart
+0x00004724	0x000000E3	[ 92] _DevPathToTextiSCSI
+0x00004807	0x0000001F	[ 92] _DevPathToTextVlan
+0x00004826	0x00000048	[ 92] _DevPathToTextBluetooth
+0x0000486E	0x00000041	[ 92] _DevPathToTextWiFi
+0x000048AF	0x00000052	[ 92] _DevPathToTextBluetoothLE
+0x00004901	0x000000CF	[ 92] _DevPathToTextDns
+0x000049D0	0x0000008B	[ 92] _DevPathToTextUri
+0x00004A5B	0x00000093	[ 92] _DevPathToTextHardDrive
+0x00004AEE	0x00000040	[ 92] _DevPathToTextCDROM
+0x00004B2E	0x0000001E	[ 92] _DevPathToTextFilePath
+0x00004B4C	0x0000001E	[ 92] _DevPathToTextMediaProtocol
+0x00004B6A	0x0000001E	[ 92] _DevPathToTextFv
+0x00004B88	0x0000001E	[ 92] _DevPathToTextFvFile
+0x00004BA6	0x00000022	[ 92] _DevPathRelativeOffsetRange
+0x00004BC8	0x0000017B	[ 92] _DevPathToTextRamDisk
+0x00004D43	0x0000008E	[ 92] _DevPathToTextBBS
+0x00004DD1	0x0000001A	[ 92] _DevPathToTextEndInstance
+0x00004DEB	0x00000102	[ 92] _DevPathToTextNodeGeneric
+0x00004EEE	0x00000127	[ 92] _UefiDevicePathLibConvertDevicePathToText
+0x00005015	0x0000000A	[ 94] _GetDevicePathSize
+0x0000501F	0x0000000A	[ 94] _DuplicateDevicePath
+0x00005029	0x0000000A	[ 94] _AppendDevicePath
+0x00005033	0x0000000A	[ 94] _AppendDevicePathNode
+0x0000503D	0x0000000A	[ 94] _ConvertDevicePathToText
+0x00005047	0x0000003B	[ 96] _ReportStatusCodeWithDevicePath
+0x00005082	0x00000066	[ 96] _ReportStatusCodeWithExtendedData
+0x000050E8	0x00000008	[ 96] _ReportProgressCodeEnabled
+0x000050F0	0x00000008	[ 96] _ReportErrorCodeEnabled
+0x000050F8	0x00000008	[ 96] _ReportDebugCodeEnabled
+0x00005100	0x00000159	[ 99] _EfiLibInstallDriverBindingComponentName2
+0x00005259	0x00000008	[101] _UefiLibConstructor
+0x00005261	0x00000153	[101] _LookupUnicodeString2
+0x000053B4	0x00000034	[102] __DriverUnloadHandler
+0x000053E8	0x000000EB	[102] __ModuleEntryPoint
+0x000054D3	0x0000014A	[105] _GetBackPcCardBar
+0x0000561D	0x000000F8	[105] _RemoveRejectedPciDevices
+0x00005715	0x0000031A	[105] _DumpBridgeResource
+0x00005A2F	0x00000093	[105] _FindResourceNode
+0x00005AC2	0x0000026A	[105] _DumpResourceMap
+0x00005D2C	0x000009EA	[105] _PciHostBridgeResourceAllocator
+0x00006716	0x00000092	[105] _PciAllocateBusNumber
+0x000067A8	0x000005CA	[105] _PciScanBus
+0x00006D72	0x00000168	[105] _PciRootBridgeP2CProcess
+0x00006EDA	0x00000068	[105] _PciHostBridgeP2CProcess
+0x00006F42	0x000003CC	[105] _PciHostBridgeEnumerator
+0x00007310	0x00000243	[106] _PciIoPollMem
+0x00007553	0x0000023E	[106] _PciIoPollIo
+0x00007791	0x00000123	[106] _PciIoMemRead
+0x000078B4	0x00000123	[106] _PciIoMemWrite
+0x000079D7	0x00000123	[106] _PciIoIoRead
+0x00007AFA	0x00000123	[106] _PciIoIoWrite
+0x00007C1D	0x000000F0	[106] _PciIoConfigRead
+0x00007D0D	0x000000F0	[106] _PciIoConfigWrite
+0x00007DFD	0x0000015C	[106] _PciIoCopyMem
+0x00007F59	0x00000144	[106] _PciIoMap
+0x0000809D	0x000000A6	[106] _PciIoUnmap
+0x00008143	0x000000E0	[106] _PciIoAllocateBuffer
+0x00008223	0x00000097	[106] _PciIoFreeBuffer
+0x000082BA	0x00000085	[106] _PciIoFlush
+0x0000833F	0x000000A6	[106] _PciIoGetLocation
+0x000083E5	0x0000037B	[106] _PciIoAttributes
+0x00008760	0x00000190	[106] _PciIoGetBarAttributes
+0x000088F0	0x000000C2	[106] _PciIoSetBarAttributes
+0x000089B2	0x0000001B	[106] _InitializePciIoInstance
+0x000089CD	0x000000C2	[106] _PciIoVerifyBarAccess
+0x00008A8F	0x00000045	[106] _CheckBarType
+0x00008AD4	0x000000E3	[106] _PciIoVerifyConfigAccess
+0x00008BB7	0x0000008D	[106] _ModifyRootBridgeAttributes
+0x00008C44	0x0000010A	[106] _SupportPaletteSnoopAttributes
+0x00008D4E	0x00000049	[106] _PciDevicesOnTheSamePath
+0x00008D97	0x0000008F	[106] _GetMmioAddressTranslationOffset
+0x00008E26	0x00000119	[107] _PciBusDriverBindingSupported
+0x00008F3F	0x00000293	[107] _PciBusDriverBindingStart
+0x000091D2	0x000000A9	[107] _PciBusDriverBindingStop
+0x0000927B	0x000000D6	[107] _PciBusEntryPoint
+0x00009351	0x00000011	[108] _InitializePciDevicePool
+0x00009362	0x00000018	[108] _InsertRootBridge
+0x0000937A	0x00000032	[108] _InsertPciDevice
+0x000093AC	0x0000001F	[108] _DestroyRootBridge
+0x000093CB	0x000000A2	[108] _DestroyPciDeviceTree
+0x0000946D	0x00000062	[108] _FreePciDevice
+0x000094CF	0x000000B5	[108] _DestroyRootBridgeByHandle
+0x00009584	0x000002C7	[108] _RegisterPciDevice
+0x0000984B	0x000000C5	[108] _RemoveAllPciDeviceOnBridge
+0x00009910	0x00000247	[108] _DeRegisterPciDevice
+0x00009B57	0x0000027A	[108] _StartPciDevicesOnBridge
+0x00009DD1	0x000000D8	[108] _StartPciDevices
+0x00009EA9	0x00000090	[108] _GetRootBridgeByHandle
+0x00009F39	0x00000114	[108] _CreateRootBridge
+0x0000A04D	0x000000B8	[108] _PciDeviceExisted
+0x0000A105	0x000000B5	[108] _ActiveVGADeviceOnTheSameSegment
+0x0000A1BA	0x000000D3	[108] _ActiveVGADeviceOnTheRootBridge
+0x0000A28D	0x00000036	[109] _PciBusComponentNameGetDriverName
+0x0000A2C3	0x00000010	[109] _PciBusComponentNameGetControllerName
+0x0000A2D3	0x000000A6	[110] _PciOperateRegister
+0x0000A379	0x00000111	[110] _LocateCapabilityRegBlock
+0x0000A48A	0x000000AA	[110] _LocatePciExpressCapabilityRegBlock
+0x0000A537	0x000000F8	[111] _InsertResourceNode
+0x0000A62F	0x000000ED	[111] _MergeResourceTree
+0x0000A71C	0x000002AC	[111] _CalculateApertureIo16
+0x0000A9C8	0x000001C0	[111] _CalculateResourceAperture
+0x0000AB88	0x0000027C	[111] _GetResourceFromDevice
+0x0000AE04	0x0000009B	[111] _CreateResourceNode
+0x0000AE9F	0x00000356	[111] _CreateResourceMap
+0x0000B1F5	0x00000032	[111] _ResourceRequestExisted
+0x0000B227	0x000000D5	[111] _ResourcePaddingForCardBusBridge
+0x0000B2FE	0x0000029F	[111] _DegradeResource
+0x0000B59D	0x00000195	[111] _ApplyResourcePadding
+0x0000B735	0x000000D6	[111] _ProgramResource
+0x0000B80B	0x000002C5	[111] _ProgramP2C
+0x0000BAD0	0x00000141	[111] _ProgramBar
+0x0000BC11	0x000002D3	[111] _ProgramPpbApperture
+0x0000BEE4	0x0000013E	[111] _ProgramVfBar
+0x0000C022	0x000000E2	[111] _ProgrameUpstreamBridgeForRom
+0x0000C104	0x00000035	[111] _InitializeResourcePool
+0x0000C139	0x000000C9	[111] _DestroyResourceTree
+0x0000C202	0x0000002A	[111] _GetResourcePaddingPpb
+0x0000C22C	0x0000008D	[112] _PciDevicePresent
+0x0000C2B9	0x00000124	[112] _PciPciDeviceInfoCollector
+0x0000C3DD	0x0000017C	[112] _PciSearchDevice
+0x0000C559	0x00000095	[112] _GatherP2CInfo
+0x0000C5EE	0x00000126	[112] _InitializeP2C
+0x0000C714	0x00000100	[112] _GatherDeviceInfo
+0x0000C814	0x0000025B	[112] _GatherPpbInfo
+0x0000CA6F	0x00000158	[112] _InitializePpb
+0x0000CBC7	0x000001B7	[112] _UpdatePciInfo
+0x0000CD7E	0x0000010F	[112] _DumpPpbPaddingResource
+0x0000CE8D	0x00000143	[112] _DumpPciBars
+0x0000CFD0	0x00000507	[112] _CreatePciIoDevice
+0x0000D4D7	0x0000029F	[112] _PciParseBar
+0x0000D776	0x000002BF	[112] _PciIovParseVfBar
+0x0000DA35	0x000000F0	[112] _BarExisted
+0x0000DB25	0x00000054	[112] _CreatePciDevicePath
+0x0000DB79	0x0000012E	[112] _VfBarExisted
+0x0000DCA7	0x00000151	[112] _PciTestSupportedAttribute
+0x0000DDF8	0x00000144	[112] _PciSetDeviceAttribute
+0x0000DF3C	0x000000A4	[112] _ProcessOptionRomLight
+0x0000DFE0	0x00000331	[112] _DetermineDeviceAttribute
+0x0000E311	0x000000A5	[112] _SetNewAlign
+0x0000E3B6	0x0000004C	[112] _InitializePciDevice
+0x0000E402	0x00000135	[112] _PciEnumeratorLight
+0x0000E537	0x0000005E	[112] _PciGetBusRange
+0x0000E595	0x0000006B	[112] _StartManagingRootBridge
+0x0000E600	0x000000E6	[112] _IsPciDeviceRejected
+0x0000E6E6	0x00000130	[112] _ResetAllPpbBusNumber
+0x0000E816	0x000000A5	[113] _PciEnumerator
+0x0000E8BB	0x000000F8	[113] _NotifyPhase
+0x0000E9B3	0x0000005F	[113] _PciHostBridgeDeviceAttribute
+0x0000EA12	0x000001BD	[113] _PciRootBridgeEnumerator
+0x0000EBCF	0x000000CB	[113] _ProcessOptionRom
+0x0000EC9A	0x000001BC	[113] _PciAssignBusNumber
+0x0000EE56	0x00000059	[113] _DetermineRootBridgeAttributes
+0x0000EEAF	0x000000C2	[113] _GetMaxOptionRomSize
+0x0000EF71	0x0000006B	[113] _GetResourceAllocationStatus
+0x0000EFDC	0x00000107	[113] _RejectPciDevice
+0x0000F0E3	0x0000004F	[113] _IsRejectiveDevice
+0x0000F132	0x00000045	[113] _GetLargerConsumerDevice
+0x0000F177	0x000000D9	[113] _GetMaxResourceConsumerDevice
+0x0000F250	0x000001F0	[113] _PciHostBridgeAdjustAllocation
+0x0000F440	0x000001FC	[113] _ConstructAcpiResourceRequestor
+0x0000F63C	0x000000DB	[113] _GetResourceBase
+0x0000F717	0x00000080	[113] _PciBridgeEnumerator
+0x0000F797	0x000001BF	[113] _PciBridgeResourceAllocator
+0x0000F956	0x00000157	[113] _GetResourceBaseFromBridge
+0x0000FAAD	0x00000148	[113] _PreprocessController
+0x0000FBF5	0x000001B3	[113] _PciHotPlugRequestNotify
+0x0000FDA8	0x00000072	[113] _SearchHostBridgeHandle
+0x0000FE1A	0x00000064	[113] _AddHostBridgeEnumerator
+0x0000FE7E	0x00000242	[114] _LocalLoadFile2
+0x000100C0	0x00000014	[114] _InitializePciLoadFile2
+0x000100D4	0x00000075	[114] _LoadFile2
+0x00010149	0x000000E8	[114] _GetOpRomInfo
+0x00010231	0x0000007F	[114] _ContainEfiImage
+0x000102B0	0x00000284	[114] _LoadOpRomImage
+0x00010534	0x00000122	[114] _RomDecode
+0x00010656	0x00000265	[114] _ProcessOpRomImage
+0x000108BB	0x00000014	[115] _InitializePciDriverOverrideInstance
+0x000108CF	0x0000016D	[115] _GetDriver
+0x00010A3C	0x000000E0	[115] _LocateImageHandle
+0x00010B1C	0x0000009D	[115] _AddDriver
+0x00010BB9	0x00000097	[116] _ResetPowerManagementFeature
+0x00010C50	0x000001AE	[117] _PciRomAddImageMapping
+0x00010DFE	0x000000B5	[117] _PciRomGetImageMapping
+0x00010EB3	0x0000000A	[118] _PciHPCInitialized
+0x00010EBD	0x00000047	[118] _EfiCompareDevicePath
+0x00010F04	0x0000008C	[118] _InitializeHotPlugSupport
+0x00010F90	0x00000064	[118] _IsRootPciHotPlugBus
+0x00010FF4	0x00000061	[118] _IsRootPciHotPlugController
+0x00011055	0x0000005B	[118] _CreateEventForHpc
+0x000110B0	0x00000087	[118] _AllRootHPCInitialized
+0x00011137	0x000000A4	[118] _SupportsPcieHotplug
+0x000111DB	0x00000094	[118] _GetResourcePaddingForHpb
+0x0001126F	0x0000005A	[118] _IsPciHotPlugBus
+0x000112C9	0x00000139	[119] _ProcessLibraryConstructorList
+0x00011402	0x00000006	[119] _ProcessLibraryDestructorList
+0x00011408	0x0000000A	[119] _ProcessModuleEntryPointList
+0x00011412	0x00000008	[119] _ProcessModuleUnloadList
+0x00011420	0x00000010	[  2] _mHexStr
+0x00011430	0x00000004	[ 91] _mUefiDevicePathLibEndDevicePath
+0x00011440	0x00000018	[ 92] l_switch.table.DevPathToTextUart
+0x00011458	0x00000001	[119] __gPcd_FixedAtBuild_PcdPciBusHotplugDeviceSupport
+0x00011459	0x00000001	[119] __gPcd_FixedAtBuild_PcdPciBridgeIoAlignmentProbe
+0x0001145A	0x00000001	[119] __gPcd_FixedAtBuild_PcdUnalignedPciIoEnable
+0x0001145B	0x00000001	[119] __gPcd_FixedAtBuild_PcdPciDegradeResourceForOptionRom
+0x0001145C	0x00000004	[119] __gPcd_FixedAtBuild_PcdSrIovSystemPageSize
+0x00011460	0x00000001	[119] __gPcd_FixedAtBuild_PcdSrIovSupport
+0x00011461	0x00000001	[119] __gPcd_FixedAtBuild_PcdAriSupport
+0x00011462	0x00000001	[119] __gPcd_FixedAtBuild_PcdMrIovSupport
+0x00011463	0x00000001	[119] __gPcd_FixedAtBuild_PcdPciDisableBusEnumeration
+0x00011464	0x00000004	[119] __gPcd_FixedAtBuild_PcdDebugPrintErrorLevel
+0x00011468	0x00000004	[119] __gPcd_FixedAtBuild_PcdMaximumAsciiStringLength
+0x0001146C	0x00000004	[119] __gPcd_FixedAtBuild_PcdMaximumUnicodeStringLength
+0x00011471	0x00000003	[119] __gPcd_FixedAtBuild_PcdDebugPropertyMask
+0x00011474	0x00000004	[119] __gPcd_FixedAtBuild_PcdFixedDebugPrintErrorLevel
+0x00011478	0x00000004	[119] __gPcd_FixedAtBuild_PcdVerifyNodeInList
+0x0001147C	0x00000004	[119] __gPcd_FixedAtBuild_PcdMaximumLinkedListLength
+0x00011480	0x00000004	[119] __gPcd_FixedAtBuild_PcdMaximumDevicePathNodeCount
+0x00011485	0x00000001	[119] __gPcd_FixedAtBuild_PcdComponentNameDisable
+0x00011487	0x00000001	[119] __gPcd_FixedAtBuild_PcdComponentName2Disable
+0x00011488	0x00000004	[119] __gUefiDriverRevision
+0x0001148C	0x00000001	[119] __gDriverUnloadImageCount
+0x0001148D	0x00000008	[  2] literal string: Success
+0x00011495	0x00000016	[  2] literal string: Warning Unknown Glyph
+0x000114AB	0x00000017	[  2] literal string: Warning Delete Failure
+0x000114C2	0x00000016	[  2] literal string: Warning Write Failure
+0x000114D8	0x00000019	[  2] literal string: Warning Buffer Too Small
+0x000114F1	0x00000013	[  2] literal string: Warning Stale Data
+0x00011504	0x0000000B	[  2] literal string: Load Error
+0x0001150F	0x00000012	[  2] literal string: Invalid Parameter
+0x00011521	0x0000000C	[  2] literal string: Unsupported
+0x0001152D	0x00000010	[  2] literal string: Bad Buffer Size
+0x0001153D	0x00000011	[  2] literal string: Buffer Too Small
+0x0001154E	0x0000000A	[  2] literal string: Not Ready
+0x00011558	0x0000000D	[  2] literal string: Device Error
+0x00011565	0x00000010	[  2] literal string: Write Protected
+0x00011575	0x00000011	[  2] literal string: Out of Resources
+0x00011586	0x0000000F	[  2] literal string: Volume Corrupt
+0x00011595	0x0000000C	[  2] literal string: Volume Full
+0x000115A1	0x00000009	[  2] literal string: No Media
+0x000115AA	0x0000000E	[  2] literal string: Media changed
+0x000115B8	0x0000000A	[  2] literal string: Not Found
+0x000115C2	0x0000000E	[  2] literal string: Access Denied
+0x000115D0	0x0000000C	[  2] literal string: No Response
+0x000115DC	0x0000000B	[  2] literal string: No mapping
+0x000115E7	0x00000009	[  2] literal string: Time out
+0x000115F0	0x0000000C	[  2] literal string: Not started
+0x000115FC	0x00000010	[  2] literal string: Already started
+0x0001160C	0x00000008	[  2] literal string: Aborted
+0x00011614	0x0000000B	[  2] literal string: ICMP Error
+0x0001161F	0x0000000B	[  2] literal string: TFTP Error
+0x0001162A	0x0000000F	[  2] literal string: Protocol Error
+0x00011639	0x00000015	[  2] literal string: Incompatible Version
+0x0001164E	0x00000013	[  2] literal string: Security Violation
+0x00011661	0x0000000A	[  2] literal string: CRC Error
+0x0001166B	0x0000000D	[  2] literal string: End of Media
+0x00011678	0x0000000E	[  2] literal string: Reserved (29)
+0x00011686	0x0000000E	[  2] literal string: Reserved (30)
+0x00011694	0x0000000C	[  2] literal string: End of File
+0x000116A0	0x00000011	[  2] literal string: Invalid Language
+0x000116B1	0x00000011	[  2] literal string: Compromised Data
+0x000116C2	0x0000004A	[  2] literal string: /Users/g5/Dev/SctWorkspace/MdePkg/Library/BasePrintLib/PrintLibInternal.c
+0x0001170C	0x00000017	[  2] literal string: Buffer != ((void *) 0)
+0x00011723	0x00000019	[  2] literal string: (Buffer != ((void *) 0))
+0x0001173C	0x00000041	[  2] literal string: (BufferSize <= (_gPcd_FixedAtBuild_PcdMaximumAsciiStringLength))
+0x0001177D	0x00000019	[  2] literal string: (Format != ((void *) 0))
+0x00011796	0x00000043	[  2] literal string: (BufferSize <= (_gPcd_FixedAtBuild_PcdMaximumUnicodeStringLength))
+0x000117D9	0x0000008C	[  2] literal string: (StrnLenS ((CHAR16 *)Format, (_gPcd_FixedAtBuild_PcdMaximumUnicodeStringLength) + 1) <= (_gPcd_FixedAtBuild_PcdMaximumUnicodeStringLength))
+0x00011865	0x00000083	[  2] literal string: (AsciiStrnLenS (Format, (_gPcd_FixedAtBuild_PcdMaximumAsciiStringLength) + 1) <= (_gPcd_FixedAtBuild_PcdMaximumAsciiStringLength))
+0x000118E8	0x0000000E	[  2] literal string: <null string>
+0x000118F6	0x0000000C	[  2] literal string: <null guid>
+0x00011902	0x00000031	[  2] literal string: %08x-%04x-%04x-%02x%02x-%02x%02x%02x%02x%02x%02x
+0x00011933	0x0000000C	[  2] literal string: <null time>
+0x0001193F	0x0000001A	[  2] literal string: %02d/%02d/%04d  %02d:%02d
+0x00011959	0x00000005	[  2] literal string: %08X
+0x0001195E	0x00000003	[  2] literal string: \n
+0x00011961	0x00000002	[  2] literal string: 
+0x00011963	0x00000042	[  3] literal string: /Users/g5/Dev/SctWorkspace/MdePkg/Library/BasePrintLib/PrintLib.c
+0x000119A5	0x00000028	[  3] literal string: (((UINTN) (StartOfBuffer)) & 0x01) == 0
+0x000119CD	0x00000027	[  3] literal string: (((UINTN) (FormatString)) & 0x01) == 0
+0x000119F4	0x00000048	[  4] literal string: /Users/g5/Dev/SctWorkspace/MdePkg/Library/UefiDebugLibConOut/DebugLib.c
+0x00011A3C	0x00000017	[  4] literal string: Format != ((void *) 0)
+0x00011A53	0x00000018	[  4] literal string: ASSERT [%a] %a(%d): %a\n
+0x00011A6B	0x00000012	[  6] literal string: ((BOOLEAN)(0==1))
+0x00011A7D	0x0000003C	[ 11] literal string: /Users/g5/Dev/SctWorkspace/MdePkg/Library/BaseLib/SetJump.c
+0x00011AB9	0x0000001B	[ 11] literal string: JumpBuffer != ((void *) 0)
+0x00011AD4	0x00000023	[ 11] literal string: ((UINTN)JumpBuffer & (8 - 1)) == 0
+0x00011AF7	0x0000003E	[ 12] literal string: /Users/g5/Dev/SctWorkspace/MdePkg/Library/BaseLib/RShiftU64.c
+0x00011B35	0x0000000B	[ 12] literal string: Count < 64
+0x00011B40	0x0000000D	[ 18] literal string: Divisor != 0
+0x00011B4D	0x0000003E	[ 19] literal string: /Users/g5/Dev/SctWorkspace/MdePkg/Library/BaseLib/LShiftU64.c
+0x00011B8B	0x00000047	[ 29] literal string: /Users/g5/Dev/SctWorkspace/MdePkg/Library/BaseLib/DivU64x32Remainder.c
+0x00011BD2	0x0000003F	[ 36] literal string: /Users/g5/Dev/SctWorkspace/MdePkg/Library/BaseLib/LinkedList.c
+0x00011C11	0x00000015	[ 36] literal string: List != ((void *) 0)
+0x00011C26	0x00000022	[ 36] literal string: List->ForwardLink != ((void *) 0)
+0x00011C48	0x0000001F	[ 36] literal string: List->BackLink != ((void *) 0)
+0x00011C67	0x00000028	[ 36] literal string: InternalBaseLibIsListValid (FirstEntry)
+0x00011C8F	0x0000001C	[ 36] literal string: SecondEntry != ((void *) 0)
+0x00011CAB	0x00000019	[ 36] literal string: ListHead != ((void *) 0)
+0x00011CC4	0x00000038	[ 36] literal string: ((BOOLEAN)(0==1)) == IsNodeInList ((ListHead), (Entry))
+0x00011CFC	0x00000026	[ 36] literal string: InternalBaseLibIsListValid (ListHead)
+0x00011D22	0x00000022	[ 36] literal string: InternalBaseLibIsListValid (List)
+0x00011D44	0x00000033	[ 36] literal string: ((BOOLEAN)(1==1)) == IsNodeInList ((List), (Node))
+0x00011D77	0x00000040	[ 36] literal string: ((BOOLEAN)(1==1)) == IsNodeInList ((FirstEntry), (SecondEntry))
+0x00011DB7	0x00000015	[ 36] literal string: !IsListEmpty (Entry)
+0x00011DCC	0x0000003F	[ 37] literal string: /Users/g5/Dev/SctWorkspace/MdePkg/Library/BaseLib/SafeString.c
+0x00011E0B	0x00000023	[ 37] literal string: ((UINTN) String & 0x00000001) == 0
+0x00011E2E	0x0000003B	[ 38] literal string: /Users/g5/Dev/SctWorkspace/MdePkg/Library/BaseLib/String.c
+0x00011E69	0x00000017	[ 38] literal string: String != ((void *) 0)
+0x00011E80	0x00000038	[ 38] literal string: Length < _gPcd_FixedAtBuild_PcdMaximumAsciiStringLength
+0x00011EB8	0x0000001B	[ 38] literal string: AsciiStrSize (FirstString)
+0x00011ED3	0x0000001C	[ 38] literal string: AsciiStrSize (SecondString)
+0x00011EEF	0x00000039	[ 38] literal string: Length <= _gPcd_FixedAtBuild_PcdMaximumAsciiStringLength
+0x00011F28	0x0000003E	[ 44] literal string: /Users/g5/Dev/SctWorkspace/MdePkg/Library/BaseLib/Unaligned.c
+0x00011F66	0x00000049	[ 76] literal string: /Users/g5/Dev/SctWorkspace/MdePkg/Library/BaseMemoryLib/ZeroMemWrapper.c
+0x00011FAF	0x00000036	[ 76] literal string: Length <= (0xFFFFFFFFFFFFFFFFULL - (UINTN)Buffer + 1)
+0x00011FE5	0x0000004C	[ 77] literal string: /Users/g5/Dev/SctWorkspace/MdePkg/Library/BaseMemoryLib/CompareMemWrapper.c
+0x00012031	0x00000022	[ 77] literal string: DestinationBuffer != ((void *) 0)
+0x00012053	0x0000001D	[ 77] literal string: SourceBuffer != ((void *) 0)
+0x00012070	0x00000043	[ 77] literal string: (Length - 1) <= (0xFFFFFFFFFFFFFFFFULL - (UINTN)DestinationBuffer)
+0x000120B3	0x0000003E	[ 77] literal string: (Length - 1) <= (0xFFFFFFFFFFFFFFFFULL - (UINTN)SourceBuffer)
+0x000120F1	0x00000049	[ 82] literal string: /Users/g5/Dev/SctWorkspace/MdePkg/Library/BaseMemoryLib/CopyMemWrapper.c
+0x0001213A	0x0000005E	[ 88] literal string: /Users/g5/Dev/SctWorkspace/MdePkg/Library/UefiBootServicesTableLib/UefiBootServicesTableLib.c
+0x00012198	0x0000001D	[ 88] literal string: gImageHandle != ((void *) 0)
+0x000121B5	0x00000014	[ 88] literal string: gST != ((void *) 0)
+0x000121C9	0x00000014	[ 88] literal string: gBS != ((void *) 0)
+0x000121DD	0x00000058	[ 89] literal string: /Users/g5/Dev/SctWorkspace/MdePkg/Library/UefiMemoryAllocationLib/MemoryAllocationLib.c
+0x00012235	0x00000021	[ 89] literal string: \nASSERT_EFI_ERROR (Status = %r)\n
+0x00012256	0x00000014	[ 89] literal string: !EFI_ERROR (Status)
+0x0001226A	0x0000003F	[ 89] literal string: AllocationSize <= (0xFFFFFFFFFFFFFFFFULL - (UINTN) Buffer + 1)
+0x000122A9	0x00000064	[ 90] literal string: /Users/g5/Dev/SctWorkspace/MdePkg/Library/UefiRuntimeServicesTableLib/UefiRuntimeServicesTableLib.c
+0x0001230D	0x00000014	[ 90] literal string: gRT != ((void *) 0)
+0x00012321	0x00000052	[ 91] literal string: /Users/g5/Dev/SctWorkspace/MdePkg/Library/UefiDevicePathLib/DevicePathUtilities.c
+0x00012373	0x0000001B	[ 91] literal string: DevicePath != ((void *) 0)
+0x0001238E	0x00000015	[ 91] literal string: Node != ((void *) 0)
+0x000123A3	0x00000047	[ 91] literal string: (Length >= sizeof (EFI_DEVICE_PATH_PROTOCOL)) && (Length < 0x00010000)
+0x000123EA	0x0000004F	[ 92] literal string: /Users/g5/Dev/SctWorkspace/MdePkg/Library/UefiDevicePathLib/DevicePathToText.c
+0x00012439	0x00000019	[ 92] literal string: Str->Str != ((void *) 0)
+0x00012452	0x00000017	[ 92] literal string: NewStr != ((void *) 0)
+0x00012469	0x00000017	[ 92] literal string: UriStr != ((void *) 0)
+0x00012480	0x00000060	[ 96] literal string: /Users/g5/Dev/SctWorkspace/MdePkg/Library/BaseReportStatusCodeLibNull/BaseReportStatusCodeLib.c
+0x000124E0	0x0000001D	[ 96] literal string: ExtendedData != ((void *) 0)
+0x000124FD	0x00000016	[ 96] literal string: ExtendedDataSize != 0
+0x00012513	0x00000044	[ 99] literal string: /Users/g5/Dev/SctWorkspace/MdePkg/Library/UefiLib/UefiDriverModel.c
+0x00012557	0x0000001E	[ 99] literal string: DriverBinding != ((void *) 0)
+0x00012575	0x00000052	[102] literal string: /Users/g5/Dev/SctWorkspace/MdePkg/Library/UefiDriverEntryPoint/DriverEntryPoint.c
+0x000125C7	0x00000043	[105] literal string: /Users/g5/Dev/SctWorkspace/MdeModulePkg/Bus/Pci/PciBusDxe/PciLib.c
+0x0001260A	0x00000015	[105] literal string: CR has Bad Signature
+0x0001261F	0x0000003C	[105] literal string: Type = %s; Base = 0x%lx;	Length = 0x%lx;	Alignment = 0x%lx\n
+0x0001265B	0x00000050	[105] literal string:    Base = 0x%lx;	Length = 0x%lx;	Alignment = 0x%lx;	Owner = %s [%02x|%02x|%02x:
+0x000126AB	0x00000006	[105] literal string: %02x]
+0x000126B1	0x00000004	[105] literal string: **]
+0x000126B5	0x00000035	[105] literal string:    Base = Padding;	Length = 0x%lx;	Alignment = 0x%lx
+0x000126EA	0x0000000C	[105] literal string: ; Type = %s
+0x000126F6	0x00000002	[105] literal string: \n
+0x000126F8	0x0000001A	[105] literal string: PciBus: Resource Map for 
+0x00012712	0x00000019	[105] literal string: Bridge [%02x|%02x|%02x]\n
+0x0001272B	0x00000010	[105] literal string: Root Bridge %s\n
+0x0001273B	0x0000001F	[105] literal string: ChildResources != ((void *) 0)
+0x0001275A	0x0000002C	[105] literal string: PciBus: HostBridge->SubmitResources() - %r\n
+0x00012786	0x0000001E	[105] literal string: RootBridgeDev != ((void *) 0)
+0x000127A4	0x00000039	[105] literal string: PciBus: HostBridge->NotifyPhase(AllocateResources) - %r\n
+0x000127DD	0x00000019	[105] literal string: IoBridge != ((void *) 0)
+0x000127F6	0x0000001C	[105] literal string: Mem32Bridge != ((void *) 0)
+0x00012812	0x0000001D	[105] literal string: PMem32Bridge != ((void *) 0)
+0x0001282F	0x0000001C	[105] literal string: Mem64Bridge != ((void *) 0)
+0x0001284B	0x0000001D	[105] literal string: PMem64Bridge != ((void *) 0)
+0x00012868	0x00000027	[105] literal string: !(((INTN)(RETURN_STATUS)(Status)) < 0)
+0x0001288F	0x00000027	[105] literal string: PCI-IOV ScanBus - SubBusNumber - 0x%x\n
+0x000128B6	0x00000030	[105] literal string: PCI-IOV ScanBus - SubBusNumber - 0x%x (Update)\n
+0x000128E6	0x00000018	[105] literal string: PCI Bus First Scanning\n
+0x000128FE	0x00000024	[105] literal string: Some root HPC failed to initialize\n
+0x00012922	0x00000019	[105] literal string: PCI Bus Second Scanning\n
+0x0001293B	0x00000042	[106] literal string: /Users/g5/Dev/SctWorkspace/MdeModulePkg/Bus/Pci/PciBusDxe/PciIo.c
+0x0001297D	0x00000043	[107] literal string: /Users/g5/Dev/SctWorkspace/MdeModulePkg/Bus/Pci/PciBusDxe/PciBus.c
+0x000129C0	0x0000004D	[108] literal string: /Users/g5/Dev/SctWorkspace/MdeModulePkg/Bus/Pci/PciBusDxe/PciDeviceSupport.c
+0x00012A0D	0x0000001C	[108] literal string: PciIoDevice != ((void *) 0)
+0x00012A29	0x0000001B	[108] literal string: RootBridge != ((void *) 0)
+0x00012A44	0x00000004	[109] literal string: eng
+0x00012A48	0x00000003	[109] literal string: en
+0x00012A4B	0x00000007	[109] literal string: eng;en
+0x00012A52	0x0000004F	[111] literal string: /Users/g5/Dev/SctWorkspace/MdeModulePkg/Bus/Pci/PciBusDxe/PciResourceSupport.c
+0x00012AA1	0x00000017	[111] literal string: Bridge != ((void *) 0)
+0x00012AB8	0x00000018	[111] literal string: ResNode != ((void *) 0)
+0x00012AD0	0x00000014	[111] literal string: Dst != ((void *) 0)
+0x00012AE4	0x00000014	[111] literal string: Res != ((void *) 0)
+0x00012AF8	0x00000015	[111] literal string: PaddingAperture == 0
+0x00012B0D	0x0000005B	[111] literal string: (Node->ResourceUsage == PciResUsageTypical) || (Node->ResourceUsage == PciResUsagePadding)
+0x00012B68	0x00000043	[111] literal string: Node->ResourceUsage < (sizeof (Aperture) / sizeof ((Aperture)[0]))
+0x00012BAB	0x00000013	[111] literal string: Node->Bar < 0x0006
+0x00012BBE	0x0000000E	[111] literal string: Node->Virtual
+0x00012BCC	0x00000005	[111] literal string: Temp
+0x00012BD1	0x0000002A	[112] literal string: PciBus: Discovered %s @ [%02x|%02x|%02x]\n
+0x00012BFB	0x0000003A	[112] literal string:    Padding: Type = %s; Alignment = 0x%lx;	Length = 0x%lx\n
+0x00012C35	0x0000004B	[112] literal string:    BAR[%d]: Type = %s; Alignment = 0x%lx;	Length = 0x%lx;	Offset = 0x%02x\n
+0x00012C80	0x0000004B	[112] literal string:  VFBAR[%d]: Type = %s; Alignment = 0x%lx;	Length = 0x%lx;	Offset = 0x%02x\n
+0x00012CCB	0x00000051	[112] literal string: /Users/g5/Dev/SctWorkspace/MdeModulePkg/Bus/Pci/PciBusDxe/PciEnumeratorSupport.c
+0x00012D1C	0x00000012	[112] literal string: BarIndex < 0x0006
+0x00012D2E	0x00000028	[112] literal string: PciIoDevice->SrIovCapabilityOffset != 0
+0x00012D56	0x00000053	[112] literal string: [PciBus]BAR probing for upper 32bit of MEM64 BAR returns 0, change to 0xFFFFFFFF.\n
+0x00012DA9	0x00000032	[112] literal string:  ARI: forwarding enabled for PPB[%02x:%02x:%02x]\n
+0x00012DDB	0x00000018	[112] literal string:  ARI: CapOffset = 0x%x\n
+0x00012DF3	0x00000021	[112] literal string: PciIoDevice->SystemPageSize != 0
+0x00012E14	0x00000051	[112] literal string:  SR-IOV: SupportedPageSize = 0x%x; SystemPageSize = 0x%x; FirstVFOffset = 0x%x;\n
+0x00012E65	0x00000045	[112] literal string:          InitialVFs = 0x%x; ReservedBusNum = 0x%x; CapOffset = 0x%x\n
+0x00012EAA	0x0000001B	[112] literal string:  MR-IOV: CapOffset = 0x%x\n
+0x00012EC5	0x0000004A	[113] literal string: /Users/g5/Dev/SctWorkspace/MdeModulePkg/Bus/Pci/PciBusDxe/PciEnumerator.c
+0x00012F0F	0x00000044	[113] literal string: PciBus: [%02x|%02x|%02x] was rejected due to resource confliction.\n
+0x00012F53	0x00000017	[113] literal string: Config != ((void *) 0)
+0x00012F6A	0x00000050	[114] literal string: /Users/g5/Dev/SctWorkspace/MdeModulePkg/Bus/Pci/PciBusDxe/PciOptionRomSupport.c
+0x00012FBA	0x00000049	[114] literal string: Pcir->Signature == ((('P') | ('C' << 8)) | ((('I') | ('R' << 8)) << 16))
+0x00013003	0x00000045	[114] literal string: ((EFI_PCI_EXPANSION_ROM_HEADER *) RomBarOffset)->Signature == 0xaa55
+0x00013048	0x0000002C	[114] literal string: PciOptionRomImageDevicePath != ((void *) 0)
+0x00013074	0x0000004E	[115] literal string: /Users/g5/Dev/SctWorkspace/MdeModulePkg/Bus/Pci/PciBusDxe/PciDriverOverride.c
+0x000130C2	0x00000031	[115] literal string: IsNull (&PciIoDevice->OptionRomDriverList, Link)
+0x000130F3	0x00000049	[115] literal string: (DriverImageHandle == ((void *) 0)) || (DriverImagePath == ((void *) 0))
+0x0001313C	0x00000048	[117] literal string: /Users/g5/Dev/SctWorkspace/MdeModulePkg/Bus/Pci/PciBusDxe/PciRomTable.c
+0x00013184	0x00000061	[117] literal string: (mRomImageTable[Index].RomImage == ((void *) 0)) || (RomImage == mRomImageTable[Index].RomImage)
+0x000131E5	0x00000055	[117] literal string: (mRomImageTable[Index].RomSize == 0 ) || (RomSize == mRomImageTable[Index].RomSize )
+0x0001323A	0x0000000A	[119] literal string: PciBusDxe
+0x00013244	0x00000077	[119] literal string: /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdeModulePkg/Bus/Pci/PciBusDxe/PciBusDxe/DEBUG/AutoGen.c
+0x000132BC	0x0000001E	[ 92] l_.str.2
+0x000132DA	0x0000001A	[ 92] l_.str.3
+0x000132F4	0x0000003E	[ 92] l_.str.4
+0x00013332	0x00000006	[ 92] l_.str.5
+0x00013338	0x00000008	[ 92] l_.str.6
+0x00013340	0x00000018	[ 92] l_.str.7
+0x00013358	0x00000016	[ 92] l_.str.8
+0x0001336E	0x0000001E	[ 92] l_.str.9
+0x0001338C	0x00000014	[ 92] l_.str.10
+0x000133A0	0x00000022	[ 92] l_.str.11
+0x000133C2	0x0000000A	[ 92] l_.str.12
+0x000133CC	0x00000012	[ 92] l_.str.13
+0x000133DE	0x00000010	[ 92] l_.str.14
+0x000133EE	0x0000002C	[ 92] l_.str.15
+0x0001341A	0x00000024	[ 92] l_.str.16
+0x0001343E	0x00000014	[ 92] l_.str.17
+0x00013452	0x0000000A	[ 92] l_.str.18
+0x0001345C	0x00000008	[ 92] l_.str.19
+0x00013464	0x00000012	[ 92] l_.str.20
+0x00013476	0x00000012	[ 92] l_.str.21
+0x00013488	0x00000012	[ 92] l_.str.22
+0x0001349A	0x0000000E	[ 92] l_.str.23
+0x000134A8	0x00000006	[ 92] l_.str.24
+0x000134AE	0x0000000C	[ 92] l_.str.25
+0x000134BA	0x00000018	[ 92] l_.str.26
+0x000134D2	0x0000000C	[ 92] l_.str.27
+0x000134DE	0x00000018	[ 92] l_.str.28
+0x000134F6	0x0000000C	[ 92] l_.str.29
+0x00013502	0x00000004	[ 92] l_.str.30
+0x00013506	0x00000012	[ 92] l_.str.31
+0x00013518	0x00000004	[ 92] l_.str.32
+0x0001351C	0x0000000A	[ 92] l_.str.33
+0x00013526	0x00000004	[ 92] l_.str.34
+0x0001352A	0x00000016	[ 92] l_.str.35
+0x00013540	0x00000020	[ 92] l_.str.36
+0x00013560	0x0000001C	[ 92] l_.str.37
+0x0001357C	0x0000001E	[ 92] l_.str.38
+0x0001359A	0x0000001A	[ 92] l_.str.39
+0x000135B4	0x0000001E	[ 92] l_.str.40
+0x000135D2	0x0000001A	[ 92] l_.str.41
+0x000135EC	0x00000026	[ 92] l_.str.42
+0x00013612	0x00000026	[ 92] l_.str.43
+0x00013638	0x00000024	[ 92] l_.str.44
+0x0001365C	0x00000016	[ 92] l_.str.45
+0x00013672	0x00000024	[ 92] l_.str.46
+0x00013696	0x00000016	[ 92] l_.str.47
+0x000136AC	0x00000016	[ 92] l_.str.48
+0x000136C2	0x00000008	[ 92] l_.str.49
+0x000136CA	0x00000008	[ 92] l_.str.50
+0x000136D2	0x00000008	[ 92] l_.str.51
+0x000136DA	0x00000038	[ 92] l_.str.52
+0x00013712	0x0000001A	[ 92] l_.str.53
+0x0001372C	0x0000000C	[ 92] l_.str.54
+0x00013738	0x00000014	[ 92] l_.str.55
+0x0001374C	0x00000020	[ 92] l_.str.56
+0x0001376C	0x00000014	[ 92] l_.str.57
+0x00013780	0x00000010	[ 92] l_.str.58
+0x00013790	0x0000000C	[ 92] l_.str.59
+0x0001379C	0x0000000E	[ 92] l_.str.60
+0x000137AA	0x00000020	[ 92] l_.str.61
+0x000137CA	0x00000026	[ 92] l_.str.62
+0x000137F0	0x00000016	[ 92] l_.str.63
+0x00013806	0x00000008	[ 92] l_.str.64
+0x0001380E	0x00000012	[ 92] l_.str.65
+0x00013820	0x0000000E	[ 92] l_.str.66
+0x0001382E	0x00000022	[ 92] l_.str.67
+0x00013850	0x00000004	[ 92] l_.str.68
+0x00013854	0x0000000A	[ 92] l_.str.69
+0x0001385E	0x00000016	[ 92] l_.str.70
+0x00013874	0x00000066	[ 92] l_.str.71
+0x000138DA	0x0000001E	[ 92] l_.str.72
+0x000138F8	0x00000012	[ 92] l_.str.73
+0x0001390A	0x00000016	[ 92] l_.str.74
+0x00013920	0x0000001C	[ 92] l_.str.75
+0x0001393C	0x0000001E	[ 92] l_.str.76
+0x0001395A	0x0000003A	[ 92] l_.str.78
+0x00013994	0x00000016	[ 92] l_.str.79
+0x000139AA	0x00000012	[ 92] l_.str.80
+0x000139BC	0x0000001C	[ 92] l_.str.81
+0x000139D8	0x0000000E	[ 92] l_.str.82
+0x000139E6	0x00000012	[ 92] l_.str.83
+0x000139F8	0x00000016	[ 92] l_.str.84
+0x00013A0E	0x0000001E	[ 92] l_.str.85
+0x00013A2C	0x0000000E	[ 92] l_.str.86
+0x00013A3A	0x00000016	[ 92] l_.str.87
+0x00013A50	0x0000001A	[ 92] l_.str.88
+0x00013A6A	0x00000012	[ 92] l_.str.89
+0x00013A7C	0x0000001C	[ 92] l_.str.90
+0x00013A98	0x00000018	[ 92] l_.str.91
+0x00013AB0	0x0000002C	[ 92] l_.str.92
+0x00013ADC	0x00000050	[ 92] l_.str.93
+0x00013B2C	0x0000003C	[ 92] l_.str.94
+0x00013B68	0x0000004C	[ 92] l_.str.95
+0x00013BB4	0x00000046	[ 92] l_.str.96
+0x00013BFA	0x0000002A	[ 92] l_.str.97
+0x00013C24	0x00000014	[ 92] l_.str.98
+0x00013C38	0x0000000A	[ 92] l_.str.99
+0x00013C42	0x0000000E	[ 92] l_.str.100
+0x00013C50	0x00000008	[ 92] l_.str.101
+0x00013C58	0x00000008	[ 92] l_.str.102
+0x00013C60	0x00000018	[ 92] l_.str.103
+0x00013C78	0x00000090	[ 92] l_.str.104
+0x00013D08	0x0000000C	[ 92] l_.str.105
+0x00013D14	0x0000000A	[ 92] l_.str.106
+0x00013D1E	0x0000000E	[ 92] l_.str.107
+0x00013D2C	0x0000000A	[ 92] l_.str.108
+0x00013D36	0x0000000C	[ 92] l_.str.109
+0x00013D42	0x00000012	[ 92] l_.str.110
+0x00013D54	0x00000032	[ 92] l_.str.111
+0x00013D86	0x00000030	[ 92] l_.str.112
+0x00013DB6	0x0000004C	[ 92] l_.str.113
+0x00013E02	0x0000001C	[ 92] l_.str.114
+0x00013E1E	0x00000014	[ 92] l_.str.115
+0x00013E32	0x00000012	[ 92] l_.str.116
+0x00013E44	0x00000008	[ 92] l_.str.117
+0x00013E4C	0x00000008	[ 92] l_.str.118
+0x00013E54	0x00000006	[ 92] l_.str.119
+0x00013E5A	0x00000006	[ 92] l_.str.120
+0x00013E60	0x0000000A	[ 92] l_.str.121
+0x00013E6A	0x00000006	[ 92] l_.str.122
+0x00013E70	0x00000006	[ 92] l_.str.123
+0x00013E76	0x0000002A	[ 92] l_.str.124
+0x00013EA0	0x00000008	[ 92] l_.str.125
+0x00013EA8	0x0000000E	[ 92] l_.str.126
+0x00013EB6	0x00000012	[ 92] l_.str.127
+0x00013EC8	0x00000010	[ 92] l_.str.128
+0x00013ED8	0x00000012	[ 92] l_.str.129
+0x00013EEA	0x00000012	[ 92] l_.str.130
+0x00013EFC	0x00000048	[ 92] l_.str.131
+0x00013F44	0x00000014	[ 92] l_.str.132
+0x00013F58	0x0000005A	[ 92] l_.str.133
+0x00013FB2	0x0000000A	[ 92] l_.str.134
+0x00013FBC	0x00000010	[ 92] l_.str.136
+0x00013FCC	0x00000022	[ 92] l_.str.137
+0x00013FEE	0x00000008	[ 92] l_.str.138
+0x00013FF6	0x0000001A	[ 92] l_.str.139
+0x00014010	0x00000008	[ 92] l_.str.140
+0x00014018	0x00000018	[ 92] l_.str.141
+0x00014030	0x0000001A	[ 92] l_.str.142
+0x0001404A	0x00000018	[ 92] l_.str.143
+0x00014062	0x00000030	[ 92] l_.str.144
+0x00014092	0x00000006	[ 92] l_.str.145
+0x00014098	0x00000014	[ 92] l_.str.146
+0x000140AC	0x0000000E	[ 92] l_.str.147
+0x000140BA	0x00000016	[ 92] l_.str.148
+0x000140D0	0x00000028	[ 92] l_.str.149
+0x000140F8	0x00000038	[ 92] l_.str.150
+0x00014130	0x00000034	[ 92] l_.str.151
+0x00014164	0x0000004C	[ 92] l_.str.152
+0x000141B0	0x00000048	[ 92] l_.str.153
+0x000141F8	0x00000036	[ 92] l_.str.154
+0x0001422E	0x0000000E	[ 92] l_.str.155
+0x0001423C	0x00000006	[ 92] l_.str.156
+0x00014242	0x0000000C	[ 92] l_.str.157
+0x0001424E	0x0000000E	[ 92] l_.str.158
+0x0001425C	0x00000008	[ 92] l_.str.159
+0x00014264	0x00000010	[ 92] l_.str.160
+0x00014274	0x00000014	[ 92] l_.str.161
+0x00014288	0x00000018	[ 92] l_.str.162
+0x000142A0	0x0000001A	[ 92] l_.str.163
+0x000142BA	0x00000012	[ 92] l_.str.164
+0x000142CC	0x00000014	[ 92] l_.str.165
+0x000142E0	0x00000010	[ 92] l_.str.166
+0x000142F0	0x00000016	[ 92] l_.str.167
+0x00014306	0x0000000C	[ 92] l_.str.168
+0x00014312	0x00000004	[ 92] l_.str.170
+0x00014316	0x0000000E	[105] l_.str
+0x00014324	0x0000000E	[105] l_.str.1
+0x00014332	0x0000000E	[105] l_.str.2
+0x00014340	0x0000000E	[105] l_.str.3
+0x0001434E	0x0000000E	[105] l_.str.4
+0x0001435C	0x0000000E	[105] l_.str.5
+0x0001436A	0x0000000E	[105] l_.str.6
+0x00014378	0x0000000E	[105] l_.str.7
+0x00014386	0x0000000E	[105] l_.str.8
+0x00014394	0x00000008	[105] l_.str.13
+0x0001439C	0x00000008	[105] l_.str.14
+0x000143A4	0x00000008	[105] l_.str.15
+0x000143AC	0x00000002	[105] l_.str.24
+0x000143AE	0x0000001E	[109] l_.str.3
+0x000143CC	0x00000008	[112] l_.str.1
+0x000143D4	0x00000008	[112] l_.str.2
+0x000143DC	0x00000008	[112] l_.str.3
+0x00014400	0x00000138	[  2] _mStatusString
+0x00014540	0x00000060	[ 92] _mUefiDevicePathLibToTextTableGeneric
+0x000145A0	0x00000320	[ 92] _mUefiDevicePathLibToTextTable
+0x000148C0	0x00000030	[ 92] l_switch.table.DevPathToTextBBS
+0x000148F0	0x00000002	[ 40] _m16Size
+0x000148F2	0x00000002	[ 40] _mThunk16Attr
+0x000148F4	0x00000002	[ 40] _m16Gdt
+0x000148F6	0x00000002	[ 40] _m16GdtrBase
+0x000148F8	0x00000002	[ 40] _mTransition
+0x00014900	0x00000050	[105] _mBarTypeStr
+0x00014950	0x000000A0	[106] _mPciIoInterface
+0x000149F0	0x00000030	[107] _gPciBusDriverBinding
+0x00014A20	0x00000008	[107] _gFullEnumeration
+0x00014A28	0x00000008	[107] _gAllOne
+0x00014A30	0x00000008	[107] _mPciHotPlugRequest
+0x00014A40	0x00000018	[109] _gPciBusComponentName
+0x00014A58	0x00000018	[109] _gPciBusComponentName2
+0x00014A70	0x00000020	[109] _mPciBusDriverNameTable
+0x00014A90	0x00000008	[119] _gEfiCallerBaseName
+0x00014A98	0x00000010	[119] _gEfiVTUTF8Guid
+0x00014AA8	0x00000010	[119] _gEfiVT100Guid
+0x00014AB8	0x00000010	[119] _gEfiVT100PlusGuid
+0x00014AC8	0x00000010	[119] _gEfiPcAnsiGuid
+0x00014AD8	0x00000010	[119] _gEfiUartDevicePathGuid
+0x00014AE8	0x00000010	[119] _gEfiSasDevicePathGuid
+0x00014AF8	0x00000010	[119] _gEfiVirtualDiskGuid
+0x00014B08	0x00000010	[119] _gEfiVirtualCdGuid
+0x00014B18	0x00000010	[119] _gEfiPersistentVirtualDiskGuid
+0x00014B28	0x00000010	[119] _gEfiPersistentVirtualCdGuid
+0x00014B38	0x00000010	[119] _gEfiPciHotPlugRequestProtocolGuid
+0x00014B48	0x00000010	[119] _gEfiPciIoProtocolGuid
+0x00014B58	0x00000010	[119] _gEfiDevicePathProtocolGuid
+0x00014B68	0x00000010	[119] _gEfiBusSpecificDriverOverrideProtocolGuid
+0x00014B78	0x00000010	[119] _gEfiLoadedImageProtocolGuid
+0x00014B88	0x00000010	[119] _gEfiDecompressProtocolGuid
+0x00014B98	0x00000010	[119] _gEfiPciHotPlugInitProtocolGuid
+0x00014BA8	0x00000010	[119] _gEfiPciHostBridgeResourceAllocationProtocolGuid
+0x00014BB8	0x00000010	[119] _gEfiPciPlatformProtocolGuid
+0x00014BC8	0x00000010	[119] _gEfiPciOverrideProtocolGuid
+0x00014BD8	0x00000010	[119] _gEfiPciEnumerationCompleteProtocolGuid
+0x00014BE8	0x00000010	[119] _gEfiPciRootBridgeIoProtocolGuid
+0x00014BF8	0x00000010	[119] _gEfiIncompatiblePciDeviceSupportProtocolGuid
+0x00014C08	0x00000010	[119] _gEfiLoadFile2ProtocolGuid
+0x00014C18	0x00000010	[119] _gEdkiiIoMmuProtocolGuid
+0x00014C28	0x00000010	[119] _gEfiLoadedImageDevicePathProtocolGuid
+0x00014C38	0x00000010	[119] _gEfiDebugPortProtocolGuid
+0x00014C48	0x00000010	[119] _gEfiDriverBindingProtocolGuid
+0x00014C58	0x00000010	[119] _gEfiComponentNameProtocolGuid
+0x00014C68	0x00000010	[119] _gEfiComponentName2ProtocolGuid
+0x00014C80	0x00000008	[ 88] _gImageHandle
+0x00014C88	0x00000008	[ 88] _gST
+0x00014C90	0x00000008	[ 88] _gBS
+0x00014C98	0x00000008	[ 90] _gRT
+0x00014CA0	0x00000008	[107] _gIncompatiblePciDeviceSupport
+0x00014CA8	0x00000008	[107] _gPciHostBridgeNumber
+0x00014CB0	0x00000008	[107] _gAllZero
+0x00014CB8	0x00000001	[111] _mReserveIsaAliases
+0x00014CB9	0x00000001	[111] _mReserveVgaAliases
+0x00014CBA	0x00000001	[111] _mPolicyDetermined
+0x00014CC0	0x00000008	[117] _mNumberOfPciRomImages
+0x00014CC8	0x00000008	[117] _mMaxNumberOfPciRomImages
+0x00014CD0	0x00000008	[117] _mRomImageTable
+0x00014CD8	0x00000008	[118] _gPciHotPlugInit
+0x00014CE0	0x00000008	[118] _gPciRootHpcPool
+0x00014CE8	0x00000008	[118] _gPciRootHpcCount
+0x00014CF0	0x00000008	[118] _gPciRootHpcData
+0x00014D00	0x00000080	[107] _gPciHostBrigeHandles
+0x00014D80	0x00000008	[107] _gPciOverrideProtocol
+0x00014D88	0x00000008	[107] _gPciPlatformProtocol
+0x00014D90	0x00000008	[107] _mIoMmuProtocol
+0x00014D98	0x00000010	[108] _mPciDevicePool

@@ -1,0 +1,166 @@
+## @file
+#  Last PEIM executed in PEI phase to load DXE Core from a Firmware Volume.
+#
+#  This module produces a special PPI named the DXE Initial Program Load (IPL)
+#  PPI to discover and dispatch the DXE Foundation and components that are
+#  needed to run the DXE Foundation.
+#
+#  Copyright (c) 2006 - 2017, Intel Corporation. All rights reserved.<BR>
+#  Copyright (c) 2017, AMD Incorporated. All rights reserved.<BR>
+#
+#  This program and the accompanying materials
+#  are licensed and made available under the terms and conditions of the BSD License
+#  which accompanies this distribution.  The full text of the license may be found at
+#  http://opensource.org/licenses/bsd-license.php
+#
+#  THE PROGRAM IS DISTRIBUTED UNDER THE BSD LICENSE ON AN "AS IS" BASIS,
+#  WITHOUT WARRANTIES OR REPRESENTATIONS OF ANY KIND, EITHER EXPRESS OR IMPLIED.
+#
+##
+
+# DO NOT EDIT
+# FILE auto-generated
+
+[Defines]
+  INF_VERSION                = 0x00010017
+  BASE_NAME                  = DxeIpl
+  FILE_GUID                  = 86D70125-BAA3-4296-A62F-602BEBBB9081
+  MODULE_TYPE                = PEIM
+  VERSION_STRING             = 1.0
+  ENTRY_POINT                = PeimInitializeDxeIpl
+  MODULE_UNI_FILE            = DxeIpl.uni
+
+[Packages.X64]
+  MdePkg/MdePkg.dec
+  MdeModulePkg/MdeModulePkg.dec
+
+[Binaries.X64]
+  PE32|DxeIpl.efi
+  PEI_DEPEX|DxeIpl.depex
+
+[PatchPcd.X64]
+
+[Protocols.X64]
+
+[Ppis.X64]
+  ## PRODUCES
+  gEfiDxeIplPpiGuid
+
+  ## PRODUCES
+  gEfiPeiDecompressPpiGuid
+
+  ## SOMETIMES_PRODUCES # Not produced on S3 boot path
+  gEfiEndOfPeiSignalPpiGuid
+
+  ## SOMETIMES_CONSUMES
+  gEfiPeiReadOnlyVariable2PpiGuid
+
+  ## SOMETIMES_CONSUMES
+  gEfiPeiLoadFilePpiGuid
+
+  ## SOMETIMES_CONSUMES # Consumed on S3 boot path
+  gEfiPeiS3Resume2PpiGuid
+
+  ## SOMETIMES_CONSUMES # Consumed on recovery boot path
+  gEfiPeiRecoveryModulePpiGuid
+
+  ## SOMETIMES_CONSUMES
+  ## UNDEFINED # HOB
+  gEfiVectorHandoffInfoPpiGuid
+
+  ## SOMETIMES_CONSUMES
+  gEfiPeiMemoryDiscoveredPpiGuid
+
+  ## SOMETIMES_PRODUCES
+  gEfiPeiFirmwareVolumeInfoPpiGuid
+
+  ## SOMETIMES_PRODUCES
+  gEfiPeiFirmwareVolumeInfo2PpiGuid
+
+
+[Guids.X64]
+  ## SOMETIMES_CONSUMES ## Variable:L"MemoryTypeInformation"
+  ## SOMETIMES_PRODUCES ## HOB
+  gEfiMemoryTypeInformationGuid
+
+  ## SOMETIMES_PRODUCES ## HOB # MemoryAllocation StackHob
+  gEfiHobMemoryAllocStackGuid
+
+  ## SOMETIMES_PRODUCES ## HOB # MemoryAllocation BspStoreHob
+  gEfiHobMemoryAllocBspStoreGuid
+
+  ## SOMETIMES_PRODUCES ## HOB # MemoryAllocation ModuleHob
+  gEfiHobMemoryAllocModuleGuid
+
+  ## SOMETIMES_PRODUCES ## GUID # FV File System Guid.
+  gEfiFirmwareFileSystem2Guid
+
+
+[PcdEx.X64]
+
+[LibraryClasses.X64]
+## @LIB_INSTANCES
+#  MdePkg/Library/BaseDebugLibNull/BaseDebugLibNull.inf
+#  MdePkg/Library/BaseLib/BaseLib.inf
+#  MdePkg/Library/PeiHobLib/PeiHobLib.inf
+#  MdePkg/Library/PeiServicesLib/PeiServicesLib.inf
+#  MdePkg/Library/BaseMemoryLib/BaseMemoryLib.inf
+#  MdePkg/Library/PeiMemoryAllocationLib/PeiMemoryAllocationLib.inf
+#  MdePkg/Library/BasePcdLibNull/BasePcdLibNull.inf
+#  MdePkg/Library/PeiServicesTablePointerLib/PeiServicesTablePointerLib.inf
+#  MdePkg/Library/PeiExtractGuidedSectionLib/PeiExtractGuidedSectionLib.inf
+#  MdePkg/Library/BaseUefiDecompressLib/BaseUefiDecompressLib.inf
+#  MdePkg/Library/BaseReportStatusCodeLibNull/BaseReportStatusCodeLibNull.inf
+#  MdePkg/Library/PeimEntryPoint/PeimEntryPoint.inf
+#  MdeModulePkg/Library/DebugAgentLibNull/DebugAgentLibNull.inf
+
+[Depex.X64]
+#  gEfiPeiLoadFilePpiGuid AND gEfiPeiMasterBootModePpiGuid
+
+[UserExtensions.TianoCore."ExtraFiles"]
+DxeIplExtra.uni
+
+
+
+#
+# The following information is for reference only and not required by the build tools.
+#
+#  VALID_ARCHITECTURES           = IA32 X64 IPF EBC (EBC is for build only) AARCH64
+#
+#
+# [BootMode]
+#  S3_RESUME                        ## SOMETIMES_CONSUMES
+#  RECOVERY_FULL                    ## SOMETIMES_CONSUMES
+#
+#
+# [Hob]
+# MEMORY_ALLOCATION                 ## SOMETIMES_PRODUCES # MEMORY_ALLOCATION_MODULE for DxeCore
+# MEMORY_ALLOCATION                 ## SOMETIMES_PRODUCES # New Stack HoB
+# MEMORY_ALLOCATION                 ## SOMETIMES_PRODUCES # Old Stack HOB
+#
+# [Hob.IPF]
+# MEMORY_ALLOCATION                 ## SOMETIMES_PRODUCES # MEMORY_ALLOCATION_BSP_STORE
+#
+
+[BuildOptions.X64]
+## @AsBuilt
+##   GCC:RELEASE_XCODE5_X64_SYMRENAME_FLAGS = Symbol renaming not needed for
+##   GCC:RELEASE_XCODE5_X64_DTC_FLAGS = -H epapr
+##   GCC:RELEASE_XCODE5_X64_ASLDLINK_FLAGS = -e _ReferenceAcpiTable -preload -segalign 0x20  -pie -seg1addr 0x240 -read_only_relocs suppress -map $(DEST_DIR_DEBUG)/$(BASE_NAME).map
+##   GCC:RELEASE_XCODE5_X64_VFR_FLAGS = -l -n
+##   GCC:RELEASE_XCODE5_X64_PP_FLAGS = -E -x assembler-with-cpp -include $(DEST_DIR_DEBUG)/AutoGen.h
+##   GCC:RELEASE_XCODE5_X64_GENFW_FLAGS = 
+##   GCC:RELEASE_XCODE5_X64_SLINK_FLAGS = -static -o
+##   GCC:RELEASE_XCODE5_X64_ASM_FLAGS = -arch x86_64
+##   GCC:RELEASE_XCODE5_X64_ASL_FLAGS = 
+##   GCC:RELEASE_XCODE5_X64_MTOC_FLAGS = -align 0x20
+##   GCC:RELEASE_XCODE5_X64_CC_FLAGS = -target x86_64-pc-win32-macho -c    -Os       -Wall -Wextra -include AutoGen.h -funsigned-char -fno-ms-extensions -fno-stack-protector -fno-builtin -fshort-wchar -mno-implicit-float -mms-bitfields -Wno-unused-parameter -Wno-missing-braces -Wno-missing-field-initializers -Wno-tautological-compare -Wno-sign-compare -Wno-varargs -Wno-unused-const-variable -ftrap-function=undefined_behavior_has_been_optimized_away_by_clang -D NO_MSABI_VA_FUNCS $(PLATFORM_FLAGS) -D DISABLE_NEW_DEPRECATED_INTERFACES
+##   GCC:RELEASE_XCODE5_X64_NASMB_FLAGS = -f bin
+##   GCC:RELEASE_XCODE5_X64_VFRPP_FLAGS = -x c -E -P -DVFRCOMPILE -include $(DEST_DIR_DEBUG)/$(MODULE_NAME)StrDefs.h
+##   GCC:RELEASE_XCODE5_X64_ASLCC_FLAGS = -x c -save-temps -g -O0 -fshort-wchar -fno-strict-aliasing -Wall -Werror -Wno-missing-braces -c -include AutoGen.h
+##   GCC:RELEASE_XCODE5_X64_OPTROM_FLAGS = -e
+##   GCC:RELEASE_XCODE5_X64_DLINK_FLAGS = -arch x86_64 -u _$(IMAGE_ENTRY_POINT) -e _$(IMAGE_ENTRY_POINT) -preload -segalign 0x20  -pie -all_load -dead_strip -seg1addr 0x240 -map $(DEST_DIR_DEBUG)/$(BASE_NAME).map
+##   GCC:RELEASE_XCODE5_X64_ASLPP_FLAGS = -x c -E -include AutoGen.h
+##   GCC:RELEASE_XCODE5_X64_OBJCOPY_FLAGS = objcopy not needed for
+##   GCC:RELEASE_XCODE5_X64_ASMLINK_FLAGS = /nologo /tiny
+##   GCC:RELEASE_XCODE5_X64_NASM_FLAGS = -f macho64

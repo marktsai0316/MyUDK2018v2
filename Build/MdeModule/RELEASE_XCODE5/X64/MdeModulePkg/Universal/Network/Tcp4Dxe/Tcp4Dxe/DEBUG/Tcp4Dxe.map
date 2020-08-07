@@ -1,0 +1,896 @@
+# Path: /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdeModulePkg/Universal/Network/Tcp4Dxe/Tcp4Dxe/DEBUG/Tcp4Dxe.dll
+# Arch: x86_64
+# Object files:
+[  0] linker synthesized
+[  1] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseDebugPrintErrorLevelLib/BaseDebugPrintErrorLevelLib/OUTPUT/BaseDebugPrintErrorLevelLib.lib(BaseDebugPrintErrorLevelLib.obj)
+[  2] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BasePrintLib/BasePrintLib/OUTPUT/BasePrintLib.lib(PrintLibInternal.obj)
+[  3] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BasePrintLib/BasePrintLib/OUTPUT/BasePrintLib.lib(PrintLib.obj)
+[  4] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BasePcdLibNull/BasePcdLibNull/OUTPUT/BasePcdLibNull.lib(PcdLib.obj)
+[  5] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CheckSum.obj)
+[  6] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwitchStack.obj)
+[  7] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwapBytes64.obj)
+[  8] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwapBytes32.obj)
+[  9] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwapBytes16.obj)
+[ 10] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(LongJump.obj)
+[ 11] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SetJump.obj)
+[ 12] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(RShiftU64.obj)
+[ 13] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(RRotU64.obj)
+[ 14] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(RRotU32.obj)
+[ 15] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(MultU64x64.obj)
+[ 16] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(MultU64x32.obj)
+[ 17] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(MultS64x64.obj)
+[ 18] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(ModU64x32.obj)
+[ 19] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(LShiftU64.obj)
+[ 20] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(LRotU64.obj)
+[ 21] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(LRotU32.obj)
+[ 22] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(LowBitSet64.obj)
+[ 23] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(LowBitSet32.obj)
+[ 24] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(HighBitSet64.obj)
+[ 25] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(HighBitSet32.obj)
+[ 26] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(GetPowerOfTwo64.obj)
+[ 27] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(GetPowerOfTwo32.obj)
+[ 28] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(DivU64x64Remainder.obj)
+[ 29] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(DivU64x32Remainder.obj)
+[ 30] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(DivU64x32.obj)
+[ 31] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(DivS64x64Remainder.obj)
+[ 32] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(ARShiftU64.obj)
+[ 33] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(BitField.obj)
+[ 34] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuDeadLoop.obj)
+[ 35] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Cpu.obj)
+[ 36] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(LinkedList.obj)
+[ 37] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SafeString.obj)
+[ 38] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(String.obj)
+[ 39] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(FilePaths.obj)
+[ 40] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Thunk16.obj)
+[ 41] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(WriteTr.obj)
+[ 42] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Non-existing.obj)
+[ 43] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Math64.obj)
+[ 44] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(Unaligned.obj)
+[ 45] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(X86WriteIdtr.obj)
+[ 46] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(X86WriteGdtr.obj)
+[ 47] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(X86Thunk.obj)
+[ 48] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(X86ReadIdtr.obj)
+[ 49] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(X86ReadGdtr.obj)
+[ 50] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(X86Msr.obj)
+[ 51] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(X86GetInterruptState.obj)
+[ 52] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(X86FxSave.obj)
+[ 53] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(X86FxRestore.obj)
+[ 54] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(X86EnablePaging64.obj)
+[ 55] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(X86EnablePaging32.obj)
+[ 56] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(X86DisablePaging64.obj)
+[ 57] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(X86DisablePaging32.obj)
+[ 58] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(X86RdRand.obj)
+[ 59] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(GccInline.obj)
+[ 60] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SwitchStack.obj)
+[ 61] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(SetJump.obj)
+[ 62] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(LongJump.obj)
+[ 63] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(EnableDisableInterrupts.obj)
+[ 64] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(DisablePaging64.obj)
+[ 65] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuId.obj)
+[ 66] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(CpuIdEx.obj)
+[ 67] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(EnableCache.obj)
+[ 68] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(DisableCache.obj)
+[ 69] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(RdRand.obj)
+[ 70] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseLib/BaseLib/OUTPUT/BaseLib.lib(ChkStkGcc.obj)
+[ 71] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/UefiDebugLibConOut/UefiDebugLibConOut/OUTPUT/UefiDebugLibConOut.lib(DebugLib.obj)
+[ 72] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(SetMem.obj)
+[ 73] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(ScanMem64Wrapper.obj)
+[ 74] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(ScanMem32Wrapper.obj)
+[ 75] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(ScanMem16Wrapper.obj)
+[ 76] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(ScanMem8Wrapper.obj)
+[ 77] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(ZeroMemWrapper.obj)
+[ 78] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(CompareMemWrapper.obj)
+[ 79] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(SetMem64Wrapper.obj)
+[ 80] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(SetMem32Wrapper.obj)
+[ 81] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(SetMem16Wrapper.obj)
+[ 82] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(SetMemWrapper.obj)
+[ 83] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(CopyMemWrapper.obj)
+[ 84] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(IsZeroBufferWrapper.obj)
+[ 85] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(MemLibGeneric.obj)
+[ 86] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(MemLibGuid.obj)
+[ 87] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/BaseMemoryLib/BaseMemoryLib/OUTPUT/BaseMemoryLib.lib(CopyMem.obj)
+[ 88] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/UefiBootServicesTableLib/UefiBootServicesTableLib/OUTPUT/UefiBootServicesTableLib.lib(UefiBootServicesTableLib.obj)
+[ 89] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/UefiMemoryAllocationLib/UefiMemoryAllocationLib/OUTPUT/UefiMemoryAllocationLib.lib(MemoryAllocationLib.obj)
+[ 90] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/UefiDevicePathLib/UefiDevicePathLib/OUTPUT/UefiDevicePathLib.lib(DevicePathUtilities.obj)
+[ 91] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/UefiDevicePathLib/UefiDevicePathLib/OUTPUT/UefiDevicePathLib.lib(DevicePathToText.obj)
+[ 92] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/UefiDevicePathLib/UefiDevicePathLib/OUTPUT/UefiDevicePathLib.lib(DevicePathFromText.obj)
+[ 93] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/UefiDevicePathLib/UefiDevicePathLib/OUTPUT/UefiDevicePathLib.lib(UefiDevicePathLib.obj)
+[ 94] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/UefiRuntimeServicesTableLib/UefiRuntimeServicesTableLib/OUTPUT/UefiRuntimeServicesTableLib.lib(UefiRuntimeServicesTableLib.obj)
+[ 95] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/UefiLib/UefiLib/OUTPUT/UefiLib.lib(UefiLibPrint.obj)
+[ 96] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/UefiLib/UefiLib/OUTPUT/UefiLib.lib(UefiNotTiano.obj)
+[ 97] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/UefiLib/UefiLib/OUTPUT/UefiLib.lib(UefiDriverModel.obj)
+[ 98] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/UefiLib/UefiLib/OUTPUT/UefiLib.lib(Console.obj)
+[ 99] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/UefiLib/UefiLib/OUTPUT/UefiLib.lib(UefiLib.obj)
+[100] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdeModulePkg/Library/DxeDpcLib/DxeDpcLib/OUTPUT/DxeDpcLib.lib(DpcLib.obj)
+[101] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdePkg/Library/UefiDriverEntryPoint/UefiDriverEntryPoint/OUTPUT/UefiDriverEntryPoint.lib(DriverEntryPoint.obj)
+[102] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdeModulePkg/Library/DxeNetLib/DxeNetLib/OUTPUT/DxeNetLib.lib(DxeNetLib.obj)
+[103] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdeModulePkg/Library/DxeNetLib/DxeNetLib/OUTPUT/DxeNetLib.lib(NetBuffer.obj)
+[104] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdeModulePkg/Library/DxeIpIoLib/DxeIpIoLib/OUTPUT/DxeIpIoLib.lib(DxeIpIoLib.obj)
+[105] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdeModulePkg/Universal/Network/Tcp4Dxe/Tcp4Dxe/OUTPUT/Tcp4Dxe.lib(SockImpl.obj)
+[106] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdeModulePkg/Universal/Network/Tcp4Dxe/Tcp4Dxe/OUTPUT/Tcp4Dxe.lib(SockInterface.obj)
+[107] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdeModulePkg/Universal/Network/Tcp4Dxe/Tcp4Dxe/OUTPUT/Tcp4Dxe.lib(Tcp4Output.obj)
+[108] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdeModulePkg/Universal/Network/Tcp4Dxe/Tcp4Dxe/OUTPUT/Tcp4Dxe.lib(Tcp4Timer.obj)
+[109] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdeModulePkg/Universal/Network/Tcp4Dxe/Tcp4Dxe/OUTPUT/Tcp4Dxe.lib(Tcp4Dispatcher.obj)
+[110] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdeModulePkg/Universal/Network/Tcp4Dxe/Tcp4Dxe/OUTPUT/Tcp4Dxe.lib(Tcp4Input.obj)
+[111] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdeModulePkg/Universal/Network/Tcp4Dxe/Tcp4Dxe/OUTPUT/Tcp4Dxe.lib(Tcp4Misc.obj)
+[112] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdeModulePkg/Universal/Network/Tcp4Dxe/Tcp4Dxe/OUTPUT/Tcp4Dxe.lib(Tcp4Main.obj)
+[113] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdeModulePkg/Universal/Network/Tcp4Dxe/Tcp4Dxe/OUTPUT/Tcp4Dxe.lib(ComponentName.obj)
+[114] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdeModulePkg/Universal/Network/Tcp4Dxe/Tcp4Dxe/OUTPUT/Tcp4Dxe.lib(Tcp4Io.obj)
+[115] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdeModulePkg/Universal/Network/Tcp4Dxe/Tcp4Dxe/OUTPUT/Tcp4Dxe.lib(Tcp4Driver.obj)
+[116] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdeModulePkg/Universal/Network/Tcp4Dxe/Tcp4Dxe/OUTPUT/Tcp4Dxe.lib(Tcp4Option.obj)
+[117] /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdeModulePkg/Universal/Network/Tcp4Dxe/Tcp4Dxe/OUTPUT/Tcp4Dxe.lib(AutoGen.obj)
+# Sections:
+# Address	Size    	Segment	Section
+0x00000240	0x0000EF8E	__TEXT	__text
+0x0000F1D0	0x000000F9	__TEXT	__const
+0x0000F2C9	0x00003E31	__TEXT	__cstring
+0x000130FA	0x000001FA	__TEXT	__ustring
+0x00013300	0x00000138	__DATA	__const
+0x00013440	0x000003F8	__DATA	__data
+0x00013838	0x0000004A	__DATA	__common
+# Symbols:
+# Address	Size    	File  Name
+0x00000240	0x00000000	[  0] ___dso_handle
+0x00000240	0x0000000C	[  1] _GetDebugPrintErrorLevel
+0x0000024F	0x000011F9	[  2] _BasePrintLibSPrintMarker
+0x00001448	0x0000002C	[  2] _BasePrintLibSPrint
+0x00001474	0x00000096	[  3] _UnicodeVSPrint
+0x0000150A	0x00000021	[  3] _UnicodeSPrint
+0x0000152B	0x0000006F	[  3] _UnicodeVSPrintAsciiFormat
+0x0000159A	0x00000021	[  3] _UnicodeSPrintAsciiFormat
+0x000015BB	0x0000002F	[  8] _SwapBytes32
+0x000015EA	0x0000000C	[  9] _SwapBytes16
+0x000015F6	0x00000066	[ 11] _InternalAssertJumpBuffer
+0x0000165C	0x00000049	[ 19] _LShiftU64
+0x000016A5	0x0000004D	[ 29] _DivU64x32Remainder
+0x000016F2	0x0000001A	[ 34] _CpuDeadLoop
+0x0000170C	0x000000BB	[ 36] _InternalBaseLibIsListValid
+0x000017C7	0x0000009D	[ 36] _IsNodeInList
+0x00001864	0x00000043	[ 36] _InitializeListHead
+0x000018A7	0x00000085	[ 36] _InsertHeadList
+0x0000192C	0x00000086	[ 36] _InsertTailList
+0x000019B2	0x00000043	[ 36] _GetFirstNode
+0x000019F5	0x00000074	[ 36] _GetNextNode
+0x00001A69	0x00000046	[ 36] _IsListEmpty
+0x00001AAF	0x00000077	[ 36] _IsNull
+0x00001B26	0x00000055	[ 36] _RemoveEntryList
+0x00001B7B	0x00000071	[ 37] _StrnLenS
+0x00001BEC	0x00000036	[ 37] _AsciiStrnLenS
+0x00001C22	0x000000BD	[ 38] _StrLen
+0x00001CDF	0x0000001A	[ 38] _StrSize
+0x00001CF9	0x00000094	[ 38] _AsciiStrLen
+0x00001D8D	0x00000016	[ 38] _AsciiStrSize
+0x00001DA3	0x000000F1	[ 38] _AsciiStrnCmp
+0x00001E98	0x00000000	[ 40] SavedGdt
+0x00001E98	0x0000000A	[ 40] _m16Start
+0x00001EA2	0x00000008	[ 40] _BackFromUserCode
+0x00001EAA	0x00000014	[ 40] _BackFromUserCode.Base
+0x00001EBE	0x0000000D	[ 40] _BackFromUserCode.ThunkAttrEnd
+0x00001ECB	0x0000000B	[ 40] _BackFromUserCode.1
+0x00001ED6	0x00000036	[ 40] _BackFromUserCode.2
+0x00001F0C	0x0000001C	[ 40] _BackFromUserCode.SavedCr4End
+0x00001F28	0x0000000B	[ 40] _BackFromUserCode.SavedCr0End
+0x00001F33	0x0000000B	[ 40] _BackFromUserCode.X64JmpEnd
+0x00001F3E	0x00000002	[ 40] _BackFromUserCode.SavedSpEnd
+0x00001F40	0x00000006	[ 40] _EntryPoint
+0x00001F46	0x00000002	[ 40] _16Gdtr
+0x00001F48	0x00000008	[ 40] _16GdtrBase
+0x00001F50	0x00000006	[ 40] _16Idtr
+0x00001F56	0x00000028	[ 40] _ToUserCode
+0x00001F7E	0x0000000F	[ 40] _ToUserCode.Base
+0x00001F8D	0x0000001B	[ 40] _ToUserCode.RealMode
+0x00001FA8	0x00000008	[ 40] _NullSeg
+0x00001FB0	0x00000008	[ 40] _16Code
+0x00001FB8	0x00000008	[ 40] _16Data
+0x00001FC0	0x00000008	[ 40] _32Data
+0x00001FC8	0x000000B4	[ 40] _InternalAsmThunk16
+0x0000207C	0x00000020	[ 40] _InternalAsmThunk16.RetFromRealMode
+0x0000209C	0x00000006	[ 41] _AsmWriteTr
+0x000020A2	0x0000000E	[ 43] _InternalMathLShiftU64
+0x000020B0	0x00000023	[ 43] _InternalMathDivRemU64x32
+0x000020D3	0x0000003C	[ 44] _ReadUnaligned16
+0x0000210F	0x00000042	[ 44] _WriteUnaligned16
+0x00002151	0x00000040	[ 44] _ReadUnaligned24
+0x00002191	0x0000003B	[ 44] _ReadUnaligned32
+0x000021CC	0x00000007	[ 59] _CpuBreakpoint
+0x000021D3	0x0000000F	[ 60] _InternalSwitchStack
+0x000021E2	0x0000008F	[ 61] _SetJump
+0x00002271	0x0000007C	[ 62] _InternalLongJump
+0x000022ED	0x00000003	[ 63] _EnableDisableInterrupts
+0x000022F0	0x0000003A	[ 64] _InternalX86DisablePaging64
+0x0000232A	0x00000027	[ 64] _InternalX86DisablePaging64.0
+0x00002351	0x00000000	[ 64] mTransitionEnd
+0x00002351	0x0000000F	[ 65] _AsmCpuid
+0x00002360	0x00000005	[ 65] _AsmCpuid.0
+0x00002365	0x00000007	[ 65] _AsmCpuid.1
+0x0000236C	0x00000009	[ 65] _AsmCpuid.2
+0x00002375	0x00000003	[ 65] _AsmCpuid.3
+0x00002378	0x00000015	[ 66] _AsmCpuidEx
+0x0000238D	0x00000007	[ 66] _AsmCpuidEx.0
+0x00002394	0x00000007	[ 66] _AsmCpuidEx.1
+0x0000239B	0x00000009	[ 66] _AsmCpuidEx.2
+0x000023A4	0x00000003	[ 66] _AsmCpuidEx.3
+0x000023A7	0x00000013	[ 67] _AsmEnableCache
+0x000023BA	0x00000013	[ 68] _AsmDisableCache
+0x000023CD	0x00000009	[ 69] _InternalX86RdRand16
+0x000023D6	0x00000009	[ 69] rn16_ok
+0x000023DF	0x00000009	[ 69] _InternalX86RdRand32
+0x000023E8	0x00000008	[ 69] rn32_ok
+0x000023F0	0x0000000A	[ 69] _InternalX86RdRand64
+0x000023FA	0x00000009	[ 69] rn64_ok
+0x00002403	0x00000094	[ 71] _DebugPrint
+0x00002497	0x0000000E	[ 71] _DebugAssertEnabled
+0x000024A5	0x0000007C	[ 71] _DebugAssert
+0x00002521	0x00000010	[ 71] _DebugPrintEnabled
+0x00002531	0x0000000F	[ 71] _DebugPrintLevelEnabled
+0x00002540	0x000000EE	[ 72] _InternalMemSetMem
+0x0000262E	0x00000084	[ 77] _ZeroMem
+0x000026B2	0x000000F3	[ 78] _CompareMem
+0x000027A5	0x0000006B	[ 82] _SetMem
+0x00002810	0x000000A4	[ 83] _CopyMem
+0x000028B4	0x0000000D	[ 85] _InternalMemZeroMem
+0x000028C1	0x0000002F	[ 85] _InternalMemCompareMem
+0x000028F0	0x000001E2	[ 87] _InternalMemCopyMem
+0x00002AD2	0x000000B5	[ 88] _UefiBootServicesTableLibConstructor
+0x00002B87	0x0000003D	[ 89] _AllocatePool
+0x00002BC4	0x0000003B	[ 89] _InternalAllocateZeroPool
+0x00002BFF	0x00000015	[ 89] _AllocateZeroPool
+0x00002C14	0x0000009E	[ 89] _InternalAllocateCopyPool
+0x00002CB2	0x00000018	[ 89] _AllocateCopyPool
+0x00002CCA	0x00000074	[ 89] _FreePool
+0x00002D3E	0x000000DA	[ 90] _IsDevicePathValid
+0x00002E18	0x00000056	[ 90] _IsDevicePathEnd
+0x00002E6E	0x00000048	[ 90] _DevicePathNodeLength
+0x00002EB6	0x00000044	[ 90] _NextDevicePathNode
+0x00002EFA	0x0000003B	[ 90] _DevicePathType
+0x00002F35	0x0000003C	[ 90] _DevicePathSubType
+0x00002F71	0x00000046	[ 90] _IsDevicePathEndType
+0x00002FB7	0x00000079	[ 90] _SetDevicePathNodeLength
+0x00003030	0x0000004D	[ 90] _SetDevicePathEndNode
+0x0000307D	0x00000070	[ 90] _UefiDevicePathLibGetDevicePathSize
+0x000030ED	0x0000002C	[ 90] _UefiDevicePathLibDuplicateDevicePath
+0x00003119	0x000000D4	[ 90] _UefiDevicePathLibAppendDevicePath
+0x000031ED	0x00000097	[ 90] _UefiDevicePathLibAppendDevicePathNode
+0x00003284	0x0000000A	[ 93] _GetDevicePathSize
+0x0000328E	0x0000000A	[ 93] _DuplicateDevicePath
+0x00003298	0x0000000A	[ 93] _AppendDevicePath
+0x000032A2	0x0000000A	[ 93] _AppendDevicePathNode
+0x000032AC	0x00000048	[ 94] _UefiRuntimeServicesTableLibConstructor
+0x000032F4	0x00000159	[ 97] _EfiLibInstallDriverBindingComponentName2
+0x0000344D	0x00000008	[ 99] _UefiLibConstructor
+0x00003455	0x0000007A	[ 99] _EfiInitializeLock
+0x000034CF	0x0000008F	[ 99] _EfiAcquireLockOrFail
+0x0000355E	0x00000075	[ 99] _EfiReleaseLock
+0x000035D3	0x000000AE	[ 99] _EfiTestChildHandle
+0x00003681	0x00000153	[ 99] _LookupUnicodeString2
+0x000037D4	0x00000204	[ 99] _AddUnicodeString2
+0x000039D8	0x0000004F	[ 99] _FreeUnicodeStringTable
+0x00003A27	0x00000084	[100] _DpcLibConstructor
+0x00003AAB	0x0000001B	[100] _QueueDpc
+0x00003AC6	0x00000034	[101] __DriverUnloadHandler
+0x00003AFA	0x000000EB	[101] __ModuleEntryPoint
+0x00003BE5	0x00000020	[102] _NetGetMaskLength
+0x00003C05	0x0000007D	[102] _NetIp4IsUnicast
+0x00003C82	0x0000005F	[102] _NetIp6IsValidUnicast
+0x00003CE1	0x00000066	[102] _NetRandomInitSeed
+0x00003D47	0x000000CA	[102] _NetDestroyLinkList
+0x00003E11	0x00000028	[102] _NetIsInHandleBuffer
+0x00003E39	0x000001D1	[102] _NetLibDefaultUnload
+0x0000400A	0x00000084	[102] _NetLibCreateServiceChild
+0x0000408E	0x00000080	[102] _NetLibDestroyServiceChild
+0x0000410E	0x00000060	[102] _NetLibDefaultAddressIsStatic
+0x0000416E	0x000000DE	[102] _NetLibCreateIPv4DPathNode
+0x0000424C	0x000000A3	[102] _NetLibGetNicHandle
+0x000042EF	0x000000B6	[103] _NetbufAllocStruct
+0x000043A5	0x000000A7	[103] _NetbufAlloc
+0x0000444C	0x00000108	[103] _NetbufFreeVector
+0x00004554	0x000000AC	[103] _NetbufFree
+0x00004600	0x00000123	[103] _NetbufReserve
+0x00004723	0x000001C5	[103] _NetbufAllocSpace
+0x000048E8	0x000001A4	[103] _NetbufCopy
+0x00004A8C	0x000000B9	[103] _NetbufFreeList
+0x00004B45	0x000000A7	[103] _NetbufGetByte
+0x00004BEC	0x000000F2	[103] _NetbufSetBlock
+0x00004CDE	0x00000288	[103] _NetbufFromExt
+0x00004F66	0x00000066	[103] _NetbufBuildExt
+0x00004FCC	0x0000006A	[103] _NetblockTrim
+0x00005036	0x0000010C	[103] _NetbufTrim
+0x00005142	0x00000054	[103] _NetbufQueAlloc
+0x00005196	0x00000083	[103] _NetbufQueFree
+0x00005219	0x00000052	[103] _NetbufQueFlush
+0x0000526B	0x0000008D	[103] _NetbufQueAppend
+0x000052F8	0x00000196	[103] _NetbufQueCopy
+0x0000548E	0x000000C1	[103] _NetbufQueTrim
+0x0000554F	0x0000003A	[103] _NetblockChecksum
+0x00005589	0x00000015	[103] _NetAddChecksum
+0x0000559E	0x000000C5	[103] _NetbufChecksum
+0x00005663	0x0000006E	[103] _NetPseudoHeadChecksum
+0x000056D4	0x000000BD	[104] _IpIoCreateIpChildOpenProtocol
+0x00005791	0x0000008B	[104] _IpIoCloseProtocolDestroyIpChild
+0x0000581C	0x000001C8	[104] _IpIoIcmpv4Handler
+0x000059E4	0x000001FC	[104] _IpIoIcmpv6Handler
+0x00005BE0	0x0000002A	[104] _IpIoIcmpHandler
+0x00005C0A	0x00000010	[104] _IpIoExtFree
+0x00005C1A	0x000001DD	[104] _IpIoCreateSndEntry
+0x00005DF7	0x0000001C	[104] _IpIoTransmitHandler
+0x00005E13	0x00000082	[104] _IpIoDestroySndEntry
+0x00005E95	0x00000056	[104] _IpIoTransmitHandlerDpc
+0x00005EEB	0x000000A7	[104] _IpIoDummyHandlerDpc
+0x00005F92	0x0000001C	[104] _IpIoDummyHandler
+0x00005FAE	0x00000303	[104] _IpIoListenHandlerDpc
+0x000062B1	0x0000001C	[104] _IpIoListenHandler
+0x000062CD	0x00000109	[104] _IpIoCreate
+0x000063D6	0x00000199	[104] _IpIoOpen
+0x0000656F	0x000000E4	[104] _IpIoStop
+0x00006653	0x0000014F	[104] _IpIoRemoveIp
+0x000067A2	0x00000049	[104] _IpIoDestroy
+0x000067EB	0x000000C9	[104] _IpIoSend
+0x000068B5	0x00000150	[104] _IpIoAddIp
+0x00006A05	0x0000024E	[104] _IpIoConfigIp
+0x00006C53	0x000000C9	[104] _IpIoFindSender
+0x00006D1C	0x00000165	[104] _IpIoGetIcmpErrStatus
+0x00006E81	0x00000006	[105] _SockFreeFoo
+0x00006E87	0x00000168	[105] _SockTcpDataToRcv
+0x00006FEF	0x000000AC	[105] _SockSetTcpRxData
+0x0000709B	0x000000BC	[105] _SockProcessRcvToken
+0x00007157	0x000000D7	[105] _SockProcessTcpSndData
+0x0000722E	0x00000082	[105] _SockFlushPendingToken
+0x000072B0	0x00000068	[105] _SockWakeConnToken
+0x00007318	0x000000FD	[105] _SockProcessSndToken
+0x00007415	0x000000E8	[105] _SockWakeListenToken
+0x000074FD	0x000000C3	[105] _SockWakeRcvToken
+0x000075C0	0x00000060	[105] _SockGetFreeSpace
+0x00007620	0x00000426	[105] _SockCreate
+0x00007A46	0x000000CD	[105] _SockDestroy
+0x00007B13	0x00000130	[105] _SockConnFlush
+0x00007C43	0x00000009	[105] _SockSetState
+0x00007C4C	0x000000D8	[105] _SockClone
+0x00007D24	0x0000005D	[105] _SockConnEstablished
+0x00007D81	0x00000060	[105] _SockConnClosed
+0x00007DE1	0x000000DE	[105] _SockDataSent
+0x00007EBF	0x0000005F	[105] _SockGetDataToSend
+0x00007F1E	0x0000006C	[105] _SockDataRcvd
+0x00007F8A	0x00000083	[105] _SockNoMoreData
+0x0000800D	0x000000A0	[106] _SockTokenExisted
+0x000080AD	0x00000080	[106] _SockBufferToken
+0x0000812D	0x0000024A	[106] _SockDestroyChild
+0x00008377	0x0000014C	[106] _SockCreateChild
+0x000084C3	0x000000C1	[106] _SockConfigure
+0x00008584	0x000000CB	[106] _SockConnect
+0x0000864F	0x000001C1	[106] _SockAccept
+0x00008810	0x000001D8	[106] _SockSend
+0x000089E8	0x00000170	[106] _SockRcv
+0x00008B58	0x00000112	[106] _SockFlush
+0x00008C6A	0x0000010D	[106] _SockClose
+0x00008D77	0x00000014	[106] _SockGetMode
+0x00008D8B	0x000000A0	[106] _SockRoute
+0x00008E2B	0x00000026	[107] _TcpRcvWinOld
+0x00008E51	0x00000087	[107] _TcpRcvWinNow
+0x00008ED8	0x00000046	[107] _TcpComputeWnd
+0x00008F1E	0x0000006A	[107] _TcpGetMaxSndNxt
+0x00008F88	0x0000011B	[107] _TcpDataToSend
+0x000090A3	0x00000259	[107] _TcpTransmitSegment
+0x000092FC	0x00000092	[107] _TcpVerifySegment
+0x0000938E	0x0000026B	[107] _TcpGetSegmentSndQue
+0x000095F9	0x00000128	[107] _TcpGetSegmentSock
+0x00009721	0x000000A2	[107] _TcpGetSegment
+0x000097C3	0x0000019C	[107] _TcpRetransmit
+0x0000995F	0x00000399	[107] _TcpToSendData
+0x00009CF8	0x00000066	[107] _TcpCheckSndQue
+0x00009D5E	0x00000068	[107] _TcpSendAck
+0x00009DC6	0x00000065	[107] _TcpSendZeroProbe
+0x00009E2B	0x00000084	[107] _TcpToSendAck
+0x00009EAF	0x00000163	[107] _TcpSendReset
+0x0000A012	0x000000A7	[108] _TcpConnectTimeout
+0x0000A0B9	0x0000012E	[108] _TcpRexmitTimeout
+0x0000A1E7	0x0000007A	[108] _TcpProbeTimeout
+0x0000A261	0x00000068	[108] _TcpKeepaliveTimeout
+0x0000A2C9	0x00000045	[108] _TcpFinwait2Timeout
+0x0000A30E	0x00000045	[108] _Tcp2MSLTimeout
+0x0000A353	0x0000002E	[108] _TcpClose
+0x0000A381	0x00000057	[108] _TcpBackoffRto
+0x0000A3D8	0x00000033	[108] _TcpSetTimer
+0x0000A40B	0x00000072	[108] _TcpSetProbeTimer
+0x0000A47D	0x00000089	[108] _TcpSetKeepaliveTimer
+0x0000A506	0x00000068	[108] _TcpUpdateTimer
+0x0000A56E	0x00000021	[108] _TcpClearTimer
+0x0000A58F	0x00000013	[108] _TcpClearAllTimer
+0x0000A5A2	0x00000127	[108] _TcpTickingDpc
+0x0000A6C9	0x0000001C	[108] _TcpTicking
+0x0000A6E8	0x0000005F	[109] _Tcp4Route
+0x0000A747	0x000001DC	[109] _Tcp4GetMode
+0x0000A923	0x000000F7	[109] _Tcp4Bind
+0x0000AA1A	0x00000078	[109] _Tcp4FlushPcb
+0x0000AA92	0x00000117	[109] _Tcp4AttachPcb
+0x0000ABA9	0x00000074	[109] _Tcp4DetachPcb
+0x0000AC1D	0x0000042A	[109] _Tcp4ConfigurePcb
+0x0000B047	0x000001FD	[109] _Tcp4Dispatcher
+0x0000B244	0x000001AA	[110] _TcpFastRecover
+0x0000B3EE	0x00000092	[110] _TcpFastLossRecover
+0x0000B480	0x000000E8	[110] _TcpComputeRtt
+0x0000B568	0x0000010B	[110] _TcpTrimSegment
+0x0000B676	0x000002C2	[110] _TcpDeliverData
+0x0000B938	0x00000163	[110] _TcpQueueData
+0x0000BA9B	0x00000071	[110] _TcpAdjustSndQue
+0x0000BB0C	0x00001008	[110] _TcpInput
+0x0000CB14	0x000000E1	[110] _TcpIcmpInput
+0x0000CBF5	0x00000075	[111] _TcpInitTcbLocal
+0x0000CC6A	0x00000152	[111] _TcpInitTcbPeer
+0x0000CDBC	0x0000008E	[111] _TcpGetRcvMss
+0x0000CE4A	0x0000009C	[111] _TcpLocateListenTcb
+0x0000CEE6	0x000000CE	[111] _TcpFindTcbByPeer
+0x0000CFB4	0x00000087	[111] _TcpLocateTcb
+0x0000D03B	0x000000AD	[111] _TcpInsertTcb
+0x0000D0E8	0x000000B4	[111] _TcpCloneTcb
+0x0000D19C	0x000000E6	[111] _TcpSetState
+0x0000D282	0x000000E2	[111] _TcpInstallDevicePath
+0x0000D364	0x0000003E	[111] _TcpChecksum
+0x0000D3A2	0x000000D3	[111] _TcpFormatNetbuf
+0x0000D475	0x000000E1	[111] _TcpResetConnection
+0x0000D556	0x0000003F	[111] _TcpOnAppConnect
+0x0000D595	0x000000C8	[111] _TcpOnAppClose
+0x0000D65D	0x00000047	[111] _TcpOnAppSend
+0x0000D6A4	0x000000AC	[111] _TcpOnAppConsume
+0x0000D750	0x00000060	[111] _TcpOnAppAbort
+0x0000D7B0	0x00000094	[112] _Tcp4GetModeData
+0x0000D844	0x00000168	[112] _Tcp4Configure
+0x0000D9AC	0x00000086	[112] _Tcp4Routes
+0x0000DA32	0x00000074	[112] _Tcp4Connect
+0x0000DAA6	0x00000074	[112] _Tcp4Accept
+0x0000DB1A	0x000000B3	[112] _Tcp4Transmit
+0x0000DBCD	0x000000B3	[112] _Tcp4Receive
+0x0000DC80	0x00000078	[112] _Tcp4Close
+0x0000DCF8	0x00000010	[112] _Tcp4Cancel
+0x0000DD08	0x00000064	[112] _Tcp4Poll
+0x0000DD6C	0x00000036	[113] _TcpComponentNameGetDriverName
+0x0000DDA2	0x000000B1	[113] _TcpComponentNameGetControllerName
+0x0000DE53	0x0000013C	[113] _UpdateName
+0x0000DF8F	0x0000002D	[114] _Tcp4RxCallback
+0x0000DFBC	0x0000012C	[114] _TcpSendIpPacket
+0x0000E0E8	0x000000D2	[115] _Tcp4CreateSocketCallback
+0x0000E1BA	0x0000004C	[115] _Tcp4DestroySocketCallback
+0x0000E206	0x0000007F	[115] _Tcp4DriverBindingSupported
+0x0000E285	0x00000214	[115] _Tcp4DriverBindingStart
+0x0000E499	0x00000183	[115] _Tcp4DriverBindingStop
+0x0000E61C	0x0000010A	[115] _Tcp4ServiceBindingCreateChild
+0x0000E726	0x000000AC	[115] _Tcp4ServiceBindingDestroyChild
+0x0000E7D2	0x0000007F	[115] _Tcp4CreateTimer
+0x0000E851	0x00000085	[115] _Tcp4DestroyTimer
+0x0000E8D6	0x0000008E	[115] _Tcp4DestroyChildEntryInHandleBuffer
+0x0000E964	0x000000D3	[115] _Tcp4DriverEntryPoint
+0x0000EA39	0x0000005D	[116] _TcpComputeScale
+0x0000EA96	0x000001F6	[116] _TcpSynBuildOption
+0x0000EC8C	0x00000105	[116] _TcpBuildOption
+0x0000ED91	0x0000028B	[116] _TcpParseOption
+0x0000F01C	0x00000198	[117] _ProcessLibraryConstructorList
+0x0000F1B4	0x00000006	[117] _ProcessLibraryDestructorList
+0x0000F1BA	0x0000000A	[117] _ProcessModuleEntryPointList
+0x0000F1C4	0x0000000A	[117] _ProcessModuleUnloadList
+0x0000F1D0	0x00000010	[  2] _mHexStr
+0x0000F1E0	0x00000004	[ 90] _mUefiDevicePathLibEndDevicePath
+0x0000F1F0	0x00000010	[104] l_switch.table.IpIoIcmpv4Handler
+0x0000F200	0x00000050	[104] l_switch.table.IpIoGetIcmpErrStatus
+0x0000F250	0x00000050	[104] l_switch.table.IpIoGetIcmpErrStatus.21
+0x0000F2A0	0x00000004	[117] __gPcd_FixedAtBuild_PcdDebugPrintErrorLevel
+0x0000F2A4	0x00000004	[117] __gPcd_FixedAtBuild_PcdMaximumAsciiStringLength
+0x0000F2A8	0x00000004	[117] __gPcd_FixedAtBuild_PcdMaximumUnicodeStringLength
+0x0000F2AC	0x00000004	[117] __gPcd_FixedAtBuild_PcdVerifyNodeInList
+0x0000F2B0	0x00000004	[117] __gPcd_FixedAtBuild_PcdMaximumLinkedListLength
+0x0000F2B4	0x00000001	[117] __gPcd_FixedAtBuild_PcdDebugPropertyMask
+0x0000F2B8	0x00000004	[117] __gPcd_FixedAtBuild_PcdFixedDebugPrintErrorLevel
+0x0000F2BC	0x00000004	[117] __gPcd_FixedAtBuild_PcdMaximumDevicePathNodeCount
+0x0000F2C1	0x00000001	[117] __gPcd_FixedAtBuild_PcdComponentNameDisable
+0x0000F2C3	0x00000001	[117] __gPcd_FixedAtBuild_PcdComponentName2Disable
+0x0000F2C4	0x00000004	[117] __gUefiDriverRevision
+0x0000F2C8	0x00000001	[117] __gDriverUnloadImageCount
+0x0000F2C9	0x00000008	[  2] literal string: Success
+0x0000F2D1	0x00000016	[  2] literal string: Warning Unknown Glyph
+0x0000F2E7	0x00000017	[  2] literal string: Warning Delete Failure
+0x0000F2FE	0x00000016	[  2] literal string: Warning Write Failure
+0x0000F314	0x00000019	[  2] literal string: Warning Buffer Too Small
+0x0000F32D	0x00000013	[  2] literal string: Warning Stale Data
+0x0000F340	0x0000000B	[  2] literal string: Load Error
+0x0000F34B	0x00000012	[  2] literal string: Invalid Parameter
+0x0000F35D	0x0000000C	[  2] literal string: Unsupported
+0x0000F369	0x00000010	[  2] literal string: Bad Buffer Size
+0x0000F379	0x00000011	[  2] literal string: Buffer Too Small
+0x0000F38A	0x0000000A	[  2] literal string: Not Ready
+0x0000F394	0x0000000D	[  2] literal string: Device Error
+0x0000F3A1	0x00000010	[  2] literal string: Write Protected
+0x0000F3B1	0x00000011	[  2] literal string: Out of Resources
+0x0000F3C2	0x0000000F	[  2] literal string: Volume Corrupt
+0x0000F3D1	0x0000000C	[  2] literal string: Volume Full
+0x0000F3DD	0x00000009	[  2] literal string: No Media
+0x0000F3E6	0x0000000E	[  2] literal string: Media changed
+0x0000F3F4	0x0000000A	[  2] literal string: Not Found
+0x0000F3FE	0x0000000E	[  2] literal string: Access Denied
+0x0000F40C	0x0000000C	[  2] literal string: No Response
+0x0000F418	0x0000000B	[  2] literal string: No mapping
+0x0000F423	0x00000009	[  2] literal string: Time out
+0x0000F42C	0x0000000C	[  2] literal string: Not started
+0x0000F438	0x00000010	[  2] literal string: Already started
+0x0000F448	0x00000008	[  2] literal string: Aborted
+0x0000F450	0x0000000B	[  2] literal string: ICMP Error
+0x0000F45B	0x0000000B	[  2] literal string: TFTP Error
+0x0000F466	0x0000000F	[  2] literal string: Protocol Error
+0x0000F475	0x00000015	[  2] literal string: Incompatible Version
+0x0000F48A	0x00000013	[  2] literal string: Security Violation
+0x0000F49D	0x0000000A	[  2] literal string: CRC Error
+0x0000F4A7	0x0000000D	[  2] literal string: End of Media
+0x0000F4B4	0x0000000E	[  2] literal string: Reserved (29)
+0x0000F4C2	0x0000000E	[  2] literal string: Reserved (30)
+0x0000F4D0	0x0000000C	[  2] literal string: End of File
+0x0000F4DC	0x00000011	[  2] literal string: Invalid Language
+0x0000F4ED	0x00000011	[  2] literal string: Compromised Data
+0x0000F4FE	0x0000004A	[  2] literal string: /Users/g5/Dev/SctWorkspace/MdePkg/Library/BasePrintLib/PrintLibInternal.c
+0x0000F548	0x00000017	[  2] literal string: Buffer != ((void *) 0)
+0x0000F55F	0x00000019	[  2] literal string: (Buffer != ((void *) 0))
+0x0000F578	0x00000041	[  2] literal string: (BufferSize <= (_gPcd_FixedAtBuild_PcdMaximumAsciiStringLength))
+0x0000F5B9	0x00000019	[  2] literal string: (Format != ((void *) 0))
+0x0000F5D2	0x00000043	[  2] literal string: (BufferSize <= (_gPcd_FixedAtBuild_PcdMaximumUnicodeStringLength))
+0x0000F615	0x0000008C	[  2] literal string: (StrnLenS ((CHAR16 *)Format, (_gPcd_FixedAtBuild_PcdMaximumUnicodeStringLength) + 1) <= (_gPcd_FixedAtBuild_PcdMaximumUnicodeStringLength))
+0x0000F6A1	0x00000083	[  2] literal string: (AsciiStrnLenS (Format, (_gPcd_FixedAtBuild_PcdMaximumAsciiStringLength) + 1) <= (_gPcd_FixedAtBuild_PcdMaximumAsciiStringLength))
+0x0000F724	0x0000000E	[  2] literal string: <null string>
+0x0000F732	0x0000000C	[  2] literal string: <null guid>
+0x0000F73E	0x00000031	[  2] literal string: %08x-%04x-%04x-%02x%02x-%02x%02x%02x%02x%02x%02x
+0x0000F76F	0x0000000C	[  2] literal string: <null time>
+0x0000F77B	0x0000001A	[  2] literal string: %02d/%02d/%04d  %02d:%02d
+0x0000F795	0x00000005	[  2] literal string: %08X
+0x0000F79A	0x00000003	[  2] literal string: \n
+0x0000F79D	0x00000002	[  2] literal string: 
+0x0000F79F	0x00000042	[  3] literal string: /Users/g5/Dev/SctWorkspace/MdePkg/Library/BasePrintLib/PrintLib.c
+0x0000F7E1	0x00000028	[  3] literal string: (((UINTN) (StartOfBuffer)) & 0x01) == 0
+0x0000F809	0x00000027	[  3] literal string: (((UINTN) (FormatString)) & 0x01) == 0
+0x0000F830	0x00000012	[  4] literal string: ((BOOLEAN)(0==1))
+0x0000F842	0x0000003C	[ 11] literal string: /Users/g5/Dev/SctWorkspace/MdePkg/Library/BaseLib/SetJump.c
+0x0000F87E	0x0000001B	[ 11] literal string: JumpBuffer != ((void *) 0)
+0x0000F899	0x00000023	[ 11] literal string: ((UINTN)JumpBuffer & (8 - 1)) == 0
+0x0000F8BC	0x0000000B	[ 12] literal string: Count < 64
+0x0000F8C7	0x0000000D	[ 18] literal string: Divisor != 0
+0x0000F8D4	0x0000003E	[ 19] literal string: /Users/g5/Dev/SctWorkspace/MdePkg/Library/BaseLib/LShiftU64.c
+0x0000F912	0x00000047	[ 29] literal string: /Users/g5/Dev/SctWorkspace/MdePkg/Library/BaseLib/DivU64x32Remainder.c
+0x0000F959	0x0000003F	[ 36] literal string: /Users/g5/Dev/SctWorkspace/MdePkg/Library/BaseLib/LinkedList.c
+0x0000F998	0x00000015	[ 36] literal string: List != ((void *) 0)
+0x0000F9AD	0x00000022	[ 36] literal string: List->ForwardLink != ((void *) 0)
+0x0000F9CF	0x0000001F	[ 36] literal string: List->BackLink != ((void *) 0)
+0x0000F9EE	0x00000028	[ 36] literal string: InternalBaseLibIsListValid (FirstEntry)
+0x0000FA16	0x0000001C	[ 36] literal string: SecondEntry != ((void *) 0)
+0x0000FA32	0x00000019	[ 36] literal string: ListHead != ((void *) 0)
+0x0000FA4B	0x00000038	[ 36] literal string: ((BOOLEAN)(0==1)) == IsNodeInList ((ListHead), (Entry))
+0x0000FA83	0x00000026	[ 36] literal string: InternalBaseLibIsListValid (ListHead)
+0x0000FAA9	0x00000022	[ 36] literal string: InternalBaseLibIsListValid (List)
+0x0000FACB	0x00000033	[ 36] literal string: ((BOOLEAN)(1==1)) == IsNodeInList ((List), (Node))
+0x0000FAFE	0x00000015	[ 36] literal string: !IsListEmpty (Entry)
+0x0000FB13	0x0000003F	[ 37] literal string: /Users/g5/Dev/SctWorkspace/MdePkg/Library/BaseLib/SafeString.c
+0x0000FB52	0x00000023	[ 37] literal string: ((UINTN) String & 0x00000001) == 0
+0x0000FB75	0x0000003B	[ 38] literal string: /Users/g5/Dev/SctWorkspace/MdePkg/Library/BaseLib/String.c
+0x0000FBB0	0x00000017	[ 38] literal string: String != ((void *) 0)
+0x0000FBC7	0x0000003A	[ 38] literal string: Length < _gPcd_FixedAtBuild_PcdMaximumUnicodeStringLength
+0x0000FC01	0x00000038	[ 38] literal string: Length < _gPcd_FixedAtBuild_PcdMaximumAsciiStringLength
+0x0000FC39	0x0000001B	[ 38] literal string: AsciiStrSize (FirstString)
+0x0000FC54	0x0000001C	[ 38] literal string: AsciiStrSize (SecondString)
+0x0000FC70	0x00000039	[ 38] literal string: Length <= _gPcd_FixedAtBuild_PcdMaximumAsciiStringLength
+0x0000FCA9	0x0000003E	[ 44] literal string: /Users/g5/Dev/SctWorkspace/MdePkg/Library/BaseLib/Unaligned.c
+0x0000FCE7	0x00000048	[ 71] literal string: /Users/g5/Dev/SctWorkspace/MdePkg/Library/UefiDebugLibConOut/DebugLib.c
+0x0000FD2F	0x00000017	[ 71] literal string: Format != ((void *) 0)
+0x0000FD46	0x00000018	[ 71] literal string: ASSERT [%a] %a(%d): %a\n
+0x0000FD5E	0x00000038	[ 73] literal string: (Length - 1) <= (0xFFFFFFFFFFFFFFFFULL - (UINTN)Buffer)
+0x0000FD96	0x00000049	[ 77] literal string: /Users/g5/Dev/SctWorkspace/MdePkg/Library/BaseMemoryLib/ZeroMemWrapper.c
+0x0000FDDF	0x00000036	[ 77] literal string: Length <= (0xFFFFFFFFFFFFFFFFULL - (UINTN)Buffer + 1)
+0x0000FE15	0x0000004C	[ 78] literal string: /Users/g5/Dev/SctWorkspace/MdePkg/Library/BaseMemoryLib/CompareMemWrapper.c
+0x0000FE61	0x00000022	[ 78] literal string: DestinationBuffer != ((void *) 0)
+0x0000FE83	0x0000001D	[ 78] literal string: SourceBuffer != ((void *) 0)
+0x0000FEA0	0x00000043	[ 78] literal string: (Length - 1) <= (0xFFFFFFFFFFFFFFFFULL - (UINTN)DestinationBuffer)
+0x0000FEE3	0x0000003E	[ 78] literal string: (Length - 1) <= (0xFFFFFFFFFFFFFFFFULL - (UINTN)SourceBuffer)
+0x0000FF21	0x00000048	[ 82] literal string: /Users/g5/Dev/SctWorkspace/MdePkg/Library/BaseMemoryLib/SetMemWrapper.c
+0x0000FF69	0x00000049	[ 83] literal string: /Users/g5/Dev/SctWorkspace/MdePkg/Library/BaseMemoryLib/CopyMemWrapper.c
+0x0000FFB2	0x0000005E	[ 88] literal string: /Users/g5/Dev/SctWorkspace/MdePkg/Library/UefiBootServicesTableLib/UefiBootServicesTableLib.c
+0x00010010	0x0000001D	[ 88] literal string: gImageHandle != ((void *) 0)
+0x0001002D	0x00000014	[ 88] literal string: gST != ((void *) 0)
+0x00010041	0x00000014	[ 88] literal string: gBS != ((void *) 0)
+0x00010055	0x00000058	[ 89] literal string: /Users/g5/Dev/SctWorkspace/MdePkg/Library/UefiMemoryAllocationLib/MemoryAllocationLib.c
+0x000100AD	0x00000021	[ 89] literal string: \nASSERT_EFI_ERROR (Status = %r)\n
+0x000100CE	0x00000014	[ 89] literal string: !EFI_ERROR (Status)
+0x000100E2	0x0000003F	[ 89] literal string: AllocationSize <= (0xFFFFFFFFFFFFFFFFULL - (UINTN) Buffer + 1)
+0x00010121	0x00000052	[ 90] literal string: /Users/g5/Dev/SctWorkspace/MdePkg/Library/UefiDevicePathLib/DevicePathUtilities.c
+0x00010173	0x0000001B	[ 90] literal string: DevicePath != ((void *) 0)
+0x0001018E	0x00000015	[ 90] literal string: Node != ((void *) 0)
+0x000101A3	0x00000047	[ 90] literal string: (Length >= sizeof (EFI_DEVICE_PATH_PROTOCOL)) && (Length < 0x00010000)
+0x000101EA	0x00000064	[ 94] literal string: /Users/g5/Dev/SctWorkspace/MdePkg/Library/UefiRuntimeServicesTableLib/UefiRuntimeServicesTableLib.c
+0x0001024E	0x00000014	[ 94] literal string: gRT != ((void *) 0)
+0x00010262	0x00000044	[ 97] literal string: /Users/g5/Dev/SctWorkspace/MdePkg/Library/UefiLib/UefiDriverModel.c
+0x000102A6	0x0000001E	[ 97] literal string: DriverBinding != ((void *) 0)
+0x000102C4	0x0000003C	[ 99] literal string: /Users/g5/Dev/SctWorkspace/MdePkg/Library/UefiLib/UefiLib.c
+0x00010300	0x0000001D	[ 99] literal string: ProtocolGuid != ((void *) 0)
+0x0001031D	0x00000015	[ 99] literal string: Lock != ((void *) 0)
+0x00010332	0x0000000F	[ 99] literal string: Priority <= 31
+0x00010341	0x00000023	[ 99] literal string: Lock->Lock != EfiLockUninitialized
+0x00010364	0x0000001E	[ 99] literal string: Lock->Lock == EfiLockAcquired
+0x00010382	0x00000043	[100] literal string: /Users/g5/Dev/SctWorkspace/MdeModulePkg/Library/DxeDpcLib/DpcLib.c
+0x000103C5	0x00000052	[101] literal string: /Users/g5/Dev/SctWorkspace/MdePkg/Library/UefiDriverEntryPoint/DriverEntryPoint.c
+0x00010417	0x00000046	[102] literal string: /Users/g5/Dev/SctWorkspace/MdeModulePkg/Library/DxeNetLib/DxeNetLib.c
+0x0001045D	0x0000000D	[102] literal string: NetMask != 0
+0x0001046A	0x00000014	[102] literal string: Ip6 != ((void *) 0)
+0x0001047E	0x00000015	[102] literal string: Head != ((void *) 0)
+0x00010493	0x00000046	[102] literal string: (ServiceBindingGuid != ((void *) 0)) && (ChildHandle != ((void *) 0))
+0x000104D9	0x00000023	[102] literal string: ServiceBindingGuid != ((void *) 0)
+0x000104FC	0x00000046	[103] literal string: /Users/g5/Dev/SctWorkspace/MdeModulePkg/Library/DxeNetLib/NetBuffer.c
+0x00010542	0x00000010	[103] literal string: BlockOpNum >= 1
+0x00010552	0x00000008	[103] literal string: Len > 0
+0x0001055A	0x00000017	[103] literal string: Vector != ((void *) 0)
+0x00010571	0x0000006F	[103] literal string: ((Vector) != ((void *) 0)) && ((Vector)->Signature == (((('n') | ('v' << 8)) | ((('e') | ('c' << 8)) << 16))))
+0x000105E0	0x00000013	[103] literal string: Vector->RefCnt > 0
+0x000105F3	0x00000015	[103] literal string: Nbuf != ((void *) 0)
+0x00010608	0x0000006B	[103] literal string: ((Nbuf) != ((void *) 0)) && ((Nbuf)->Signature == (((('n') | ('b' << 8)) | ((('u') | ('f' << 8)) << 16))))
+0x00010673	0x00000011	[103] literal string: Nbuf->RefCnt > 0
+0x00010684	0x00000013	[103] literal string: IsListEmpty (Head)
+0x00010697	0x0000007B	[103] literal string: ((Nbuf->Vector) != ((void *) 0)) && ((Nbuf->Vector)->Signature == (((('n') | ('v' << 8)) | ((('e') | ('c' << 8)) << 16))))
+0x00010712	0x00000019	[103] literal string: Index < Nbuf->BlockOpNum
+0x0001072B	0x0000004B	[103] literal string: (ExtFragment != ((void *) 0)) && (ExtNum > 0) && (ExtFree != ((void *) 0))
+0x00010776	0x00000032	[103] literal string: (Nbuf->BlockOpNum == 1) && (Nbuf->TotalSize == 0)
+0x000107A8	0x00000043	[103] literal string: (Nbuf->Vector->Free == ((void *) 0)) && (Nbuf->Vector->Len >= Len)
+0x000107EB	0x00000034	[103] literal string: Nbuf->BlockOp[0].Tail <= Nbuf->BlockOp[0].BlockTail
+0x0001081F	0x00000034	[103] literal string: (BlockOp != ((void *) 0)) && (BlockOp->Size >= Len)
+0x00010853	0x00000005	[103] literal string: Dest
+0x00010858	0x00000018	[103] literal string: NbufQue != ((void *) 0)
+0x00010870	0x00000071	[103] literal string: ((NbufQue) != ((void *) 0)) && ((NbufQue)->Signature == (((('n') | ('b' << 8)) | ((('q') | ('u' << 8)) << 16))))
+0x000108E1	0x00000015	[103] literal string: Dest != ((void *) 0)
+0x000108F6	0x00000048	[104] literal string: /Users/g5/Dev/SctWorkspace/MdeModulePkg/Library/DxeIpIoLib/DxeIpIoLib.c
+0x0001093E	0x00000015	[104] literal string: IpIo != ((void *) 0)
+0x00010953	0x00000014	[104] literal string: Pkt != ((void *) 0)
+0x00010967	0x00000018	[104] literal string: Session != ((void *) 0)
+0x0001097F	0x00000015	[104] literal string: IpIo->IpVersion == 4
+0x00010994	0x00000015	[104] literal string: IpIo->IpVersion == 6
+0x000109A9	0x0000001D	[104] literal string: RecycleEvent != ((void *) 0)
+0x000109C6	0x00000017	[104] literal string: RxData != ((void *) 0)
+0x000109DD	0x00000029	[104] literal string: RxData->Ip4RxData.Header != ((void *) 0)
+0x00010A06	0x00000025	[104] literal string: RxData->Ip4RxData.FragmentCount != 0
+0x00010A2B	0x00000029	[104] literal string: RxData->Ip6RxData.Header != ((void *) 0)
+0x00010A54	0x00000025	[104] literal string: RxData->Ip6RxData.FragmentCount != 0
+0x00010A79	0x00000025	[104] literal string: (IpVersion == 4) || (IpVersion == 6)
+0x00010A9E	0x0000002B	[104] literal string: !OpenData->IpConfigData.Ip4CfgData.RawData
+0x00010AC9	0x00000024	[104] literal string: IsListEmpty (&IpIo->PendingSndList)
+0x00010AED	0x00000031	[104] literal string: (IpIo->IpVersion == 4) || (IpIo->IpVersion == 6)
+0x00010B1E	0x00000017	[104] literal string: IpInfo != ((void *) 0)
+0x00010B35	0x00000013	[104] literal string: IpInfo->RefCnt > 0
+0x00010B48	0x0000000F	[104] literal string: IcmpError <= 9
+0x00010B57	0x0000004D	[105] literal string: /Users/g5/Dev/SctWorkspace/MdeModulePkg/Universal/Network/Tcp4Dxe/SockImpl.c
+0x00010BA4	0x00000048	[105] literal string: (SockBuffer != ((void *) 0)) && (IsUrg != ((void *) 0)) && (BufLen > 0)
+0x00010BEC	0x0000001C	[105] literal string: RcvBufEntry != ((void *) 0)
+0x00010C08	0x00000020	[105] literal string: RxData->DataLength >= RcvdBytes
+0x00010C28	0x00000015	[105] literal string: Sock != ((void *) 0)
+0x00010C3D	0x00000019	[105] literal string: SockStream == Sock->Type
+0x00010C56	0x00000036	[105] literal string: SockKProcessSndData: Failed to call NetBufferFromExt\n
+0x00010C8C	0x0000003D	[105] literal string: (Sock != ((void *) 0)) && (PendingTokenList != ((void *) 0))
+0x00010CC9	0x00000026	[105] literal string: Sock->ConnectionToken != ((void *) 0)
+0x00010CEF	0x0000004B	[105] literal string: (Parent != ((void *) 0)) && ((Parent)->State == 1) && ((Sock)->State == 3)
+0x00010D3A	0x00000038	[105] literal string: SockWakeListenToken: accept a socket, now conncnt is %d
+0x00010D72	0x0000002A	[105] literal string: Sock->RcvBuffer.DataQueue != ((void *) 0)
+0x00010D9C	0x0000000E	[105] literal string: RcvdBytes > 0
+0x00010DAA	0x00000035	[105] literal string: (Sock != ((void *) 0)) && (SockStream == Sock->Type)
+0x00010DDF	0x0000004F	[105] literal string: (SockInitData != ((void *) 0)) && (SockInitData->ProtoHandler != ((void *) 0))
+0x00010E2E	0x00000021	[105] literal string: SockInitData->Type == SockStream
+0x00010E4F	0x0000004C	[105] literal string: (SockInitData->ProtoData != ((void *) 0)) && (SockInitData->DataSize <= 20)
+0x00010E9B	0x0000005B	[105] literal string: SockCreate: Socket parent has reached its connection limit with %d ConnCnt and %d BackLog\n
+0x00010EF6	0x00000030	[105] literal string: SockCreate: No resource to create a new socket\n
+0x00010F26	0x0000003E	[105] literal string: SockCreate: No resource to allocate SndBuffer for new socket\n
+0x00010F64	0x0000003E	[105] literal string: SockCreate: No resource to allocate RcvBuffer for new socket\n
+0x00010FA2	0x0000003B	[105] literal string: SockCreate: Install TCP protocol in socket failed with %r\n
+0x00010FDD	0x00000014	[105] literal string: Parent->BackLog > 0
+0x00010FF1	0x00000017	[105] literal string: ((Parent)->State == 1)
+0x00011008	0x00000046	[105] literal string: SockCreate: Create a new socket and add to parent, now conncnt is %d\n
+0x0001104E	0x00000046	[105] literal string: SockDestroy: Delete a unaccepted socket from parentnow conncnt is %d\n
+0x00011094	0x00000030	[105] literal string: SockClone: no resource to create a cloned sock\n
+0x000110C4	0x00000011	[105] literal string: 2 == Sock->State
+0x000110D5	0x0000002D	[105] literal string: !IsListEmpty (&Sock->ProcessingSndTokenList)
+0x00011102	0x0000002E	[105] literal string: Count <= (Sock->SndBuffer.DataQueue)->BufSize
+0x00011130	0x00000033	[105] literal string: (Sock != ((void *) 0)) && SockStream == Sock->Type
+0x00011163	0x00000068	[105] literal string: (Sock != ((void *) 0)) && (Sock->RcvBuffer.DataQueue != ((void *) 0)) && UrgLen <= NetBuffer->TotalSize
+0x000111CB	0x00000039	[105] literal string: (Sock != ((void *) 0)) && ((0 == Which) || (1 == Which))
+0x00011204	0x0000002E	[105] literal string: 0 == (((Sock)->RcvBuffer.DataQueue)->BufSize)
+0x00011232	0x00000034	[106] literal string: SockBufferIOToken: No Memory to allocate SockToken\n
+0x00011266	0x00000052	[106] literal string: /Users/g5/Dev/SctWorkspace/MdeModulePkg/Universal/Network/Tcp4Dxe/SockInterface.c
+0x000112B8	0x0000003F	[106] literal string: (Sock != ((void *) 0)) && (Sock->ProtoHandler != ((void *) 0))
+0x000112F7	0x00000014	[106] literal string: Tcb != ((void *) 0)
+0x0001130B	0x00000044	[106] literal string: SockDestroyChild: Open protocol installed on socket failed with %r\n
+0x0001134F	0x00000040	[106] literal string: SockDestroyChild: Get the lock to access socket failed with %r\n
+0x0001138F	0x00000039	[106] literal string: SockDestroyChild: Protocol detach socket failed with %r\n
+0x000113C8	0x00000035	[106] literal string: SockCreateChild: No resource to create a new socket\n
+0x000113FD	0x0000003F	[106] literal string: SockCreateChild: Get the lock to access socket failed with %r\n
+0x0001143C	0x0000003D	[106] literal string: SockCreateChild: Protocol failed to attach a socket with %r\n
+0x00011479	0x00000038	[106] literal string: SockConfigure: Get the access for socket failed with %r
+0x000114B1	0x00000011	[106] literal string: Sock->State == 0
+0x000114C2	0x00000036	[106] literal string: SockConnect: Get the access for socket failed with %r
+0x000114F8	0x00000035	[106] literal string: SockAccept: Get the access for socket failed with %r
+0x0001152D	0x0000001F	[106] literal string: Socket->Parent != ((void *) 0)
+0x0001154C	0x00000031	[106] literal string: SockAccept: Accept a socket, now conncount is %d
+0x0001157D	0x00000033	[106] literal string: SockSend: Get the access for socket failed with %r
+0x000115B0	0x0000004A	[106] literal string: SockSend: Failed to buffer IO token into socket processing SndToken List\n
+0x000115FA	0x00000026	[106] literal string: SockSend: Failed to process Snd Data\n
+0x00011620	0x00000032	[106] literal string: SockRcv: Get the access for socket failed with %r
+0x00011652	0x00000034	[106] literal string: SockFlush: Get the access for socket failed with %r
+0x00011686	0x00000037	[106] literal string: SockFlush: Protocol failed handling SOCK_FLUSH with %r
+0x000116BD	0x00000034	[106] literal string: SockClose: Get the access for socket failed with %r
+0x000116F1	0x00000034	[106] literal string: SockRoute: Get the access for socket failed with %r
+0x00011725	0x0000004F	[107] literal string: /Users/g5/Dev/SctWorkspace/MdeModulePkg/Universal/Network/Tcp4Dxe/Tcp4Output.c
+0x00011774	0x00000013	[107] literal string: Sk != ((void *) 0)
+0x00011787	0x0000004A	[107] literal string: ((INT32) ((Tcb->SndNxt) - (((TCP_SEG *) ((Nbuf)->ProtoData))->End)) <= 0)
+0x000117D1	0x00000032	[107] literal string: TcpDataToSend: enter persistent state for TCB %p\n
+0x00011803	0x00000058	[107] literal string: (Nbuf != ((void *) 0)) && (Nbuf->Tcp == ((void *) 0)) && (TcpVerifySegment (Nbuf) != 0)
+0x0001185B	0x0000001E	[107] literal string: (Len % 4 == 0) && (Len <= 40)
+0x00011879	0x0000004D	[107] literal string: (Tcb != ((void *) 0)) && ((INT32) ((Seq) - (Tcb->SndNxt)) <= 0) && (Len > 0)
+0x000118C6	0x0000000C	[107] literal string: Cur != Head
+0x000118D2	0x00000014	[107] literal string: Seg != ((void *) 0)
+0x000118E6	0x0000000D	[107] literal string: CopyLen >= 0
+0x000118F3	0x00000015	[107] literal string: Data != ((void *) 0)
+0x00011908	0x00000033	[107] literal string: (Tcb != ((void *) 0)) && (Tcb->Sk != ((void *) 0))
+0x0001193B	0x0000003B	[107] literal string: TcpGetSegmentSock: failed to allocate a netbuf for TCB %p\n
+0x00011976	0x0000001D	[107] literal string: TcpVerifySegment (Nbuf) != 0
+0x00011993	0x00000050	[107] literal string: TcpRetransmit: retransmission without regard to the receiver window for TCB %p\n
+0x000119E3	0x00000052	[107] literal string: TcpRetransmit: retransmission cancelled because send window too small for TCB %p\n
+0x00011A35	0x0000001A	[107] literal string: Nbuf->Tcp != ((void *) 0)
+0x00011A4F	0x00000048	[107] literal string: (Tcb != ((void *) 0)) && (Tcb->Sk != ((void *) 0)) && (Tcb->State != 1)
+0x00011A97	0x00000044	[107] literal string: (Tcb->State) < ((sizeof (mTcpOutFlag) / sizeof ((mTcpOutFlag)[0])))
+0x00011ADB	0x00000033	[107] literal string: TcpToSendData: failed to get a segment for TCB %p\n
+0x00011B0E	0x00000038	[107] literal string: TcpToSendData: send FIN to peer for TCB %p in state %s\n
+0x00011B46	0x00000023	[107] literal string: TcpCheckSndQue (&Tcb->SndQue) != 0
+0x00011B69	0x00000040	[107] literal string: TcpToSendData: created a empty segment for TCB %p, free it now\n
+0x00011BA9	0x00000037	[107] literal string: TcpToSendData: set RTT measure sequence %d for TCB %p\n
+0x00011BE0	0x00000032	[107] literal string: TcpToSendAck: scheduled a delayed ACK for TCB %p\n
+0x00011C12	0x00000016	[107] literal string: Nhead != ((void *) 0)
+0x00011C28	0x00000052	[108] literal string: TcpConnectTimeout: connection closed because conenction timer timeout for TCB %p\n
+0x00011C7A	0x0000004B	[108] literal string: TcpConnectTimeout: send reset because connection timer timeout for TCB %p\n
+0x00011CC5	0x00000033	[108] literal string: TcpRexmitTimeout: transmission timeout for TCB %p\n
+0x00011CF8	0x0000004A	[108] literal string: TcpRexmitTimeout: connection closed because too many timeouts for TCB %p\n
+0x00011D42	0x0000004E	[108] literal string: /Users/g5/Dev/SctWorkspace/MdeModulePkg/Universal/Network/Tcp4Dxe/Tcp4Timer.c
+0x00011D90	0x00000028	[108] literal string: ((Tcb->EnabledTimer) & (1 << (1))) != 0
+0x00011DB8	0x00000053	[108] literal string: TcpFinwait2Timeout: connection closed because FIN_WAIT2 timer timeouts for TCB %p\n
+0x00011E0B	0x0000004F	[108] literal string: Tcp2MSLTimeout: connection closed because TIME_WAIT timer timeouts for TCB %p\n
+0x00011E5A	0x00000053	[109] literal string: /Users/g5/Dev/SctWorkspace/MdeModulePkg/Universal/Network/Tcp4Dxe/Tcp4Dispatcher.c
+0x00011EAD	0x00000014	[109] literal string: Ip4 != ((void *) 0)
+0x00011EC1	0x00000013	[109] literal string: Ip != ((void *) 0)
+0x00011ED4	0x00000031	[109] literal string: Tcp4Bind: no port can be allocated for this pcb\n
+0x00011F05	0x0000002C	[109] literal string: Tcp4ConfigurePcb: failed to allocate a TCB\n
+0x00011F31	0x00000056	[109] literal string: (CfgData != ((void *) 0)) && (Sk != ((void *) 0)) && (Sk->SockHandle != ((void *) 0))
+0x00011F87	0x00000030	[109] literal string: Tcp4ConfigurePcb: Bind endpoint failed with %r\n
+0x00011FB7	0x0000004C	[109] literal string: Tcb->State == 0 && IsListEmpty (&Tcb->SndQue) && IsListEmpty (&Tcb->RcvQue)
+0x00012003	0x00000030	[109] literal string: (Data != ((void *) 0)) && (Tcb != ((void *) 0))
+0x00012033	0x0000004B	[110] literal string: TcpFastRecover: enter fast retransmission for TCB %p, recover point is %d\n
+0x0001207E	0x00000041	[110] literal string: TcpFastRecover: received another duplicated ACK (%d) for TCB %p\n
+0x000120BF	0x00000048	[110] literal string: TcpFastRecover: received a full ACK(%d) for TCB %p, exit fast recovery\n
+0x00012107	0x00000037	[110] literal string: TcpFastRecover: received a partial ACK(%d) for TCB %p\n
+0x0001213E	0x00000038	[110] literal string: TcpFastLossRecover: received a full ACK(%d) for TCB %p\n
+0x00012176	0x0000003B	[110] literal string: TcpFastLossRecover: received a partial ACK(%d) for TCB %p\n
+0x000121B1	0x00000048	[110] literal string: TcpComputeRtt: new RTT for TCB %p computed SRTT: %d RTTVAR: %d RTO: %d\n
+0x000121F9	0x0000004E	[110] literal string: /Users/g5/Dev/SctWorkspace/MdeModulePkg/Universal/Network/Tcp4Dxe/Tcp4Input.c
+0x00012247	0x0000001A	[110] literal string: Nbuf->Tcp == ((void *) 0)
+0x00012261	0x0000004F	[110] literal string: TcpDeliverData: data received after FIN from peer of TCB %p, reset connection\n
+0x000122B0	0x00000034	[110] literal string: TcpDeliverData: processing FIN from peer of TCB %p\n
+0x000122E4	0x0000004B	[110] literal string: Connection closed immediately because app disables TIME_WAIT timer for %p\n
+0x0001232F	0x0000004F	[110] literal string: (Tcb != ((void *) 0)) && (Nbuf != ((void *) 0)) && (Nbuf->Tcp == ((void *) 0))
+0x0001237E	0x00000027	[110] literal string: TcpInput: received a malformed packet\n
+0x000123A5	0x0000002B	[110] literal string: TcpInput: send reset because no TCB found\n
+0x000123D0	0x00000041	[110] literal string: TcpInput: reset the peer because of malformed option for TCB %p\n
+0x00012411	0x0000003B	[110] literal string: TcpInput: discard a reset segment for TCB %p in listening\n
+0x0001244C	0x0000004A	[110] literal string: TcpInput: send reset because of segment with ACK for TCB %p in listening\n
+0x00012496	0x00000048	[110] literal string: TcpInput: discard a segment because failed to clone a child for TCB %p\n
+0x000124DE	0x00000032	[110] literal string: TcpInput: create a child for TCB %p in listening\n
+0x00012510	0x0000004B	[110] literal string: TcpInput: send reset because of wrong ACK received for TCB %p in SYN_SENT\n
+0x0001255B	0x0000003B	[110] literal string: TcpInput: connection reset by peer for TCB %p in SYN_SENT\n
+0x00012596	0x0000004C	[110] literal string: TcpInput: discard a reset segment because of no ACK for TCB %p in SYN_SENT\n
+0x000125E2	0x00000039	[110] literal string: TcpInput: connection established for TCB %p in SYN_SENT\n
+0x0001261B	0x0000001C	[110] literal string: Tcb->SndNxt == Tcb->Iss + 1
+0x00012637	0x00000034	[110] literal string: TcpInput: simultaneous open for TCB %p in SYN_SENT\n
+0x0001266B	0x00000041	[110] literal string: TcpInput: sequence acceptance test failed for segment of TCB %p\n
+0x000126AC	0x00000027	[110] literal string: TcpInput: connection reset for TCB %p\n
+0x000126D3	0x00000042	[110] literal string: TcpInput: connection reset because received extra SYN for TCB %p\n
+0x00012715	0x00000042	[110] literal string: TcpInput: segment discard because of no ACK for connected TCB %p\n
+0x00012757	0x0000003A	[110] literal string: TcpInput: connection established  for TCB %p in SYN_RCVD\n
+0x00012791	0x00000042	[110] literal string: TcpInput: send reset because of wrong ACK for TCB %p in SYN_RCVD\n
+0x000127D3	0x0000003B	[110] literal string: TcpInput: ignore the out-of-data ACK for connected TCB %p\n
+0x0001280E	0x0000003F	[110] literal string: TcpInput: discard segment for future ACK for connected TCB %p\n
+0x0001284D	0x00000017	[110] literal string: Tcb->CongestState == 3
+0x00012864	0x00000038	[110] literal string: TcpInput: peer shrinks the window for connected TCB %p\n
+0x0001289C	0x00000044	[110] literal string: TcpInput: peer advise negative useable window for connected TCB %p\n
+0x000128E0	0x00000048	[110] literal string: TcpInput: SndNxt is out of window by more than window scale for TCB %p\n
+0x00012928	0x0000003B	[110] literal string: TcpInput: local FIN is ACKed by peer for connected TCB %p\n
+0x00012963	0x0000003F	[110] literal string: TcpInput: received urgent data from peer for connected TCB %p\n
+0x000129A2	0x00000046	[110] literal string: TcpInput: connection reset because data is lost for connected TCB %p\n
+0x000129E8	0x0000001D	[110] literal string: Tcp4Input: Discard a packet\n
+0x00012A05	0x00000018	[110] literal string: Tcb->Sk != ((void *) 0)
+0x00012A1D	0x0000004D	[111] literal string: /Users/g5/Dev/SctWorkspace/MdeModulePkg/Universal/Network/Tcp4Dxe/Tcp4Misc.c
+0x00012A6A	0x00000048	[111] literal string: (Tcb != ((void *) 0)) && (Seg != ((void *) 0)) && (Opt != ((void *) 0))
+0x00012AB2	0x0000002A	[111] literal string: ((BOOLEAN) (((Seg->Flag) & (0x02)) != 0))
+0x00012ADC	0x00000026	[111] literal string: (Addr != ((void *) 0)) && (Port != 0)
+0x00012B02	0x0000006C	[111] literal string: (Tcb != ((void *) 0)) && ((Tcb->State == 1) || (Tcb->State == 2) || (Tcb->State == 3) || (Tcb->State == 0))
+0x00012B6E	0x00000025	[111] literal string: TcpCloneTcb: failed to clone a sock\n
+0x00012B93	0x0000003A	[111] literal string: Tcb->State < (sizeof (mTcpStateName) / sizeof (CHAR16 *))
+0x00012BCD	0x00000035	[111] literal string: State < (sizeof (mTcpStateName) / sizeof (CHAR16 *))
+0x00012C02	0x0000001A	[111] literal string: Tcb (%p) state %s --> %s\n
+0x00012C1C	0x00000041	[111] literal string: TcpOnAppClose: connection reset because data is lost for TCB %p\n
+0x00012C5D	0x00000042	[111] literal string: TcpOnAppConsume: send a window update for a window closed Tcb %p\n
+0x00012C9F	0x00000046	[111] literal string: TcpOnAppConsume: scheduled a delayed ACK to update window for Tcb %p\n
+0x00012CE5	0x00000042	[111] literal string: TcpOnAppAbort: connection reset issued by application for TCB %p\n
+0x00012D27	0x0000004D	[112] literal string: /Users/g5/Dev/SctWorkspace/MdeModulePkg/Universal/Network/Tcp4Dxe/Tcp4Main.c
+0x00012D74	0x00000015	[112] literal string: CR has Bad Signature
+0x00012D89	0x00000004	[113] literal string: eng
+0x00012D8D	0x00000003	[113] literal string: en
+0x00012D90	0x00000007	[113] literal string: eng;en
+0x00012D97	0x0000002B	[114] literal string: TcpSendIpPacket: No appropriate IpSender.\n
+0x00012DC2	0x00000022	[114] literal string: TcpSendIpPacket: return %r error\n
+0x00012DE4	0x0000004F	[115] literal string: /Users/g5/Dev/SctWorkspace/MdeModulePkg/Universal/Network/Tcp4Dxe/Tcp4Driver.c
+0x00012E33	0x00000016	[115] literal string: mTcp4Timer.RefCnt > 0
+0x00012E49	0x0000004E	[115] literal string: Tcp4DriverBindingStart: Have no enough resource to create a Tcp Servcie Data\n
+0x00012E97	0x00000044	[115] literal string: Tcp4DriverBindingStart: Have no enough resource to create an Ip Io\n
+0x00012EDB	0x0000003E	[115] literal string: Tcp4DriverBindingStart: Create TcpTimer Event failed with %r\n
+0x00012F19	0x0000004D	[115] literal string: Tcp4DriverBindingStart: Install Tcp4 Service Binding Protocol failed for %r\n
+0x00012F66	0x0000004D	[115] literal string: Tcp4DriverBindingStop: Locate Tcp4 Service  Binding Protocol failed with %r\n
+0x00012FB3	0x00000041	[115] literal string: Tcp4DriverBindingCreateChild: No resource to create a Tcp Child\n
+0x00012FF4	0x0000004F	[116] literal string: /Users/g5/Dev/SctWorkspace/MdeModulePkg/Universal/Network/Tcp4Dxe/Tcp4Option.c
+0x00013043	0x00000032	[116] literal string: (Tcp != ((void *) 0)) && (Option != ((void *) 0))
+0x00013075	0x00000008	[117] literal string: Tcp4Dxe
+0x0001307D	0x0000007D	[117] literal string: /Users/g5/Dev/SctWorkspace/Build/MdeModule/RELEASE_XCODE5/X64/MdeModulePkg/Universal/Network/Tcp4Dxe/Tcp4Dxe/DEBUG/AutoGen.c
+0x000130FA	0x00000016	[111] l_.str
+0x00013110	0x00000016	[111] l_.str.1
+0x00013126	0x0000001A	[111] l_.str.2
+0x00013140	0x0000001A	[111] l_.str.3
+0x0001315A	0x00000020	[111] l_.str.4
+0x0001317A	0x0000001E	[111] l_.str.5
+0x00013198	0x0000001E	[111] l_.str.6
+0x000131B6	0x00000018	[111] l_.str.7
+0x000131CE	0x0000001C	[111] l_.str.8
+0x000131EA	0x0000001E	[111] l_.str.9
+0x00013208	0x0000001A	[111] l_.str.10
+0x00013222	0x00000036	[113] l_.str.3
+0x00013258	0x0000005E	[113] l_.str.4
+0x000132B6	0x0000000A	[113] l_.str.5
+0x000132C0	0x0000000C	[113] l_.str.6
+0x000132CC	0x00000028	[113] l_.str.7
+0x00013300	0x00000138	[  2] _mStatusString
+0x00013440	0x00000002	[ 40] _m16Size
+0x00013442	0x00000002	[ 40] _mThunk16Attr
+0x00013444	0x00000002	[ 40] _m16Gdt
+0x00013446	0x00000002	[ 40] _m16GdtrBase
+0x00013448	0x00000002	[ 40] _mTransition
+0x00013450	0x00000088	[102] _gIp4AllMasks
+0x000134E0	0x00000010	[104] _mActiveIpIoList
+0x000134F0	0x0000001C	[104] _mIp4IoDefaultIpConfigData
+0x00013510	0x00000020	[104] _mIcmpErrMap
+0x00013530	0x00000014	[104] _mIcmp6ErrMap
+0x00013544	0x0000000B	[107] _mTcpOutFlag
+0x00013550	0x00000010	[108] _mTcpTick
+0x00013560	0x00000030	[108] _mTcpTimerHandler
+0x00013590	0x00000010	[111] _mTcpRunQue
+0x000135A0	0x00000010	[111] _mTcpListenQue
+0x000135B0	0x00000010	[111] _mTcpGlobalIss
+0x000135C0	0x00000058	[111] _mTcpStateName
+0x00013620	0x00000018	[113] _gTcp4ComponentName
+0x00013638	0x00000018	[113] _gTcp4ComponentName2
+0x00013650	0x00000020	[113] _mTcpDriverNameTable
+0x00013670	0x00000050	[115] _mTcp4ProtocolTemplate
+0x000136C0	0x00000060	[115] _mTcp4DefaultSockData
+0x00013720	0x00000030	[115] _mTcp4DriverBinding
+0x00013750	0x00000010	[115] _mTcp4ServiceBinding
+0x00013760	0x00000008	[117] _gEfiCallerBaseName
+0x00013768	0x00000010	[117] _gEfiTcp4ServiceBindingProtocolGuid
+0x00013778	0x00000010	[117] _gEfiIp4ServiceBindingProtocolGuid
+0x00013788	0x00000010	[117] _gEfiTcp4ProtocolGuid
+0x00013798	0x00000010	[117] _gEfiIp4ProtocolGuid
+0x000137A8	0x00000010	[117] _gEfiDevicePathProtocolGuid
+0x000137B8	0x00000010	[117] _gEfiDriverBindingProtocolGuid
+0x000137C8	0x00000010	[117] _gEfiComponentNameProtocolGuid
+0x000137D8	0x00000010	[117] _gEfiComponentName2ProtocolGuid
+0x000137E8	0x00000010	[117] _gEfiDpcProtocolGuid
+0x000137F8	0x00000010	[117] _gEfiLoadedImageProtocolGuid
+0x00013808	0x00000010	[117] _gEfiIp4Config2ProtocolGuid
+0x00013818	0x00000010	[117] _gEfiIp6ProtocolGuid
+0x00013828	0x00000010	[117] _gEfiIp6ServiceBindingProtocolGuid
+0x00013838	0x00000008	[ 88] _gImageHandle
+0x00013840	0x00000008	[ 88] _gST
+0x00013848	0x00000008	[ 88] _gBS
+0x00013850	0x00000008	[ 94] _gRT
+0x00013858	0x00000004	[102] _mZeroIp4Addr
+0x00013860	0x00000008	[113] _gTcpControllerNameTable
+0x00013868	0x00000010	[115] _mTcp4Timer
+0x00013878	0x00000008	[100] _mDpc
+0x00013880	0x00000002	[115] _mTcp4RandomPort
